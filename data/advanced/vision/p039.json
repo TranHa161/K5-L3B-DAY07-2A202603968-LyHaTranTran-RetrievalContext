@@ -1,0 +1,99 @@
+{
+  "page": 39,
+  "model": "gemini-3.5-flash",
+  "seconds": 11.5,
+  "tokens_in": 2024,
+  "tokens_out": 2112,
+  "visuals": [
+    {
+      "label": "Figure B1.4.1",
+      "title": "Ukraine’s Long-Term External Debt Stock, by Creditor Type, 2015–25",
+      "kind": "area chart",
+      "region": [
+        0.181,
+        0.201,
+        0.819,
+        0.51
+      ],
+      "units": "US$ (billion)",
+      "description": "Stacked area chart showing Ukraine's long-term external debt stock by creditor type from 2015 to 2025. Total debt was relatively stable around US$ 90–108 billion from 2015 to 2021, dominated by private creditors. From 2022 to 2025, debt increased sharply due to a dramatic rise in multilateral creditor funding, reaching over US$ 200 billion by 2025.",
+      "data": [
+        [
+          "Year",
+          "Private creditors",
+          "Multilateral creditors",
+          "Bilateral creditors"
+        ],
+        [
+          "2015",
+          "~70",
+          "~18",
+          "~2"
+        ],
+        [
+          "2016",
+          "~67",
+          "~19",
+          "~2"
+        ],
+        [
+          "2017",
+          "~70",
+          "~20",
+          "~2"
+        ],
+        [
+          "2018",
+          "~71",
+          "~20",
+          "~2"
+        ],
+        [
+          "2019",
+          "~72",
+          "~22",
+          "~2"
+        ],
+        [
+          "2020",
+          "~75",
+          "~25",
+          "~3"
+        ],
+        [
+          "2021",
+          "~74",
+          "~31",
+          "~3"
+        ],
+        [
+          "2022",
+          "~72",
+          "~44",
+          "~4"
+        ],
+        [
+          "2023",
+          "~71",
+          "~70",
+          "~4"
+        ],
+        [
+          "2024",
+          "~70",
+          "~85",
+          "~5"
+        ],
+        [
+          "2025",
+          "~73",
+          "~125",
+          "~7"
+        ]
+      ],
+      "numbers_total": 35,
+      "numbers_in_text_layer": 14
+    }
+  ],
+  "parse_ok": true
+}

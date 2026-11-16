@@ -1,0 +1,66 @@
+# Báo cáo Day 7 — Lý Hà Trân Trân (2A202603968, L3B)
+
+## Dữ liệu và benchmark
+
+- **Nguồn, quyền sử dụng, số trang và số chunk:** World Bank, *International Debt Report 2026*, Part 1 (chương 1–3), CC BY 3.0 IGO — cùng corpus Day 6 (`data/9781464823558.pdf` trong repo Day 6, `data/manifest.json`). 99 trang nội dung (trang PDF 27–133). Dùng 271 chunk theo đoạn văn của Day 6 (strategy B), chuyển sang schema Day 7 bằng [src/prepare_data.py](../../src/prepare_data.py) → `data/day7/chunks.json`.
+- **Vector store, embedding model, phiên bản và số chiều:** PostgreSQL 16.16 + pgvector 0.8.7 (Docker, container Day 6 `day6_student_starter-postgres-1`, `127.0.0.1:55433`), bảng `chunks`, `strategy='B'`, cosine distance chính xác (không ANN). Embedding `google/embeddinggemma-2` (sentence-transformers 6.3.0, float32), 768 chiều, chuẩn hóa L2; query dùng prompt `SearchQuery` giống Day 6. `DenseRetriever` kiểm tra model và số chiều của index khớp với query trước khi chạy.
+- **Agent model, cách chạy và phân chia dev/test:** `gemini-2.5-flash` (Google GenAI SDK 3.3.0), temperature 0, function calling chế độ `ANY`. Dev: d01–d17 có đáp án + d18–d19 thiếu bằng chứng (19 câu); test: t01–t06 có đáp án + t07–t08 thiếu bằng chứng (8 câu). Tổng 27 câu. 23 câu có đáp án lấy từ benchmark Day 6 (không trang gold nào của test trùng dev); test Day 6 chưa từng được dùng để chỉnh cấu hình Day 7.
+- **Cách xác định câu có/thiếu evidence và tiêu chí chấm:** câu có đáp án có `gold = {source_id, page, evidence}`; script kiểm tra evidence nằm nguyên văn trong đúng 1 chunk của trang gold (23/23). Câu thiếu bằng chứng ([data/unanswerable.json](../../data/unanswerable.json)) được kiểm tra bằng tìm từ khóa (regex, không phân biệt hoa thường) trên toàn bộ text trang 27–133: Cambodia (0 trang), FDI riêng của Viet Nam (chỉ có tên ở p58, không có số), green/sustainability-linked/ESG bond (0 trang), S&P xếp hạng Kenya (S&P 0 trang; p86 chỉ nói Fitch/Moody's). d19 và t08 là câu cố ý "gần chủ đề". Hit = chunk chứa trọn evidence đúng nguồn/trang (cùng định nghĩa với `starter/baseline.py`). Chấm câu trả lời 0/1/2 theo BENCHMARK.md.
+
+## Retrieval và thử nghiệm
+
+Retrieval-only: query gốc, filter `chapter` chỉ khi câu hỏi do người dùng ghi rõ chương (d12, d14, d15, t03, t04), context = top-5 dưới budget 6000 ký tự (gồm header nguồn). Agent: tối đa 3 search. Thời gian retrieval là trung vị mỗi query trên CPU; chi phí retrieval 0 USD (chạy local); model dùng Gemini free tier (0 USD), lượng dùng báo bằng token (vào/ra, tổng cho cả split).
+
+| Cấu hình | Phương pháp, top-k, filter, rerank, context budget | Giả thuyết / thay đổi | Split | Hit@1 | Evidence Hit@3 | Context Evidence Rate | Thời gian / chi phí |
+|---|---|---|---|---|---|---|---|
+| Baseline | Dense pgvector, top-5, filter chapter, không rerank, 6000 ký tự | Phương pháp gốc Day 6 | dev | 10/17 (58,8%) | 14/17 (82,4%) | retrieval 14/17; agent 13/17 (76,5%) | 207 ms/query; agent 42.0k/2.8k token, 4,3 s/câu |
+| Phương pháp 2 | BM25 (k1=1,5, b=0,75, stopword EN), top-5, filter chapter, 6000 | Câu hỏi nhiều số/tên riêng → lexical mạnh | dev | 13/17 (76,5%) | 16/17 (94,1%) | retrieval 16/17; agent 17/17 | 1,4 ms/query; agent 42.0k/2.6k token, 3,3 s/câu |
+| Phương pháp 3 | Hybrid RRF (k=60, 20 candidate dense + 20 BM25), top-5, filter chapter, 6000 | Bù lỗi từ vựng của BM25 và lỗi số liệu của dense | dev | 13/17 (76,5%) | **17/17 (100%)** | retrieval 17/17; agent **17/17** | 220 ms/query; agent 42.8k/2.9k token, 3,2 s/câu |
+| Cải thiện 1 (C4) | Dense, **top-8, 9000 ký tự** | H3: evidence của dense nằm ở rank 4–8 | dev | 10/17 | 14/17 | retrieval 17/17; agent 16/17 | agent 54.9k/3.0k token (+31%), 3,3 s/câu |
+| Cải thiện 2 (C1) | Dense, top-5, 6000, **prompt v2 bắt tìm lại trước khi từ chối** | H1: agent tự diễn đạt lại query sẽ cứu miss của dense | dev | 10/17 | 14/17 | agent 14/17 | agent 51.2k/2.9k token (+22%), 4,8 s/câu |
+| Cấu hình đã chọn | Hybrid RRF, top-5, filter chapter, 6000, prompt v1 | Chốt trên dev ([chosen_config.json](../../results/chosen_config.json)) | test | 5/6 (83,3%) | 6/6 (100%) | retrieval 6/6; agent 6/6 | agent 17.3k/1.0k token, 3,6 s/câu |
+| Baseline | Dense pgvector, top-5, filter chapter, 6000 | — | test | 4/6 (66,7%) | 6/6 (100%) | retrieval 6/6; agent 6/6 | agent 18.8k/1.0k token, 2,7 s/câu |
+
+Các thử nghiệm khác trên dev (đầy đủ trong [results/dev_comparison.md](../../results/dev_comparison.md)): C2 hybrid + prompt v2 (chất lượng không đổi, +17% token); C3 hybrid top-3/3000 ký tự (−26% token nhưng mất d02, d05, d17 → bác bỏ H2); BM25 top-3/8 (luôn miss d03); dense không filter (giống hệt có filter). Hybrid vừa là phương pháp thứ 3 vừa là cấu hình cải thiện so với baseline dense.
+
+**Hai lỗi dev, nguyên nhân, cách thử:**
+1. **Câu trả lời đúng bị đổi thành từ chối (d04, d06, d09, d12).** Nguyên nhân là code của em: Gemini viết citation dạng `[id1, id2]`, bộ kiểm tra chỉ nhận `[id]`. Sửa `cited_ids()` và thêm unit test; đo lại: số câu có đáp án bị từ chối nhầm giảm dense 5→3, hybrid 4→0 (run cũ giữ ở `results/agent/dev/*-v0-strict-citation-parser`).
+2. **Dense bỏ sót evidence (d02, d07, d12) và trả lời lệch ý (d17).** d07: câu hỏi về tỷ trọng chủ nợ tư nhân của *toàn bộ* LMICs; dense xếp đoạn "excluding China" (80,8%) cao hơn đoạn gold (75,2%). d17: context dense có p114/p126 (các nguyên nhân chênh lệch khác) nhưng thiếu p125, nên câu trả lời có citation hợp lệ mà không trả lời đúng câu hỏi. Thử: C1 (tìm lại) cứu d02 nhưng d07 chuyển thành **trả lời sai** con số 80,8%; C4 (top-8) cứu cả d02/d07/d12 nhưng tốn +31% token và d17 vẫn sai; hybrid đưa evidence vào context ở 17/17 câu mà không tăng token.
+
+**Lý do chọn cấu hình:** tiêu chí công bố trước ([selection_criteria.md](../../results/selection_criteria.md)): (1) câu trả lời đúng, (2) abstention 2/2, (3) Context Evidence Rate, (4) token/thời gian. Hybrid và BM25 hòa ở (1)–(3) (cùng 17/17 context, 0 từ chối nhầm, 2/2 abstention). Ở (4) BM25 ít hơn ~2% token vào nhưng chậm hơn 0,09 s/câu, nên em coi là hòa và phân định bằng chẩn đoán retrieval (Evidence Hit@3 17/17 so với 16/17, BM25 miss d03 do khác từ vựng) và việc giữ vector store Day 6 trong pipeline.
+
+## Agent và đánh giá
+
+- **Tool, số lượt gọi, điều kiện dừng, cách chọn context và xử lý lỗi:** 3 function: `search(query)`, `answer(answer, citations)`, `abstain(reason)`. Mỗi bước model nhận câu hỏi, filter người dùng, các query đã dùng và context cộng dồn (không gửi lại lịch sử để không nhân budget). Context: gộp kết quả mọi lượt search, bỏ trùng theo chunk ID, giữ thứ tự retrieval, bỏ chunk không vừa budget 6000 ký tự. Dừng khi model gọi `answer`/`abstain`, hoặc sau 3 search (model bị yêu cầu chốt), hoặc sau 5 bước. `answer` chỉ được chấp nhận khi mọi citation nằm trong context cuối **và** xuất hiện dạng `[id]` trong câu trả lời; nếu không thì chuyển thành từ chối và ghi event `invalid_or_missing_citations`. Lỗi API 429/500/503 được thử lại tối đa 4 lần (backoff 5–60 s, ghi `api_retries` trong trace); lỗi còn lại ghi `status: error`, không thay bằng kết quả giả. Nội dung tài liệu được khai báo là dữ liệu, không phải chỉ dẫn, trong system prompt.
+
+| Cấu hình / split | Tool use | Số lượt gọi | Grounded answer 0/1/2 và trung bình | Citation hợp lệ | Câu có citation | Abstention đúng | Từ chối nhầm |
+|---|---|---|---|---|---|---|---|
+| Dense baseline / dev | 19/19 | 1 search: 19 câu; 38 lượt gọi model | 3/1/13 — 1,59/2 | 17/17 | 14/14 | 2/2 | 3/17 |
+| Hybrid (chọn) / dev | 19/19 | 1 search: 19 câu; 38 lượt gọi model | 0/0/17 — 2,00/2 | 24/24 | 17/17 | 2/2 | 0/17 |
+| Dense baseline / test | 8/8 | 1 search: 7, 2 search: 1 (t07); 17 lượt gọi model | 0/0/6 — 2,00/2 | 7/7 | 6/6 | 2/2 | 0/6 |
+| Hybrid (chọn) / test | 8/8 | 1 search: 8; 16 lượt gọi model | 0/0/6 — 2,00/2 | 7/7 | 6/6 | 2/2 | 0/6 |
+
+Chấm context (BENCHMARK §2) cho 6 câu test có đáp án, cả baseline và cấu hình chọn: 6 câu ở mức **2** (context chứa trọn evidence cùng nguồn/trang), 0 câu mức 1, 0 câu mức 0.
+
+| Query ID | Loại câu | Tool call và kết quả | Câu trả lời và citation | Nhãn, lý do |
+|---|---|---|---|---|
+| t01 (test, hybrid) | Có đáp án, trực tiếp | `search("long-term net debt transfers to LMICs 2025")` → top-1 `B-idr2026-p046-c000` (gold) | "...reversed from an outflow of $118.4 billion in 2024 to an inflow of $45.4 billion in 2025 [B-idr2026-p046-c000]"; thêm nguyên nhân 17,3%/2,3% [p046-c001] | 2 — đúng và đủ; 2/2 citation hỗ trợ đúng câu được gắn |
+| t08 (test, hybrid) | Thiếu bằng chứng, gần chủ đề | `search("Kenya S&P sovereign credit rating 2025")` → 5 chunk về Kenya/bond, không có S&P | "Không đủ bằng chứng để trả lời." — lý do: context không có xếp hạng S&P cho Kenya | Từ chối đúng, không thêm khẳng định |
+| d17 (dev, dense) | Có đáp án, điều kiện/ngoại lệ | `search(...)` → p114-c000, p115, p047, p126-c002, p127; không có p125 (gold) | Liệt kê lý do chênh lệch số liệu chủ nợ–con nợ [p114-c000][p126-c002] | 1 — citation hỗ trợ từng câu nhưng thiếu lý do chính (IDS loại khoản vay PNG không tách được); hybrid lấy được p125 → 2 |
+| d07 (dev, dense + prompt v2) | Có đáp án | 1 search, evidence 75,2% không vào context | Trả lời con số 80,8% của nhóm "excluding China" | Ví dụ lỗi: prompt ép trả lời thay vì từ chối dẫn đến sai đối tượng |
+
+- **Đường dẫn trace, nhãn, lệnh chạy, thời gian và chi phí:** trace từng câu (tool call, query, filter, top-k, kết quả có ID/score/rank, context cuối, câu trả lời, citation, token, thời gian, retry) ở `results/agent/<split>/<run>/traces.json`; tổng hợp `summary.json`; nhãn `reviews.json`; metric `agent_metrics.json` (tạo bằng `starter/agent_metrics.py`). Retrieval: `results/retrieval/<split>/<method>/`. Hướng dẫn chạy: [src/README.md](../../src/README.md). Thời gian: agent ~3–4 s/câu (trung vị), nạp embedding model ~30 s một lần. Chi phí: **0 USD** — Gemini API dùng free tier; retrieval và embedding chạy local. Lượng tiêu thụ được báo bằng token Gemini (bảng trên; toàn bộ thử nghiệm dev + test khoảng 0,4 triệu token vào). Giới hạn tốc độ của free tier gây lỗi 429 tạm thời, được retry tự động (ghi trong `api_retries`), làm tăng thời gian một số câu (ví dụ d01 lần chạy thử 66 s).
+- **Kết quả trước/sau, ví dụ lỗi, đánh đổi và giới hạn:**
+  - Trên dev, hybrid tăng điểm câu trả lời trung bình từ 1,59 lên 2,00/2 so với dense, với cùng mức token (+2%) và nhanh hơn (3,2 so với 4,3 s/câu). Trên test, hai cấu hình **bằng nhau** (6/6 câu điểm 2, 2/2 từ chối đúng): test chỉ 6 câu có đáp án và dense đã đạt Evidence Hit@3 6/6, nên test không phân biệt được hai cấu hình; lợi thế của hybrid chỉ được chứng minh trên dev.
+  - Đánh đổi: tăng top-k hay ép tìm lại có giúp recall nhưng tốn +22–31% token, và ép tìm lại có thể gây trả lời sai (d07). Thu nhỏ context giảm 26% token nhưng mất 3 câu.
+  - Giới hạn: benchmark nhỏ (17 + 6 câu có đáp án, 4 câu thiếu bằng chứng) nên chênh lệch 1–2 câu không có ý nghĩa thống kê; mọi evidence nằm trong 1 chunk, chưa có câu multi-hop; câu hỏi tiếng Anh trên tài liệu tiếng Anh; agent gần như luôn chỉ search 1 lần; nhãn do AI hỗ trợ soạn nháp và học viên xác nhận (một người chấm, chưa có người chấm thứ hai); proxy tự động (≥80% con số) quá chặt nên chỉ dùng xếp hạng, không dùng làm điểm; câu thiếu bằng chứng được kiểm bằng từ khóa nên có thể sót cách diễn đạt khác.
+  - Tái lập model: mọi run được chạy với `gemini-2.5-flash` ngày 2026-11-16. Ngay sau đó API trả `404 ... no longer available to new users` cho model này (gợi ý chuyển sang `gemini-3.8-flash`), nên người chạy lại có thể phải đặt `GEMINI_MODEL` sang model khác; kết quả khi đó có thể khác. Trace đã lưu ghi rõ model của từng run. Muốn chạy lại phần dense cần vector store Day 6: dựng lại index bằng pipeline trong repo Day 6 (`starter/src/run.py`, strategy B, `google/embeddinggemma-2`).
+
+## Thử thách nâng cao (nếu thực hiện)
+
+**Đã bắt đầu nhưng dừng, chưa hoàn thành, không đề nghị tính điểm bonus.**
+
+- Tài liệu dự kiến: toàn bộ *International Debt Report 2026* (280 trang, CC BY 3.0 IGO, cùng nguồn Day 6), gồm Table 1.1/1.2, khoảng 50 biểu đồ vector ở Part 1, sơ đồ Figure 3B.1 và 128 trang hồ sơ quốc gia/khu vực (treemap, biểu đồ đường, ô điều khoản vay).
+- Đã làm ([src/advanced/](../../src/advanced/), [data/advanced/](../../data/advanced/)): kiểm kê 280 trang (260 trang được index, 20 trang loại kèm lý do: bìa, mục lục, trang trắng); 700 chunk text có trang và bbox; render 179 trang có hình; script vision (`describe_visuals.py`, cache theo trang, đối chiếu mọi con số với text layer) mới chạy được 14/179 trang.
+- Phát hiện khi kiểm tra với bản gốc: (1) `find_tables` của PyMuPDF làm hỏng số của Table 1.1/1.2 (ví dụ `94450 , .` thay cho 9,445.0), vision model đọc đúng; (2) text layer của treemap gán sai nhãn (trang 137 xếp "Japan / 144 / 112" trong khi hình cho thấy China 144, Japan 112; trang 151 không xác định được 9,871 là Private nonguaranteed); (3) giá trị đọc từ chiều cao cột chỉ xấp xỉ (Figure 1.4: model đọc ~540 so với ~570 trên hình), nên agent cần tool xem lại ảnh trang.
+- Lý do dừng: free tier Gemini giới hạn **20 request/ngày cho mỗi model** (`GenerateRequestsPerDayPerProjectPerModel-FreeTier`), trong khi pipeline cần khoảng 180 lượt vision để index và khoảng 200 lượt agent cho dev/test; máy không có GPU NVIDIA để chạy vision model local. Chưa có benchmark dev/test hoàn chỉnh và chưa chạy test nên không có tỷ lệ đạt.

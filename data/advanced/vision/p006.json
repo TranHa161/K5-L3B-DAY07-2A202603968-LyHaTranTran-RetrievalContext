@@ -1,0 +1,26 @@
+{
+  "page": 6,
+  "model": "gemini-3.5-flash",
+  "seconds": 3.6,
+  "tokens_in": 2612,
+  "tokens_out": 458,
+  "visuals": [
+    {
+      "label": "",
+      "title": "Creative Commons Attribution logo",
+      "kind": "image",
+      "region": [
+        0.118,
+        0.41,
+        0.228,
+        0.439
+      ],
+      "units": null,
+      "description": "Creative Commons CC BY license icon showing the 'CC' double-C symbol and the 'BY' person symbol.",
+      "data": null,
+      "numbers_total": 0,
+      "numbers_in_text_layer": 0
+    }
+  ],
+  "parse_ok": true
+}

@@ -1,0 +1,97 @@
+{
+  "page": 41,
+  "model": "gemini-3.5-flash",
+  "seconds": 8.1,
+  "tokens_in": 2109,
+  "tokens_out": 1946,
+  "visuals": [
+    {
+      "label": "Figure 1.4",
+      "title": "Figure 1.4 Long-Term External Debt Flows to Low- and Middle-Income Countries (Excluding China), by Borrower Type, 2023–25",
+      "kind": "bar chart",
+      "region": [
+        0.17,
+        0.568,
+        0.82,
+        0.91
+      ],
+      "units": "US$ (billion)",
+      "description": "Horizontal bar chart showing long-term external debt flows (Disbursements, Amortization, Net flows) by borrower type (PNG private, PPG private, PPG official) for the years 2023, 2024, and 2025.",
+      "data": [
+        [
+          "Borrower Type",
+          "Flow Type",
+          "2023",
+          "2024",
+          "2025"
+        ],
+        [
+          "PNG private",
+          "Disbursements",
+          "~380",
+          "~400",
+          "~540"
+        ],
+        [
+          "PNG private",
+          "Amortization",
+          "~380",
+          "~400",
+          "~390"
+        ],
+        [
+          "PNG private",
+          "Net flows",
+          "~50",
+          "~50",
+          "~175"
+        ],
+        [
+          "PPG private",
+          "Disbursements",
+          "~180",
+          "~240",
+          "~340"
+        ],
+        [
+          "PPG private",
+          "Amortization",
+          "~125",
+          "~175",
+          "~165"
+        ],
+        [
+          "PPG private",
+          "Net flows",
+          "~50",
+          "~70",
+          "~175"
+        ],
+        [
+          "PPG official",
+          "Disbursements",
+          "~180",
+          "~175",
+          "~170"
+        ],
+        [
+          "PPG official",
+          "Amortization",
+          "~125",
+          "~135",
+          "~130"
+        ],
+        [
+          "PPG official",
+          "Net flows",
+          "~115",
+          "~110",
+          "~95"
+        ]
+      ],
+      "numbers_total": 21,
+      "numbers_in_text_layer": 4
+    }
+  ],
+  "parse_ok": true
+}

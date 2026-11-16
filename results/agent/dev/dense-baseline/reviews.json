@@ -1,0 +1,166 @@
+[
+  {
+    "query_id": "d01",
+    "labeled_by": "student",
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "reason": "Đúng và đủ ý chính; citation hỗ trợ."
+  },
+  {
+    "query_id": "d02",
+    "labeled_by": "student",
+    "citation_support": [],
+    "answer_grade": 0,
+    "reason": "Từ chối câu có đáp án (evidence không có trong context cuối)."
+  },
+  {
+    "query_id": "d03",
+    "labeled_by": "student",
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "reason": "Đúng và đủ ý chính; citation hỗ trợ."
+  },
+  {
+    "query_id": "d04",
+    "labeled_by": "student",
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "reason": "Đúng và đủ ý chính; citation hỗ trợ."
+  },
+  {
+    "query_id": "d05",
+    "labeled_by": "student",
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "reason": "Đúng và đủ ý chính; citation hỗ trợ."
+  },
+  {
+    "query_id": "d06",
+    "labeled_by": "student",
+    "citation_support": [
+      true,
+      true
+    ],
+    "answer_grade": 2,
+    "reason": "Đúng và đủ ý chính; citation hỗ trợ."
+  },
+  {
+    "query_id": "d07",
+    "labeled_by": "student",
+    "citation_support": [],
+    "answer_grade": 0,
+    "reason": "Từ chối câu có đáp án (evidence không có trong context cuối)."
+  },
+  {
+    "query_id": "d08",
+    "labeled_by": "student",
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "reason": "Đúng và đủ ý chính; citation hỗ trợ."
+  },
+  {
+    "query_id": "d09",
+    "labeled_by": "student",
+    "citation_support": [
+      true,
+      true
+    ],
+    "answer_grade": 2,
+    "reason": "Đúng 3.0% và 5.7%; không nêu mức giảm (phụ)."
+  },
+  {
+    "query_id": "d10",
+    "labeled_by": "student",
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "reason": "Đúng $333.5bn FDI và $687.1bn kiều hối; thiếu so sánh 2011 (phụ)."
+  },
+  {
+    "query_id": "d11",
+    "labeled_by": "student",
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "reason": "Đúng 48.0%; thiếu so sánh 2015 (phụ)."
+  },
+  {
+    "query_id": "d12",
+    "labeled_by": "student",
+    "citation_support": [],
+    "answer_grade": 0,
+    "reason": "Từ chối câu có đáp án (evidence không có trong context cuối)."
+  },
+  {
+    "query_id": "d13",
+    "labeled_by": "student",
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "reason": "Đúng và đủ ý chính; citation hỗ trợ."
+  },
+  {
+    "query_id": "d14",
+    "labeled_by": "student",
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "reason": "Đúng 8.7% GDP; thiếu 8.2% năm 2024 (phụ)."
+  },
+  {
+    "query_id": "d15",
+    "labeled_by": "student",
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "reason": "Đúng 54 nước; thiếu 72%/so sánh 2020 (phụ)."
+  },
+  {
+    "query_id": "d16",
+    "labeled_by": "student",
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "reason": "Đúng và đủ ý chính; citation hỗ trợ."
+  },
+  {
+    "query_id": "d17",
+    "labeled_by": "student",
+    "citation_support": [
+      true,
+      true
+    ],
+    "answer_grade": 1,
+    "reason": "Các lý do nêu ra đúng với nguồn p114/p126 (asymmetry nói chung) nhưng thiếu lý do chính câu hỏi hỏi: IDS loại khoản vay PNG không tách được (p125 không có trong context)."
+  },
+  {
+    "query_id": "d18",
+    "labeled_by": "student",
+    "citation_support": [],
+    "abstention_correct": true,
+    "reason": "Từ chối, không thêm khẳng định: The provided context does not contain information regarding Cambodia's total external debt stock at the end of 2025."
+  },
+  {
+    "query_id": "d19",
+    "labeled_by": "student",
+    "citation_support": [],
+    "abstention_correct": true,
+    "reason": "Từ chối, không thêm khẳng định: The provided text identifies Viet Nam as one of the largest recipients of FDI in 2025, but it does not state the specific dollar amount of FDI that Viet Nam received in 2025."
+  }
+]

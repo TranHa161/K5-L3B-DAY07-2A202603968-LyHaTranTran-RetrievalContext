@@ -1,0 +1,29 @@
+{
+  "method": "hybrid",
+  "split": "test",
+  "query": "original",
+  "filters": "user-provided chapter filter when present",
+  "context_k": 5,
+  "budget_chars": 6000,
+  "hit1": {
+    "n": 5,
+    "N": 6,
+    "rate": 0.8333
+  },
+  "hit3": {
+    "n": 6,
+    "N": 6,
+    "rate": 1.0
+  },
+  "mrr10": 0.9167,
+  "context_evidence_rate": {
+    "n": 6,
+    "N": 6,
+    "rate": 1.0
+  },
+  "avg_context_chars": 4652,
+  "median_ms": 272.9,
+  "setup_seconds": 30.0,
+  "cost_usd": 0,
+  "misses_at3": []
+}

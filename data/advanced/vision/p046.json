@@ -1,0 +1,93 @@
+{
+  "page": 46,
+  "model": "gemini-3.5-flash",
+  "seconds": 13.4,
+  "tokens_in": 2095,
+  "tokens_out": 1937,
+  "visuals": [
+    {
+      "label": "Figure 1.6",
+      "title": "Composition of Debt Flows, Top 10 Borrowers (Excluding China)",
+      "kind": "bar chart",
+      "region": [
+        0.175,
+        0.137,
+        0.805,
+        0.465
+      ],
+      "units": "US$ (billion)",
+      "description": "Stacked bar chart showing debt flows broken down into three categories: Public and publicly guaranteed (PPG), Private nonguaranteed (PNG), and Short-term debt flows for the top 10 borrowing countries excluding China. Vertical axis ranges from -10 to 70 US$ billion.",
+      "data": [
+        [
+          "Country",
+          "Public and publicly guaranteed",
+          "Private nonguaranteed",
+          "Short-term"
+        ],
+        [
+          "India",
+          "~12",
+          "~20",
+          "~11"
+        ],
+        [
+          "Brazil",
+          "~3",
+          "~23",
+          "~28"
+        ],
+        [
+          "Mexico",
+          "~26",
+          "~13",
+          "~-1"
+        ],
+        [
+          "Türkiye",
+          "~25",
+          "~42",
+          "~-8"
+        ],
+        [
+          "Indonesia",
+          "~13",
+          "~1",
+          "~-0.5"
+        ],
+        [
+          "Argentina",
+          "~26",
+          "~13",
+          "0"
+        ],
+        [
+          "Colombia",
+          "~20",
+          "~7",
+          "~1"
+        ],
+        [
+          "Ukraine",
+          "~40",
+          "~1",
+          "~2"
+        ],
+        [
+          "Thailand",
+          "~3",
+          "~11",
+          "0"
+        ],
+        [
+          "South Africa",
+          "~14",
+          "0",
+          "~13"
+        ]
+      ],
+      "numbers_total": 20,
+      "numbers_in_text_layer": 6
+    }
+  ],
+  "parse_ok": true
+}

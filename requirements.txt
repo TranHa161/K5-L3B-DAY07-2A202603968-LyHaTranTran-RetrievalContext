@@ -1,0 +1,3 @@
+# Reuses the Day 6 environment (psycopg, sentence-transformers, torch for EmbeddingGemma 2) plus Gemini SDK.
+-r ../K5-L3B-DAY06-LyHaTranTran-2A202603968-DataIngestion/starter/requirements.txt
+google-genai==3.3.0

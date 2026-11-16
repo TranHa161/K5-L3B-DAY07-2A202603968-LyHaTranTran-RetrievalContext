@@ -1,0 +1,2185 @@
+[
+  {
+    "query_id": "d01",
+    "question": "What was the total external debt of low- and middle-income countries (LMICs) at the end of 2025, and how much did it grow from 2024?",
+    "filter": null,
+    "elapsed_ms": 479.9217999971006,
+    "results": [
+      {
+        "id": "B-idr2026-p027-c000",
+        "page": 27,
+        "score": 0.03252247488101534,
+        "rank": 1,
+        "hit": true,
+        "component_ranks": {
+          "dense": 2,
+          "bm25": 1
+        }
+      },
+      {
+        "id": "B-idr2026-p030-c001",
+        "page": 30,
+        "score": 0.032018442622950824,
+        "rank": 2,
+        "hit": false,
+        "component_ranks": {
+          "dense": 1,
+          "bm25": 4
+        }
+      },
+      {
+        "id": "B-idr2026-p035-c000",
+        "page": 35,
+        "score": 0.029206349206349208,
+        "rank": 3,
+        "hit": false,
+        "component_ranks": {
+          "dense": 3,
+          "bm25": 15
+        }
+      },
+      {
+        "id": "B-idr2026-p030-c000",
+        "page": 30,
+        "score": 0.0288981288981289,
+        "rank": 4,
+        "hit": false,
+        "component_ranks": {
+          "dense": 5,
+          "bm25": 14
+        }
+      },
+      {
+        "id": "B-idr2026-p043-c001",
+        "page": 43,
+        "score": 0.028370221327967807,
+        "rank": 5,
+        "hit": false,
+        "component_ranks": {
+          "dense": 10,
+          "bm25": 11
+        }
+      },
+      {
+        "id": "B-idr2026-p047-c000",
+        "page": 47,
+        "score": 0.016129032258064516,
+        "rank": 6,
+        "hit": false,
+        "component_ranks": {
+          "bm25": 2
+        }
+      },
+      {
+        "id": "B-idr2026-p061-c000",
+        "page": 61,
+        "score": 0.015873015873015872,
+        "rank": 7,
+        "hit": false,
+        "component_ranks": {
+          "bm25": 3
+        }
+      },
+      {
+        "id": "B-idr2026-p038-c000",
+        "page": 38,
+        "score": 0.015625,
+        "rank": 8,
+        "hit": false,
+        "component_ranks": {
+          "dense": 4
+        }
+      },
+      {
+        "id": "B-idr2026-p062-c000",
+        "page": 62,
+        "score": 0.015384615384615385,
+        "rank": 9,
+        "hit": false,
+        "component_ranks": {
+          "bm25": 5
+        }
+      },
+      {
+        "id": "B-idr2026-p046-c001",
+        "page": 46,
+        "score": 0.015151515151515152,
+        "rank": 10,
+        "hit": false,
+        "component_ranks": {
+          "dense": 6
+        }
+      }
+    ],
+    "first_hit_rank": 1,
+    "hit1": true,
+    "hit3": true,
+    "context_ids": [
+      "B-idr2026-p027-c000",
+      "B-idr2026-p030-c001",
+      "B-idr2026-p035-c000",
+      "B-idr2026-p030-c000",
+      "B-idr2026-p043-c001"
+    ],
+    "context_chars": 5080,
+    "context_hit": true
+  },
+  {
+    "query_id": "d02",
+    "question": "Apart from the depreciation of the US dollar, what drove the increase in LMICs' debt stock in 2025?",
+    "filter": null,
+    "elapsed_ms": 265.0446000043303,
+    "results": [
+      {
+        "id": "B-idr2026-p033-c003",
+        "page": 33,
+        "score": 0.032266458495966696,
+        "rank": 1,
+        "hit": false,
+        "component_ranks": {
+          "dense": 1,
+          "bm25": 3
+        }
+      },
+      {
+        "id": "B-idr2026-p034-c001",
+        "page": 34,
+        "score": 0.03225806451612903,
+        "rank": 2,
+        "hit": false,
+        "component_ranks": {
+          "dense": 2,
+          "bm25": 2
+        }
+      },
+      {
+        "id": "B-idr2026-p027-c000",
+        "page": 27,
+        "score": 0.031544957774465976,
+        "rank": 3,
+        "hit": true,
+        "component_ranks": {
+          "dense": 6,
+          "bm25": 1
+        }
+      },
+      {
+        "id": "B-idr2026-p059-c000",
+        "page": 59,
+        "score": 0.03149801587301587,
+        "rank": 4,
+        "hit": false,
+        "component_ranks": {
+          "dense": 3,
+          "bm25": 4
+        }
+      },
+      {
+        "id": "B-idr2026-p033-c002",
+        "page": 33,
+        "score": 0.029437229437229435,
+        "rank": 5,
+        "hit": false,
+        "component_ranks": {
+          "dense": 10,
+          "bm25": 6
+        }
+      },
+      {
+        "id": "B-idr2026-p049-c003",
+        "page": 49,
+        "score": 0.028991596638655463,
+        "rank": 6,
+        "hit": false,
+        "component_ranks": {
+          "dense": 8,
+          "bm25": 10
+        }
+      },
+      {
+        "id": "B-idr2026-p035-c000",
+        "page": 35,
+        "score": 0.028814262023217248,
+        "rank": 7,
+        "hit": false,
+        "component_ranks": {
+          "dense": 7,
+          "bm25": 12
+        }
+      },
+      {
+        "id": "B-idr2026-p059-c001",
+        "page": 59,
+        "score": 0.027071520029266508,
+        "rank": 8,
+        "hit": false,
+        "component_ranks": {
+          "dense": 17,
+          "bm25": 11
+        }
+      },
+      {
+        "id": "B-idr2026-p038-c000",
+        "page": 38,
+        "score": 0.02638888888888889,
+        "rank": 9,
+        "hit": false,
+        "component_ranks": {
+          "dense": 12,
+          "bm25": 20
+        }
+      },
+      {
+        "id": "B-idr2026-p053-c002",
+        "page": 53,
+        "score": 0.015625,
+        "rank": 10,
+        "hit": false,
+        "component_ranks": {
+          "dense": 4
+        }
+      }
+    ],
+    "first_hit_rank": 3,
+    "hit1": false,
+    "hit3": true,
+    "context_ids": [
+      "B-idr2026-p033-c003",
+      "B-idr2026-p034-c001",
+      "B-idr2026-p027-c000",
+      "B-idr2026-p059-c000",
+      "B-idr2026-p033-c002"
+    ],
+    "context_chars": 4138,
+    "context_hit": true
+  },
+  {
+    "query_id": "d03",
+    "question": "What components make up a country's total external debt?",
+    "filter": null,
+    "elapsed_ms": 242.42619999859016,
+    "results": [
+      {
+        "id": "B-idr2026-p029-c000",
+        "page": 29,
+        "score": 0.030886196246139225,
+        "rank": 1,
+        "hit": true,
+        "component_ranks": {
+          "dense": 1,
+          "bm25": 9
+        }
+      },
+      {
+        "id": "B-idr2026-p067-c000",
+        "page": 67,
+        "score": 0.026785714285714288,
+        "rank": 2,
+        "hit": false,
+        "component_ranks": {
+          "dense": 10,
+          "bm25": 20
+        }
+      },
+      {
+        "id": "B-idr2026-p114-c003",
+        "page": 114,
+        "score": 0.01639344262295082,
+        "rank": 3,
+        "hit": false,
+        "component_ranks": {
+          "bm25": 1
+        }
+      },
+      {
+        "id": "B-idr2026-p028-c000",
+        "page": 28,
+        "score": 0.016129032258064516,
+        "rank": 4,
+        "hit": false,
+        "component_ranks": {
+          "dense": 2
+        }
+      },
+      {
+        "id": "B-idr2026-p117-c003",
+        "page": 117,
+        "score": 0.016129032258064516,
+        "rank": 5,
+        "hit": false,
+        "component_ranks": {
+          "bm25": 2
+        }
+      },
+      {
+        "id": "B-idr2026-p033-c003",
+        "page": 33,
+        "score": 0.015873015873015872,
+        "rank": 6,
+        "hit": false,
+        "component_ranks": {
+          "bm25": 3
+        }
+      },
+      {
+        "id": "B-idr2026-p067-c002",
+        "page": 67,
+        "score": 0.015873015873015872,
+        "rank": 7,
+        "hit": false,
+        "component_ranks": {
+          "dense": 3
+        }
+      },
+      {
+        "id": "B-idr2026-p027-c000",
+        "page": 27,
+        "score": 0.015625,
+        "rank": 8,
+        "hit": false,
+        "component_ranks": {
+          "dense": 4
+        }
+      },
+      {
+        "id": "B-idr2026-p049-c001",
+        "page": 49,
+        "score": 0.015625,
+        "rank": 9,
+        "hit": false,
+        "component_ranks": {
+          "bm25": 4
+        }
+      },
+      {
+        "id": "B-idr2026-p084-c000",
+        "page": 84,
+        "score": 0.015384615384615385,
+        "rank": 10,
+        "hit": false,
+        "component_ranks": {
+          "dense": 5
+        }
+      }
+    ],
+    "first_hit_rank": 1,
+    "hit1": true,
+    "hit3": true,
+    "context_ids": [
+      "B-idr2026-p029-c000",
+      "B-idr2026-p067-c000",
+      "B-idr2026-p114-c003",
+      "B-idr2026-p028-c000",
+      "B-idr2026-p117-c003"
+    ],
+    "context_chars": 4532,
+    "context_hit": true
+  },
+  {
+    "query_id": "d04",
+    "question": "How is short-term debt defined, and is it required to be reported to the Debtor Reporting System (DRS)?",
+    "filter": null,
+    "elapsed_ms": 255.45290000445675,
+    "results": [
+      {
+        "id": "B-idr2026-p029-c001",
+        "page": 29,
+        "score": 0.03278688524590164,
+        "rank": 1,
+        "hit": true,
+        "component_ranks": {
+          "dense": 1,
+          "bm25": 1
+        }
+      },
+      {
+        "id": "B-idr2026-p029-c000",
+        "page": 29,
+        "score": 0.03225806451612903,
+        "rank": 2,
+        "hit": false,
+        "component_ranks": {
+          "dense": 2,
+          "bm25": 2
+        }
+      },
+      {
+        "id": "B-idr2026-p129-c003",
+        "page": 129,
+        "score": 0.030303030303030304,
+        "rank": 3,
+        "hit": false,
+        "component_ranks": {
+          "dense": 6,
+          "bm25": 6
+        }
+      },
+      {
+        "id": "B-idr2026-p028-c000",
+        "page": 28,
+        "score": 0.029957522915269395,
+        "rank": 4,
+        "hit": false,
+        "component_ranks": {
+          "dense": 3,
+          "bm25": 11
+        }
+      },
+      {
+        "id": "B-idr2026-p112-c001",
+        "page": 112,
+        "score": 0.02919863597612958,
+        "rank": 5,
+        "hit": false,
+        "component_ranks": {
+          "dense": 9,
+          "bm25": 8
+        }
+      },
+      {
+        "id": "B-idr2026-p129-c002",
+        "page": 129,
+        "score": 0.028958333333333336,
+        "rank": 6,
+        "hit": false,
+        "component_ranks": {
+          "dense": 15,
+          "bm25": 4
+        }
+      },
+      {
+        "id": "B-idr2026-p039-c001",
+        "page": 39,
+        "score": 0.0288981288981289,
+        "rank": 7,
+        "hit": false,
+        "component_ranks": {
+          "dense": 5,
+          "bm25": 14
+        }
+      },
+      {
+        "id": "B-idr2026-p121-c002",
+        "page": 121,
+        "score": 0.027425373134328357,
+        "rank": 8,
+        "hit": false,
+        "component_ranks": {
+          "dense": 20,
+          "bm25": 7
+        }
+      },
+      {
+        "id": "B-idr2026-p037-c000",
+        "page": 37,
+        "score": 0.02631578947368421,
+        "rank": 9,
+        "hit": false,
+        "component_ranks": {
+          "dense": 16,
+          "bm25": 16
+        }
+      },
+      {
+        "id": "B-idr2026-p107-c002",
+        "page": 107,
+        "score": 0.015873015873015872,
+        "rank": 10,
+        "hit": false,
+        "component_ranks": {
+          "bm25": 3
+        }
+      }
+    ],
+    "first_hit_rank": 1,
+    "hit1": true,
+    "hit3": true,
+    "context_ids": [
+      "B-idr2026-p029-c001",
+      "B-idr2026-p029-c000",
+      "B-idr2026-p129-c003",
+      "B-idr2026-p028-c000",
+      "B-idr2026-p112-c001"
+    ],
+    "context_chars": 5655,
+    "context_hit": true
+  },
+  {
+    "query_id": "d05",
+    "question": "How much did Ukraine's external debt stock increase in 2025?",
+    "filter": null,
+    "elapsed_ms": 220.030600001337,
+    "results": [
+      {
+        "id": "B-idr2026-p038-c002",
+        "page": 38,
+        "score": 0.03252247488101534,
+        "rank": 1,
+        "hit": false,
+        "component_ranks": {
+          "dense": 1,
+          "bm25": 2
+        }
+      },
+      {
+        "id": "B-idr2026-p031-c000",
+        "page": 31,
+        "score": 0.032266458495966696,
+        "rank": 2,
+        "hit": true,
+        "component_ranks": {
+          "dense": 3,
+          "bm25": 1
+        }
+      },
+      {
+        "id": "B-idr2026-p038-c000",
+        "page": 38,
+        "score": 0.031754032258064516,
+        "rank": 3,
+        "hit": false,
+        "component_ranks": {
+          "dense": 2,
+          "bm25": 4
+        }
+      },
+      {
+        "id": "B-idr2026-p062-c000",
+        "page": 62,
+        "score": 0.03007688828584351,
+        "rank": 4,
+        "hit": false,
+        "component_ranks": {
+          "dense": 7,
+          "bm25": 6
+        }
+      },
+      {
+        "id": "B-idr2026-p040-c000",
+        "page": 40,
+        "score": 0.028991596638655463,
+        "rank": 5,
+        "hit": false,
+        "component_ranks": {
+          "dense": 10,
+          "bm25": 8
+        }
+      },
+      {
+        "id": "B-idr2026-p039-c000",
+        "page": 39,
+        "score": 0.02886002886002886,
+        "rank": 6,
+        "hit": false,
+        "component_ranks": {
+          "dense": 17,
+          "bm25": 3
+        }
+      },
+      {
+        "id": "B-idr2026-p035-c001",
+        "page": 35,
+        "score": 0.02854251012145749,
+        "rank": 7,
+        "hit": false,
+        "component_ranks": {
+          "dense": 16,
+          "bm25": 5
+        }
+      },
+      {
+        "id": "B-idr2026-p029-c002",
+        "page": 29,
+        "score": 0.02819138376017471,
+        "rank": 8,
+        "hit": false,
+        "component_ranks": {
+          "dense": 13,
+          "bm25": 9
+        }
+      },
+      {
+        "id": "B-idr2026-p027-c000",
+        "page": 27,
+        "score": 0.028125,
+        "rank": 9,
+        "hit": false,
+        "component_ranks": {
+          "dense": 4,
+          "bm25": 20
+        }
+      },
+      {
+        "id": "B-idr2026-p034-c003",
+        "page": 34,
+        "score": 0.027650648360030512,
+        "rank": 10,
+        "hit": false,
+        "component_ranks": {
+          "dense": 9,
+          "bm25": 16
+        }
+      }
+    ],
+    "first_hit_rank": 2,
+    "hit1": false,
+    "hit3": true,
+    "context_ids": [
+      "B-idr2026-p038-c002",
+      "B-idr2026-p031-c000",
+      "B-idr2026-p038-c000",
+      "B-idr2026-p062-c000",
+      "B-idr2026-p040-c000"
+    ],
+    "context_chars": 5539,
+    "context_hit": true
+  },
+  {
+    "query_id": "d06",
+    "question": "What is a total return swap (TRS)?",
+    "filter": null,
+    "elapsed_ms": 214.46080000896472,
+    "results": [
+      {
+        "id": "B-idr2026-p031-c002",
+        "page": 31,
+        "score": 0.03252247488101534,
+        "rank": 1,
+        "hit": true,
+        "component_ranks": {
+          "dense": 1,
+          "bm25": 2
+        }
+      },
+      {
+        "id": "B-idr2026-p033-c000",
+        "page": 33,
+        "score": 0.031754032258064516,
+        "rank": 2,
+        "hit": false,
+        "component_ranks": {
+          "dense": 2,
+          "bm25": 4
+        }
+      },
+      {
+        "id": "B-idr2026-p032-c000",
+        "page": 32,
+        "score": 0.031746031746031744,
+        "rank": 3,
+        "hit": false,
+        "component_ranks": {
+          "dense": 3,
+          "bm25": 3
+        }
+      },
+      {
+        "id": "B-idr2026-p031-c001",
+        "page": 31,
+        "score": 0.03131881575727918,
+        "rank": 4,
+        "hit": false,
+        "component_ranks": {
+          "dense": 7,
+          "bm25": 1
+        }
+      },
+      {
+        "id": "B-idr2026-p033-c001",
+        "page": 33,
+        "score": 0.03055037313432836,
+        "rank": 5,
+        "hit": false,
+        "component_ranks": {
+          "dense": 4,
+          "bm25": 7
+        }
+      },
+      {
+        "id": "B-idr2026-p032-c002",
+        "page": 32,
+        "score": 0.030536130536130537,
+        "rank": 6,
+        "hit": false,
+        "component_ranks": {
+          "dense": 6,
+          "bm25": 5
+        }
+      },
+      {
+        "id": "B-idr2026-p032-c001",
+        "page": 32,
+        "score": 0.028790389395194696,
+        "rank": 7,
+        "hit": false,
+        "component_ranks": {
+          "dense": 8,
+          "bm25": 11
+        }
+      },
+      {
+        "id": "B-idr2026-p071-c002",
+        "page": 71,
+        "score": 0.015384615384615385,
+        "rank": 8,
+        "hit": false,
+        "component_ranks": {
+          "dense": 5
+        }
+      },
+      {
+        "id": "B-idr2026-p040-c001",
+        "page": 40,
+        "score": 0.015151515151515152,
+        "rank": 9,
+        "hit": false,
+        "component_ranks": {
+          "bm25": 6
+        }
+      },
+      {
+        "id": "B-idr2026-p108-c002",
+        "page": 108,
+        "score": 0.014705882352941176,
+        "rank": 10,
+        "hit": false,
+        "component_ranks": {
+          "bm25": 8
+        }
+      }
+    ],
+    "first_hit_rank": 1,
+    "hit1": true,
+    "hit3": true,
+    "context_ids": [
+      "B-idr2026-p031-c002",
+      "B-idr2026-p033-c000",
+      "B-idr2026-p032-c000",
+      "B-idr2026-p031-c001",
+      "B-idr2026-p033-c001"
+    ],
+    "context_chars": 4079,
+    "context_hit": true
+  },
+  {
+    "query_id": "d07",
+    "question": "What share of long-term net debt inflows to LMICs came from private creditors in 2025?",
+    "filter": null,
+    "elapsed_ms": 239.90349999803584,
+    "results": [
+      {
+        "id": "B-idr2026-p044-c001",
+        "page": 44,
+        "score": 0.032266458495966696,
+        "rank": 1,
+        "hit": false,
+        "component_ranks": {
+          "dense": 1,
+          "bm25": 3
+        }
+      },
+      {
+        "id": "B-idr2026-p041-c000",
+        "page": 41,
+        "score": 0.031754032258064516,
+        "rank": 2,
+        "hit": false,
+        "component_ranks": {
+          "dense": 4,
+          "bm25": 2
+        }
+      },
+      {
+        "id": "B-idr2026-p040-c001",
+        "page": 40,
+        "score": 0.03131881575727918,
+        "rank": 3,
+        "hit": true,
+        "component_ranks": {
+          "dense": 7,
+          "bm25": 1
+        }
+      },
+      {
+        "id": "B-idr2026-p044-c000",
+        "page": 44,
+        "score": 0.03057889822595705,
+        "rank": 4,
+        "hit": false,
+        "component_ranks": {
+          "dense": 3,
+          "bm25": 8
+        }
+      },
+      {
+        "id": "B-idr2026-p041-c001",
+        "page": 41,
+        "score": 0.028850145288501453,
+        "rank": 5,
+        "hit": false,
+        "component_ranks": {
+          "dense": 13,
+          "bm25": 6
+        }
+      },
+      {
+        "id": "B-idr2026-p046-c001",
+        "page": 46,
+        "score": 0.02877846790890269,
+        "rank": 6,
+        "hit": false,
+        "component_ranks": {
+          "dense": 9,
+          "bm25": 10
+        }
+      },
+      {
+        "id": "B-idr2026-p045-c002",
+        "page": 45,
+        "score": 0.02804284323271665,
+        "rank": 7,
+        "hit": false,
+        "component_ranks": {
+          "dense": 19,
+          "bm25": 5
+        }
+      },
+      {
+        "id": "B-idr2026-p030-c000",
+        "page": 30,
+        "score": 0.02758751902587519,
+        "rank": 8,
+        "hit": false,
+        "component_ranks": {
+          "dense": 12,
+          "bm25": 13
+        }
+      },
+      {
+        "id": "B-idr2026-p047-c002",
+        "page": 47,
+        "score": 0.027071520029266508,
+        "rank": 9,
+        "hit": false,
+        "component_ranks": {
+          "dense": 11,
+          "bm25": 17
+        }
+      },
+      {
+        "id": "B-idr2026-p048-c000",
+        "page": 48,
+        "score": 0.026992753623188405,
+        "rank": 10,
+        "hit": false,
+        "component_ranks": {
+          "dense": 20,
+          "bm25": 9
+        }
+      }
+    ],
+    "first_hit_rank": 3,
+    "hit1": false,
+    "hit3": true,
+    "context_ids": [
+      "B-idr2026-p044-c001",
+      "B-idr2026-p041-c000",
+      "B-idr2026-p040-c001",
+      "B-idr2026-p044-c000",
+      "B-idr2026-p041-c001"
+    ],
+    "context_chars": 4797,
+    "context_hit": true
+  },
+  {
+    "query_id": "d08",
+    "question": "How were 2025 net debt inflows from private creditors split between bonds and commercial bank lending?",
+    "filter": null,
+    "elapsed_ms": 219.64910000679083,
+    "results": [
+      {
+        "id": "B-idr2026-p040-c002",
+        "page": 40,
+        "score": 0.03252247488101534,
+        "rank": 1,
+        "hit": true,
+        "component_ranks": {
+          "dense": 1,
+          "bm25": 2
+        }
+      },
+      {
+        "id": "B-idr2026-p041-c000",
+        "page": 41,
+        "score": 0.03252247488101534,
+        "rank": 2,
+        "hit": false,
+        "component_ranks": {
+          "dense": 2,
+          "bm25": 1
+        }
+      },
+      {
+        "id": "B-idr2026-p064-c000",
+        "page": 64,
+        "score": 0.030776515151515152,
+        "rank": 3,
+        "hit": false,
+        "component_ranks": {
+          "dense": 4,
+          "bm25": 6
+        }
+      },
+      {
+        "id": "B-idr2026-p044-c000",
+        "page": 44,
+        "score": 0.03076923076923077,
+        "rank": 4,
+        "hit": false,
+        "component_ranks": {
+          "dense": 5,
+          "bm25": 5
+        }
+      },
+      {
+        "id": "B-idr2026-p040-c001",
+        "page": 40,
+        "score": 0.02976190476190476,
+        "rank": 5,
+        "hit": false,
+        "component_ranks": {
+          "dense": 12,
+          "bm25": 3
+        }
+      },
+      {
+        "id": "B-idr2026-p044-c001",
+        "page": 44,
+        "score": 0.029236022193768675,
+        "rank": 6,
+        "hit": false,
+        "component_ranks": {
+          "dense": 6,
+          "bm25": 11
+        }
+      },
+      {
+        "id": "B-idr2026-p034-c003",
+        "page": 34,
+        "score": 0.029211087420042643,
+        "rank": 7,
+        "hit": false,
+        "component_ranks": {
+          "dense": 7,
+          "bm25": 10
+        }
+      },
+      {
+        "id": "B-idr2026-p047-c002",
+        "page": 47,
+        "score": 0.029206349206349208,
+        "rank": 8,
+        "hit": false,
+        "component_ranks": {
+          "dense": 3,
+          "bm25": 15
+        }
+      },
+      {
+        "id": "B-idr2026-p041-c001",
+        "page": 41,
+        "score": 0.028594771241830064,
+        "rank": 9,
+        "hit": false,
+        "component_ranks": {
+          "dense": 8,
+          "bm25": 12
+        }
+      },
+      {
+        "id": "B-idr2026-p044-c002",
+        "page": 44,
+        "score": 0.028283227848101264,
+        "rank": 10,
+        "hit": false,
+        "component_ranks": {
+          "dense": 19,
+          "bm25": 4
+        }
+      }
+    ],
+    "first_hit_rank": 1,
+    "hit1": true,
+    "hit3": true,
+    "context_ids": [
+      "B-idr2026-p040-c002",
+      "B-idr2026-p041-c000",
+      "B-idr2026-p064-c000",
+      "B-idr2026-p044-c000",
+      "B-idr2026-p040-c001"
+    ],
+    "context_chars": 5234,
+    "context_hit": true
+  },
+  {
+    "query_id": "d09",
+    "question": "What were the average interest rates on new commitments from official and private creditors in 2025?",
+    "filter": null,
+    "elapsed_ms": 231.56129999551922,
+    "results": [
+      {
+        "id": "B-idr2026-p050-c001",
+        "page": 50,
+        "score": 0.03278688524590164,
+        "rank": 1,
+        "hit": true,
+        "component_ranks": {
+          "dense": 1,
+          "bm25": 1
+        }
+      },
+      {
+        "id": "B-idr2026-p065-c001",
+        "page": 65,
+        "score": 0.031754032258064516,
+        "rank": 2,
+        "hit": false,
+        "component_ranks": {
+          "dense": 4,
+          "bm25": 2
+        }
+      },
+      {
+        "id": "B-idr2026-p066-c001",
+        "page": 66,
+        "score": 0.031746031746031744,
+        "rank": 3,
+        "hit": false,
+        "component_ranks": {
+          "dense": 3,
+          "bm25": 3
+        }
+      },
+      {
+        "id": "B-idr2026-p050-c000",
+        "page": 50,
+        "score": 0.0315136476426799,
+        "rank": 4,
+        "hit": false,
+        "component_ranks": {
+          "dense": 2,
+          "bm25": 5
+        }
+      },
+      {
+        "id": "B-idr2026-p051-c000",
+        "page": 51,
+        "score": 0.031009615384615385,
+        "rank": 5,
+        "hit": false,
+        "component_ranks": {
+          "dense": 5,
+          "bm25": 4
+        }
+      },
+      {
+        "id": "B-idr2026-p052-c000",
+        "page": 52,
+        "score": 0.03007688828584351,
+        "rank": 6,
+        "hit": false,
+        "component_ranks": {
+          "dense": 6,
+          "bm25": 7
+        }
+      },
+      {
+        "id": "B-idr2026-p062-c001",
+        "page": 62,
+        "score": 0.02900988017658188,
+        "rank": 7,
+        "hit": false,
+        "component_ranks": {
+          "dense": 7,
+          "bm25": 11
+        }
+      },
+      {
+        "id": "B-idr2026-p049-c000",
+        "page": 49,
+        "score": 0.028381642512077296,
+        "rank": 8,
+        "hit": false,
+        "component_ranks": {
+          "dense": 9,
+          "bm25": 12
+        }
+      },
+      {
+        "id": "B-idr2026-p068-c000",
+        "page": 68,
+        "score": 0.02803921568627451,
+        "rank": 9,
+        "hit": false,
+        "component_ranks": {
+          "dense": 8,
+          "bm25": 15
+        }
+      },
+      {
+        "id": "B-idr2026-p051-c001",
+        "page": 51,
+        "score": 0.027972027972027972,
+        "rank": 10,
+        "hit": false,
+        "component_ranks": {
+          "dense": 18,
+          "bm25": 6
+        }
+      }
+    ],
+    "first_hit_rank": 1,
+    "hit1": true,
+    "hit3": true,
+    "context_ids": [
+      "B-idr2026-p050-c001",
+      "B-idr2026-p065-c001",
+      "B-idr2026-p066-c001",
+      "B-idr2026-p050-c000",
+      "B-idr2026-p051-c000"
+    ],
+    "context_chars": 4554,
+    "context_hit": true
+  },
+  {
+    "query_id": "d10",
+    "question": "How large were FDI and personal remittances to LMICs excluding China in 2025?",
+    "filter": null,
+    "elapsed_ms": 174.16109998885076,
+    "results": [
+      {
+        "id": "B-idr2026-p055-c001",
+        "page": 55,
+        "score": 0.032266458495966696,
+        "rank": 1,
+        "hit": true,
+        "component_ranks": {
+          "dense": 3,
+          "bm25": 1
+        }
+      },
+      {
+        "id": "B-idr2026-p055-c000",
+        "page": 55,
+        "score": 0.031754032258064516,
+        "rank": 2,
+        "hit": false,
+        "component_ranks": {
+          "dense": 2,
+          "bm25": 4
+        }
+      },
+      {
+        "id": "B-idr2026-p056-c001",
+        "page": 56,
+        "score": 0.031754032258064516,
+        "rank": 3,
+        "hit": false,
+        "component_ranks": {
+          "dense": 4,
+          "bm25": 2
+        }
+      },
+      {
+        "id": "B-idr2026-p058-c001",
+        "page": 58,
+        "score": 0.03131881575727918,
+        "rank": 4,
+        "hit": false,
+        "component_ranks": {
+          "dense": 1,
+          "bm25": 7
+        }
+      },
+      {
+        "id": "B-idr2026-p057-c001",
+        "page": 57,
+        "score": 0.03007688828584351,
+        "rank": 5,
+        "hit": false,
+        "component_ranks": {
+          "dense": 7,
+          "bm25": 6
+        }
+      },
+      {
+        "id": "B-idr2026-p058-c000",
+        "page": 58,
+        "score": 0.029957522915269395,
+        "rank": 6,
+        "hit": false,
+        "component_ranks": {
+          "dense": 11,
+          "bm25": 3
+        }
+      },
+      {
+        "id": "B-idr2026-p046-c001",
+        "page": 46,
+        "score": 0.028404512489927477,
+        "rank": 7,
+        "hit": false,
+        "component_ranks": {
+          "dense": 8,
+          "bm25": 13
+        }
+      },
+      {
+        "id": "B-idr2026-p057-c000",
+        "page": 57,
+        "score": 0.02786377708978328,
+        "rank": 8,
+        "hit": false,
+        "component_ranks": {
+          "dense": 16,
+          "bm25": 8
+        }
+      },
+      {
+        "id": "B-idr2026-p059-c001",
+        "page": 59,
+        "score": 0.02658450704225352,
+        "rank": 9,
+        "hit": false,
+        "component_ranks": {
+          "dense": 20,
+          "bm25": 11
+        }
+      },
+      {
+        "id": "B-idr2026-p045-c002",
+        "page": 45,
+        "score": 0.02581612258494337,
+        "rank": 10,
+        "hit": false,
+        "component_ranks": {
+          "dense": 19,
+          "bm25": 16
+        }
+      }
+    ],
+    "first_hit_rank": 1,
+    "hit1": true,
+    "hit3": true,
+    "context_ids": [
+      "B-idr2026-p055-c001",
+      "B-idr2026-p055-c000",
+      "B-idr2026-p056-c001",
+      "B-idr2026-p058-c001",
+      "B-idr2026-p057-c001"
+    ],
+    "context_chars": 4626,
+    "context_hit": true
+  },
+  {
+    "query_id": "d11",
+    "question": "What was Sub-Saharan Africa's external debt-to-GNI ratio in 2025?",
+    "filter": null,
+    "elapsed_ms": 173.99460000160616,
+    "results": [
+      {
+        "id": "B-idr2026-p060-c000",
+        "page": 60,
+        "score": 0.03278688524590164,
+        "rank": 1,
+        "hit": true,
+        "component_ranks": {
+          "dense": 1,
+          "bm25": 1
+        }
+      },
+      {
+        "id": "B-idr2026-p059-c001",
+        "page": 59,
+        "score": 0.0315136476426799,
+        "rank": 2,
+        "hit": false,
+        "component_ranks": {
+          "dense": 2,
+          "bm25": 5
+        }
+      },
+      {
+        "id": "B-idr2026-p064-c001",
+        "page": 64,
+        "score": 0.031024531024531024,
+        "rank": 3,
+        "hit": false,
+        "component_ranks": {
+          "dense": 3,
+          "bm25": 6
+        }
+      },
+      {
+        "id": "B-idr2026-p059-c002",
+        "page": 59,
+        "score": 0.031009615384615385,
+        "rank": 4,
+        "hit": false,
+        "component_ranks": {
+          "dense": 5,
+          "bm25": 4
+        }
+      },
+      {
+        "id": "B-idr2026-p060-c001",
+        "page": 60,
+        "score": 0.03055037313432836,
+        "rank": 5,
+        "hit": false,
+        "component_ranks": {
+          "dense": 4,
+          "bm25": 7
+        }
+      },
+      {
+        "id": "B-idr2026-p061-c001",
+        "page": 61,
+        "score": 0.0304147465437788,
+        "rank": 6,
+        "hit": false,
+        "component_ranks": {
+          "dense": 10,
+          "bm25": 2
+        }
+      },
+      {
+        "id": "B-idr2026-p059-c000",
+        "page": 59,
+        "score": 0.029236022193768675,
+        "rank": 7,
+        "hit": false,
+        "component_ranks": {
+          "dense": 6,
+          "bm25": 11
+        }
+      },
+      {
+        "id": "B-idr2026-p054-c001",
+        "page": 54,
+        "score": 0.027046783625730993,
+        "rank": 8,
+        "hit": false,
+        "component_ranks": {
+          "dense": 16,
+          "bm25": 12
+        }
+      },
+      {
+        "id": "B-idr2026-p031-c000",
+        "page": 31,
+        "score": 0.02684684684684685,
+        "rank": 9,
+        "hit": false,
+        "component_ranks": {
+          "dense": 14,
+          "bm25": 15
+        }
+      },
+      {
+        "id": "B-idr2026-p040-c001",
+        "page": 40,
+        "score": 0.025645240835114255,
+        "rank": 10,
+        "hit": false,
+        "component_ranks": {
+          "dense": 19,
+          "bm25": 17
+        }
+      }
+    ],
+    "first_hit_rank": 1,
+    "hit1": true,
+    "hit3": true,
+    "context_ids": [
+      "B-idr2026-p060-c000",
+      "B-idr2026-p059-c001",
+      "B-idr2026-p064-c001",
+      "B-idr2026-p059-c002",
+      "B-idr2026-p060-c001"
+    ],
+    "context_chars": 5180,
+    "context_hit": true
+  },
+  {
+    "query_id": "d12",
+    "question": "In the chapter analyzing external debt data (chapter 1), what was the external debt stock of IDA-eligible countries in 2025?",
+    "filter": {
+      "chapter": 1
+    },
+    "elapsed_ms": 185.96980000438634,
+    "results": [
+      {
+        "id": "B-idr2026-p062-c001",
+        "page": 62,
+        "score": 0.03252247488101534,
+        "rank": 1,
+        "hit": false,
+        "component_ranks": {
+          "dense": 1,
+          "bm25": 2
+        }
+      },
+      {
+        "id": "B-idr2026-p062-c000",
+        "page": 62,
+        "score": 0.031544957774465976,
+        "rank": 2,
+        "hit": true,
+        "component_ranks": {
+          "dense": 6,
+          "bm25": 1
+        }
+      },
+      {
+        "id": "B-idr2026-p061-c000",
+        "page": 61,
+        "score": 0.03149801587301587,
+        "rank": 3,
+        "hit": false,
+        "component_ranks": {
+          "dense": 4,
+          "bm25": 3
+        }
+      },
+      {
+        "id": "B-idr2026-p034-c002",
+        "page": 34,
+        "score": 0.030309988518943745,
+        "rank": 4,
+        "hit": false,
+        "component_ranks": {
+          "dense": 7,
+          "bm25": 5
+        }
+      },
+      {
+        "id": "B-idr2026-p063-c001",
+        "page": 63,
+        "score": 0.029030910609857977,
+        "rank": 5,
+        "hit": false,
+        "component_ranks": {
+          "dense": 3,
+          "bm25": 16
+        }
+      },
+      {
+        "id": "B-idr2026-p059-c002",
+        "page": 59,
+        "score": 0.028612012987012988,
+        "rank": 6,
+        "hit": false,
+        "component_ranks": {
+          "dense": 17,
+          "bm25": 4
+        }
+      },
+      {
+        "id": "B-idr2026-p066-c001",
+        "page": 66,
+        "score": 0.02857142857142857,
+        "rank": 7,
+        "hit": false,
+        "component_ranks": {
+          "dense": 10,
+          "bm25": 10
+        }
+      },
+      {
+        "id": "B-idr2026-p065-c000",
+        "page": 65,
+        "score": 0.028205128205128206,
+        "rank": 8,
+        "hit": false,
+        "component_ranks": {
+          "dense": 5,
+          "bm25": 18
+        }
+      },
+      {
+        "id": "B-idr2026-p063-c000",
+        "page": 63,
+        "score": 0.02782608695652174,
+        "rank": 9,
+        "hit": false,
+        "component_ranks": {
+          "dense": 15,
+          "bm25": 9
+        }
+      },
+      {
+        "id": "B-idr2026-p027-c000",
+        "page": 27,
+        "score": 0.02758751902587519,
+        "rank": 10,
+        "hit": false,
+        "component_ranks": {
+          "dense": 12,
+          "bm25": 13
+        }
+      }
+    ],
+    "first_hit_rank": 2,
+    "hit1": false,
+    "hit3": true,
+    "context_ids": [
+      "B-idr2026-p062-c001",
+      "B-idr2026-p062-c000",
+      "B-idr2026-p061-c000",
+      "B-idr2026-p034-c002",
+      "B-idr2026-p063-c001"
+    ],
+    "context_chars": 4678,
+    "context_hit": true
+  },
+  {
+    "query_id": "d13",
+    "question": "When Lao PDR returned to international markets in 2025, how much did it issue and at what interest rate?",
+    "filter": null,
+    "elapsed_ms": 201.36900000215974,
+    "results": [
+      {
+        "id": "B-idr2026-p066-c001",
+        "page": 66,
+        "score": 0.03278688524590164,
+        "rank": 1,
+        "hit": true,
+        "component_ranks": {
+          "dense": 1,
+          "bm25": 1
+        }
+      },
+      {
+        "id": "B-idr2026-p064-c001",
+        "page": 64,
+        "score": 0.031054405392392875,
+        "rank": 2,
+        "hit": false,
+        "component_ranks": {
+          "dense": 7,
+          "bm25": 2
+        }
+      },
+      {
+        "id": "B-idr2026-p052-c000",
+        "page": 52,
+        "score": 0.030017921146953404,
+        "rank": 3,
+        "hit": false,
+        "component_ranks": {
+          "dense": 2,
+          "bm25": 12
+        }
+      },
+      {
+        "id": "B-idr2026-p050-c000",
+        "page": 50,
+        "score": 0.028373015873015873,
+        "rank": 4,
+        "hit": false,
+        "component_ranks": {
+          "dense": 20,
+          "bm25": 3
+        }
+      },
+      {
+        "id": "B-idr2026-p067-c003",
+        "page": 67,
+        "score": 0.028083267871170464,
+        "rank": 5,
+        "hit": false,
+        "component_ranks": {
+          "dense": 16,
+          "bm25": 7
+        }
+      },
+      {
+        "id": "B-idr2026-p071-c000",
+        "page": 71,
+        "score": 0.027031963470319637,
+        "rank": 6,
+        "hit": false,
+        "component_ranks": {
+          "dense": 15,
+          "bm25": 13
+        }
+      },
+      {
+        "id": "B-idr2026-p073-c002",
+        "page": 73,
+        "score": 0.015873015873015872,
+        "rank": 7,
+        "hit": false,
+        "component_ranks": {
+          "dense": 3
+        }
+      },
+      {
+        "id": "B-idr2026-p051-c001",
+        "page": 51,
+        "score": 0.015625,
+        "rank": 8,
+        "hit": false,
+        "component_ranks": {
+          "bm25": 4
+        }
+      },
+      {
+        "id": "B-idr2026-p071-c002",
+        "page": 71,
+        "score": 0.015625,
+        "rank": 9,
+        "hit": false,
+        "component_ranks": {
+          "dense": 4
+        }
+      },
+      {
+        "id": "B-idr2026-p049-c003",
+        "page": 49,
+        "score": 0.015384615384615385,
+        "rank": 10,
+        "hit": false,
+        "component_ranks": {
+          "bm25": 5
+        }
+      }
+    ],
+    "first_hit_rank": 1,
+    "hit1": true,
+    "hit3": true,
+    "context_ids": [
+      "B-idr2026-p066-c001",
+      "B-idr2026-p064-c001",
+      "B-idr2026-p052-c000",
+      "B-idr2026-p050-c000",
+      "B-idr2026-p067-c003"
+    ],
+    "context_chars": 5192,
+    "context_hit": true
+  },
+  {
+    "query_id": "d14",
+    "question": "In the chapter on debt dynamics and policy implications (chapter 2), what were gross financing needs (GFNs) of IDA countries in 2025 as a share of GDP?",
+    "filter": {
+      "chapter": 2
+    },
+    "elapsed_ms": 241.86029999691527,
+    "results": [
+      {
+        "id": "B-idr2026-p086-c000",
+        "page": 86,
+        "score": 0.03252247488101534,
+        "rank": 1,
+        "hit": true,
+        "component_ranks": {
+          "dense": 1,
+          "bm25": 2
+        }
+      },
+      {
+        "id": "B-idr2026-p085-c001",
+        "page": 85,
+        "score": 0.03177805800756621,
+        "rank": 2,
+        "hit": false,
+        "component_ranks": {
+          "dense": 5,
+          "bm25": 1
+        }
+      },
+      {
+        "id": "B-idr2026-p075-c001",
+        "page": 75,
+        "score": 0.0315136476426799,
+        "rank": 3,
+        "hit": false,
+        "component_ranks": {
+          "dense": 2,
+          "bm25": 5
+        }
+      },
+      {
+        "id": "B-idr2026-p087-c000",
+        "page": 87,
+        "score": 0.030798389007344232,
+        "rank": 4,
+        "hit": false,
+        "component_ranks": {
+          "dense": 7,
+          "bm25": 3
+        }
+      },
+      {
+        "id": "B-idr2026-p079-c000",
+        "page": 79,
+        "score": 0.029631255487269532,
+        "rank": 5,
+        "hit": false,
+        "component_ranks": {
+          "dense": 8,
+          "bm25": 7
+        }
+      },
+      {
+        "id": "B-idr2026-p076-c000",
+        "page": 76,
+        "score": 0.028991596638655463,
+        "rank": 6,
+        "hit": false,
+        "component_ranks": {
+          "dense": 10,
+          "bm25": 8
+        }
+      },
+      {
+        "id": "B-idr2026-p084-c001",
+        "page": 84,
+        "score": 0.028612012987012988,
+        "rank": 7,
+        "hit": false,
+        "component_ranks": {
+          "dense": 4,
+          "bm25": 17
+        }
+      },
+      {
+        "id": "B-idr2026-p084-c000",
+        "page": 84,
+        "score": 0.02817460317460317,
+        "rank": 8,
+        "hit": false,
+        "component_ranks": {
+          "dense": 12,
+          "bm25": 10
+        }
+      },
+      {
+        "id": "B-idr2026-p075-c000",
+        "page": 75,
+        "score": 0.028125,
+        "rank": 9,
+        "hit": false,
+        "component_ranks": {
+          "dense": 20,
+          "bm25": 4
+        }
+      },
+      {
+        "id": "B-idr2026-p090-c000",
+        "page": 90,
+        "score": 0.02797339593114241,
+        "rank": 10,
+        "hit": false,
+        "component_ranks": {
+          "dense": 11,
+          "bm25": 12
+        }
+      }
+    ],
+    "first_hit_rank": 1,
+    "hit1": true,
+    "hit3": true,
+    "context_ids": [
+      "B-idr2026-p086-c000",
+      "B-idr2026-p085-c001",
+      "B-idr2026-p075-c001",
+      "B-idr2026-p087-c000",
+      "B-idr2026-p079-c000"
+    ],
+    "context_chars": 4164,
+    "context_hit": true
+  },
+  {
+    "query_id": "d15",
+    "question": "In the chapter on debt transparency (chapter 3), how many IDA-eligible countries published fully accessible public debt data in 2025?",
+    "filter": {
+      "chapter": 3
+    },
+    "elapsed_ms": 199.93269999395125,
+    "results": [
+      {
+        "id": "B-idr2026-p109-c002",
+        "page": 109,
+        "score": 0.03278688524590164,
+        "rank": 1,
+        "hit": true,
+        "component_ranks": {
+          "dense": 1,
+          "bm25": 1
+        }
+      },
+      {
+        "id": "B-idr2026-p110-c000",
+        "page": 110,
+        "score": 0.0315136476426799,
+        "rank": 2,
+        "hit": false,
+        "component_ranks": {
+          "dense": 2,
+          "bm25": 5
+        }
+      },
+      {
+        "id": "B-idr2026-p107-c001",
+        "page": 107,
+        "score": 0.031009615384615385,
+        "rank": 3,
+        "hit": false,
+        "component_ranks": {
+          "dense": 5,
+          "bm25": 4
+        }
+      },
+      {
+        "id": "B-idr2026-p117-c002",
+        "page": 117,
+        "score": 0.03036576949620428,
+        "rank": 4,
+        "hit": false,
+        "component_ranks": {
+          "dense": 9,
+          "bm25": 3
+        }
+      },
+      {
+        "id": "B-idr2026-p108-c001",
+        "page": 108,
+        "score": 0.029513888888888888,
+        "rank": 5,
+        "hit": false,
+        "component_ranks": {
+          "dense": 4,
+          "bm25": 12
+        }
+      },
+      {
+        "id": "B-idr2026-p109-c001",
+        "page": 109,
+        "score": 0.029411764705882353,
+        "rank": 6,
+        "hit": false,
+        "component_ranks": {
+          "dense": 8,
+          "bm25": 8
+        }
+      },
+      {
+        "id": "B-idr2026-p107-c000",
+        "page": 107,
+        "score": 0.028949545078577336,
+        "rank": 7,
+        "hit": false,
+        "component_ranks": {
+          "dense": 18,
+          "bm25": 2
+        }
+      },
+      {
+        "id": "B-idr2026-p124-c001",
+        "page": 124,
+        "score": 0.028370221327967807,
+        "rank": 8,
+        "hit": false,
+        "component_ranks": {
+          "dense": 10,
+          "bm25": 11
+        }
+      },
+      {
+        "id": "B-idr2026-p118-c002",
+        "page": 118,
+        "score": 0.027443609022556388,
+        "rank": 9,
+        "hit": false,
+        "component_ranks": {
+          "dense": 16,
+          "bm25": 10
+        }
+      },
+      {
+        "id": "B-idr2026-p111-c001",
+        "page": 111,
+        "score": 0.026500526500526502,
+        "rank": 10,
+        "hit": false,
+        "component_ranks": {
+          "dense": 17,
+          "bm25": 14
+        }
+      }
+    ],
+    "first_hit_rank": 1,
+    "hit1": true,
+    "hit3": true,
+    "context_ids": [
+      "B-idr2026-p109-c002",
+      "B-idr2026-p110-c000",
+      "B-idr2026-p107-c001",
+      "B-idr2026-p117-c002",
+      "B-idr2026-p108-c001"
+    ],
+    "context_chars": 5081,
+    "context_hit": true
+  },
+  {
+    "query_id": "d16",
+    "question": "What share of total public debt does domestic public debt now account for in many LMICs?",
+    "filter": null,
+    "elapsed_ms": 195.9196000098018,
+    "results": [
+      {
+        "id": "B-idr2026-p117-c002",
+        "page": 117,
+        "score": 0.03278688524590164,
+        "rank": 1,
+        "hit": true,
+        "component_ranks": {
+          "dense": 1,
+          "bm25": 1
+        }
+      },
+      {
+        "id": "B-idr2026-p084-c000",
+        "page": 84,
+        "score": 0.030303030303030304,
+        "rank": 2,
+        "hit": false,
+        "component_ranks": {
+          "dense": 6,
+          "bm25": 6
+        }
+      },
+      {
+        "id": "B-idr2026-p035-c000",
+        "page": 35,
+        "score": 0.029513888888888888,
+        "rank": 3,
+        "hit": false,
+        "component_ranks": {
+          "dense": 4,
+          "bm25": 12
+        }
+      },
+      {
+        "id": "B-idr2026-p090-c001",
+        "page": 90,
+        "score": 0.028782894736842105,
+        "rank": 4,
+        "hit": false,
+        "component_ranks": {
+          "dense": 16,
+          "bm25": 4
+        }
+      },
+      {
+        "id": "B-idr2026-p049-c001",
+        "page": 49,
+        "score": 0.028693528693528692,
+        "rank": 5,
+        "hit": false,
+        "component_ranks": {
+          "dense": 3,
+          "bm25": 18
+        }
+      },
+      {
+        "id": "B-idr2026-p030-c000",
+        "page": 30,
+        "score": 0.027071520029266508,
+        "rank": 6,
+        "hit": false,
+        "component_ranks": {
+          "dense": 11,
+          "bm25": 17
+        }
+      },
+      {
+        "id": "B-idr2026-p044-c001",
+        "page": 44,
+        "score": 0.02548701298701299,
+        "rank": 7,
+        "hit": false,
+        "component_ranks": {
+          "dense": 17,
+          "bm25": 20
+        }
+      },
+      {
+        "id": "B-idr2026-p084-c001",
+        "page": 84,
+        "score": 0.016129032258064516,
+        "rank": 8,
+        "hit": false,
+        "component_ranks": {
+          "dense": 2
+        }
+      },
+      {
+        "id": "B-idr2026-p118-c002",
+        "page": 118,
+        "score": 0.016129032258064516,
+        "rank": 9,
+        "hit": false,
+        "component_ranks": {
+          "bm25": 2
+        }
+      },
+      {
+        "id": "B-idr2026-p118-c000",
+        "page": 118,
+        "score": 0.015873015873015872,
+        "rank": 10,
+        "hit": false,
+        "component_ranks": {
+          "bm25": 3
+        }
+      }
+    ],
+    "first_hit_rank": 1,
+    "hit1": true,
+    "hit3": true,
+    "context_ids": [
+      "B-idr2026-p117-c002",
+      "B-idr2026-p084-c000",
+      "B-idr2026-p035-c000",
+      "B-idr2026-p090-c001",
+      "B-idr2026-p049-c001"
+    ],
+    "context_chars": 4734,
+    "context_hit": true
+  },
+  {
+    "query_id": "d17",
+    "question": "Why can the external debt a creditor records for a country be higher than the figure in IDS?",
+    "filter": null,
+    "elapsed_ms": 190.83900000259746,
+    "results": [
+      {
+        "id": "B-idr2026-p125-c001",
+        "page": 125,
+        "score": 0.032266458495966696,
+        "rank": 1,
+        "hit": true,
+        "component_ranks": {
+          "dense": 3,
+          "bm25": 1
+        }
+      },
+      {
+        "id": "B-idr2026-p115-c000",
+        "page": 115,
+        "score": 0.02976190476190476,
+        "rank": 2,
+        "hit": false,
+        "component_ranks": {
+          "dense": 12,
+          "bm25": 3
+        }
+      },
+      {
+        "id": "B-idr2026-p114-c000",
+        "page": 114,
+        "score": 0.01639344262295082,
+        "rank": 3,
+        "hit": false,
+        "component_ranks": {
+          "dense": 1
+        }
+      },
+      {
+        "id": "B-idr2026-p126-c002",
+        "page": 126,
+        "score": 0.016129032258064516,
+        "rank": 4,
+        "hit": false,
+        "component_ranks": {
+          "dense": 2
+        }
+      },
+      {
+        "id": "B-idr2026-p132-c001",
+        "page": 132,
+        "score": 0.016129032258064516,
+        "rank": 5,
+        "hit": false,
+        "component_ranks": {
+          "bm25": 2
+        }
+      },
+      {
+        "id": "B-idr2026-p112-c001",
+        "page": 112,
+        "score": 0.015625,
+        "rank": 6,
+        "hit": false,
+        "component_ranks": {
+          "bm25": 4
+        }
+      },
+      {
+        "id": "B-idr2026-p115-c002",
+        "page": 115,
+        "score": 0.015625,
+        "rank": 7,
+        "hit": false,
+        "component_ranks": {
+          "dense": 4
+        }
+      },
+      {
+        "id": "B-idr2026-p121-c003",
+        "page": 121,
+        "score": 0.015384615384615385,
+        "rank": 8,
+        "hit": false,
+        "component_ranks": {
+          "dense": 5
+        }
+      },
+      {
+        "id": "B-idr2026-p128-c001",
+        "page": 128,
+        "score": 0.015384615384615385,
+        "rank": 9,
+        "hit": false,
+        "component_ranks": {
+          "bm25": 5
+        }
+      },
+      {
+        "id": "B-idr2026-p066-c001",
+        "page": 66,
+        "score": 0.015151515151515152,
+        "rank": 10,
+        "hit": false,
+        "component_ranks": {
+          "bm25": 6
+        }
+      }
+    ],
+    "first_hit_rank": 1,
+    "hit1": true,
+    "hit3": true,
+    "context_ids": [
+      "B-idr2026-p125-c001",
+      "B-idr2026-p115-c000",
+      "B-idr2026-p114-c000",
+      "B-idr2026-p126-c002",
+      "B-idr2026-p132-c001"
+    ],
+    "context_chars": 4240,
+    "context_hit": true
+  }
+]

@@ -1,0 +1,26 @@
+{
+  "page": 4,
+  "model": "gemini-3.5-flash",
+  "seconds": 4.9,
+  "tokens_in": 1559,
+  "tokens_out": 862,
+  "visuals": [
+    {
+      "label": "",
+      "title": "Scan to see this book and prior editions",
+      "kind": "image",
+      "region": [
+        0.443,
+        0.789,
+        0.556,
+        0.875
+      ],
+      "units": null,
+      "description": "A QR code positioned above the text 'Scan to see this book and prior editions.', providing a mobile link to access the book and its previous editions online.",
+      "data": [],
+      "numbers_total": 0,
+      "numbers_in_text_layer": 0
+    }
+  ],
+  "parse_ok": true
+}

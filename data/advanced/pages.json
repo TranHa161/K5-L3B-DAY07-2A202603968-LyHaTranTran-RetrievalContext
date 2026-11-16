@@ -1,0 +1,4156 @@
+[
+  {
+    "page": 1,
+    "printed_page": null,
+    "chars": 30,
+    "drawings": 780,
+    "images": 1,
+    "labels": [],
+    "chapter": 0,
+    "chapter_title": "Front matter",
+    "has_visual": true,
+    "included": false,
+    "reason": "cover (decorative image + title only)"
+  },
+  {
+    "page": 2,
+    "printed_page": null,
+    "chars": 0,
+    "drawings": 0,
+    "images": 0,
+    "labels": [],
+    "chapter": 0,
+    "chapter_title": "Front matter",
+    "has_visual": false,
+    "included": false,
+    "reason": "blank or section divider (< 40 characters, no graphics)"
+  },
+  {
+    "page": 3,
+    "printed_page": null,
+    "chars": 154,
+    "drawings": 0,
+    "images": 0,
+    "labels": [],
+    "chapter": 0,
+    "chapter_title": "Front matter",
+    "has_visual": false,
+    "included": true
+  },
+  {
+    "page": 4,
+    "printed_page": null,
+    "chars": 206,
+    "drawings": 243,
+    "images": 0,
+    "labels": [],
+    "chapter": 0,
+    "chapter_title": "Front matter",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 5,
+    "printed_page": null,
+    "chars": 61,
+    "drawings": 1,
+    "images": 0,
+    "labels": [],
+    "chapter": 0,
+    "chapter_title": "Front matter",
+    "has_visual": false,
+    "included": true
+  },
+  {
+    "page": 6,
+    "printed_page": null,
+    "chars": 4499,
+    "drawings": 0,
+    "images": 1,
+    "labels": [],
+    "chapter": 0,
+    "chapter_title": "Front matter",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 7,
+    "printed_page": null,
+    "chars": 1902,
+    "drawings": 2,
+    "images": 0,
+    "labels": [],
+    "chapter": 0,
+    "chapter_title": "Front matter",
+    "has_visual": false,
+    "included": false,
+    "reason": "table of contents / list of figures (navigation, duplicates titles)"
+  },
+  {
+    "page": 8,
+    "printed_page": null,
+    "chars": 1650,
+    "drawings": 2,
+    "images": 0,
+    "labels": [],
+    "chapter": 0,
+    "chapter_title": "Front matter",
+    "has_visual": false,
+    "included": false,
+    "reason": "table of contents / list of figures (navigation, duplicates titles)"
+  },
+  {
+    "page": 9,
+    "printed_page": null,
+    "chars": 1884,
+    "drawings": 2,
+    "images": 0,
+    "labels": [],
+    "chapter": 0,
+    "chapter_title": "Front matter",
+    "has_visual": false,
+    "included": false,
+    "reason": "table of contents / list of figures (navigation, duplicates titles)"
+  },
+  {
+    "page": 10,
+    "printed_page": null,
+    "chars": 2502,
+    "drawings": 2,
+    "images": 0,
+    "labels": [],
+    "chapter": 0,
+    "chapter_title": "Front matter",
+    "has_visual": false,
+    "included": false,
+    "reason": "table of contents / list of figures (navigation, duplicates titles)"
+  },
+  {
+    "page": 11,
+    "printed_page": null,
+    "chars": 1204,
+    "drawings": 2,
+    "images": 0,
+    "labels": [],
+    "chapter": 0,
+    "chapter_title": "Front matter",
+    "has_visual": false,
+    "included": false,
+    "reason": "table of contents / list of figures (navigation, duplicates titles)"
+  },
+  {
+    "page": 12,
+    "printed_page": null,
+    "chars": 0,
+    "drawings": 0,
+    "images": 0,
+    "labels": [],
+    "chapter": 0,
+    "chapter_title": "Front matter",
+    "has_visual": false,
+    "included": false,
+    "reason": "blank or section divider (< 40 characters, no graphics)"
+  },
+  {
+    "page": 13,
+    "printed_page": null,
+    "chars": 2371,
+    "drawings": 2,
+    "images": 0,
+    "labels": [],
+    "chapter": 0,
+    "chapter_title": "Front matter",
+    "has_visual": false,
+    "included": true
+  },
+  {
+    "page": 14,
+    "printed_page": null,
+    "chars": 2736,
+    "drawings": 2,
+    "images": 0,
+    "labels": [],
+    "chapter": 0,
+    "chapter_title": "Front matter",
+    "has_visual": false,
+    "included": true
+  },
+  {
+    "page": 15,
+    "printed_page": null,
+    "chars": 359,
+    "drawings": 2,
+    "images": 0,
+    "labels": [],
+    "chapter": 0,
+    "chapter_title": "Front matter",
+    "has_visual": false,
+    "included": true
+  },
+  {
+    "page": 16,
+    "printed_page": null,
+    "chars": 0,
+    "drawings": 0,
+    "images": 0,
+    "labels": [],
+    "chapter": 0,
+    "chapter_title": "Front matter",
+    "has_visual": false,
+    "included": false,
+    "reason": "blank or section divider (< 40 characters, no graphics)"
+  },
+  {
+    "page": 17,
+    "printed_page": null,
+    "chars": 2098,
+    "drawings": 2,
+    "images": 0,
+    "labels": [],
+    "chapter": 0,
+    "chapter_title": "Front matter",
+    "has_visual": false,
+    "included": true
+  },
+  {
+    "page": 18,
+    "printed_page": null,
+    "chars": 0,
+    "drawings": 0,
+    "images": 0,
+    "labels": [],
+    "chapter": 0,
+    "chapter_title": "Front matter",
+    "has_visual": false,
+    "included": false,
+    "reason": "blank or section divider (< 40 characters, no graphics)"
+  },
+  {
+    "page": 19,
+    "printed_page": null,
+    "chars": 2527,
+    "drawings": 2,
+    "images": 0,
+    "labels": [],
+    "chapter": 0,
+    "chapter_title": "Front matter",
+    "has_visual": false,
+    "included": true
+  },
+  {
+    "page": 20,
+    "printed_page": null,
+    "chars": 2662,
+    "drawings": 2,
+    "images": 0,
+    "labels": [],
+    "chapter": 0,
+    "chapter_title": "Front matter",
+    "has_visual": false,
+    "included": true
+  },
+  {
+    "page": 21,
+    "printed_page": null,
+    "chars": 2330,
+    "drawings": 2,
+    "images": 0,
+    "labels": [],
+    "chapter": 0,
+    "chapter_title": "Front matter",
+    "has_visual": false,
+    "included": true
+  },
+  {
+    "page": 22,
+    "printed_page": null,
+    "chars": 0,
+    "drawings": 0,
+    "images": 0,
+    "labels": [],
+    "chapter": 0,
+    "chapter_title": "Front matter",
+    "has_visual": false,
+    "included": false,
+    "reason": "blank or section divider (< 40 characters, no graphics)"
+  },
+  {
+    "page": 23,
+    "printed_page": null,
+    "chars": 1218,
+    "drawings": 3,
+    "images": 0,
+    "labels": [],
+    "chapter": 0,
+    "chapter_title": "Front matter",
+    "has_visual": false,
+    "included": true
+  },
+  {
+    "page": 24,
+    "printed_page": null,
+    "chars": 442,
+    "drawings": 3,
+    "images": 0,
+    "labels": [],
+    "chapter": 0,
+    "chapter_title": "Front matter",
+    "has_visual": false,
+    "included": true
+  },
+  {
+    "page": 25,
+    "printed_page": 1,
+    "chars": 15,
+    "drawings": 3,
+    "images": 0,
+    "labels": [],
+    "chapter": 0,
+    "chapter_title": "Front matter",
+    "has_visual": false,
+    "included": false,
+    "reason": "blank or section divider (< 40 characters, no graphics)"
+  },
+  {
+    "page": 26,
+    "printed_page": 2,
+    "chars": 0,
+    "drawings": 0,
+    "images": 0,
+    "labels": [],
+    "chapter": 0,
+    "chapter_title": "Front matter",
+    "has_visual": false,
+    "included": false,
+    "reason": "blank or section divider (< 40 characters, no graphics)"
+  },
+  {
+    "page": 27,
+    "printed_page": 3,
+    "chars": 1664,
+    "drawings": 2,
+    "images": 0,
+    "labels": [],
+    "chapter": 1,
+    "chapter_title": "Analysis of External Debt Stocks and Debt Flows as of End-2025",
+    "has_visual": false,
+    "included": true
+  },
+  {
+    "page": 28,
+    "printed_page": 4,
+    "chars": 3078,
+    "drawings": 40,
+    "images": 0,
+    "labels": [
+      "Box 1.1",
+      "Table 1.1"
+    ],
+    "chapter": 1,
+    "chapter_title": "Analysis of External Debt Stocks and Debt Flows as of End-2025",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 29,
+    "printed_page": 5,
+    "chars": 2831,
+    "drawings": 3,
+    "images": 0,
+    "labels": [
+      "Box 1.1"
+    ],
+    "chapter": 1,
+    "chapter_title": "Analysis of External Debt Stocks and Debt Flows as of End-2025",
+    "has_visual": false,
+    "included": true
+  },
+  {
+    "page": 30,
+    "printed_page": 6,
+    "chars": 1870,
+    "drawings": 19,
+    "images": 0,
+    "labels": [
+      "Figure 1.1"
+    ],
+    "chapter": 1,
+    "chapter_title": "Analysis of External Debt Stocks and Debt Flows as of End-2025",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 31,
+    "printed_page": 7,
+    "chars": 2666,
+    "drawings": 4,
+    "images": 0,
+    "labels": [
+      "Box 1.2"
+    ],
+    "chapter": 1,
+    "chapter_title": "Analysis of External Debt Stocks and Debt Flows as of End-2025",
+    "has_visual": false,
+    "included": true
+  },
+  {
+    "page": 32,
+    "printed_page": 8,
+    "chars": 2653,
+    "drawings": 3,
+    "images": 0,
+    "labels": [
+      "Box 1.2"
+    ],
+    "chapter": 1,
+    "chapter_title": "Analysis of External Debt Stocks and Debt Flows as of End-2025",
+    "has_visual": false,
+    "included": true
+  },
+  {
+    "page": 33,
+    "printed_page": 9,
+    "chars": 2891,
+    "drawings": 4,
+    "images": 0,
+    "labels": [
+      "Box 1.2"
+    ],
+    "chapter": 1,
+    "chapter_title": "Analysis of External Debt Stocks and Debt Flows as of End-2025",
+    "has_visual": false,
+    "included": true
+  },
+  {
+    "page": 34,
+    "printed_page": 10,
+    "chars": 3168,
+    "drawings": 2,
+    "images": 0,
+    "labels": [],
+    "chapter": 1,
+    "chapter_title": "Analysis of External Debt Stocks and Debt Flows as of End-2025",
+    "has_visual": false,
+    "included": true
+  },
+  {
+    "page": 35,
+    "printed_page": 11,
+    "chars": 2177,
+    "drawings": 27,
+    "images": 0,
+    "labels": [
+      "Figure 1.2"
+    ],
+    "chapter": 1,
+    "chapter_title": "Analysis of External Debt Stocks and Debt Flows as of End-2025",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 36,
+    "printed_page": 12,
+    "chars": 1992,
+    "drawings": 48,
+    "images": 0,
+    "labels": [
+      "Box 1.3",
+      "Figure 1.3"
+    ],
+    "chapter": 1,
+    "chapter_title": "Analysis of External Debt Stocks and Debt Flows as of End-2025",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 37,
+    "printed_page": 13,
+    "chars": 2153,
+    "drawings": 28,
+    "images": 0,
+    "labels": [
+      "Box 1.3",
+      "Figure B1.3.1"
+    ],
+    "chapter": 1,
+    "chapter_title": "Analysis of External Debt Stocks and Debt Flows as of End-2025",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 38,
+    "printed_page": 14,
+    "chars": 2784,
+    "drawings": 3,
+    "images": 0,
+    "labels": [
+      "Box 1.4"
+    ],
+    "chapter": 1,
+    "chapter_title": "Analysis of External Debt Stocks and Debt Flows as of End-2025",
+    "has_visual": false,
+    "included": true
+  },
+  {
+    "page": 39,
+    "printed_page": 15,
+    "chars": 2147,
+    "drawings": 36,
+    "images": 0,
+    "labels": [
+      "Box 1.4",
+      "Figure B1.4.1"
+    ],
+    "chapter": 1,
+    "chapter_title": "Analysis of External Debt Stocks and Debt Flows as of End-2025",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 40,
+    "printed_page": 16,
+    "chars": 2725,
+    "drawings": 3,
+    "images": 0,
+    "labels": [
+      "Box 1.4"
+    ],
+    "chapter": 1,
+    "chapter_title": "Analysis of External Debt Stocks and Debt Flows as of End-2025",
+    "has_visual": false,
+    "included": true
+  },
+  {
+    "page": 41,
+    "printed_page": 17,
+    "chars": 2170,
+    "drawings": 43,
+    "images": 0,
+    "labels": [
+      "Figure 1.4"
+    ],
+    "chapter": 1,
+    "chapter_title": "Analysis of External Debt Stocks and Debt Flows as of End-2025",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 42,
+    "printed_page": 18,
+    "chars": 3018,
+    "drawings": 2,
+    "images": 0,
+    "labels": [],
+    "chapter": 1,
+    "chapter_title": "Analysis of External Debt Stocks and Debt Flows as of End-2025",
+    "has_visual": false,
+    "included": true
+  },
+  {
+    "page": 43,
+    "printed_page": 19,
+    "chars": 2009,
+    "drawings": 53,
+    "images": 0,
+    "labels": [
+      "Figure 1.5"
+    ],
+    "chapter": 1,
+    "chapter_title": "Analysis of External Debt Stocks and Debt Flows as of End-2025",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 44,
+    "printed_page": 20,
+    "chars": 3032,
+    "drawings": 2,
+    "images": 0,
+    "labels": [],
+    "chapter": 1,
+    "chapter_title": "Analysis of External Debt Stocks and Debt Flows as of End-2025",
+    "has_visual": false,
+    "included": true
+  },
+  {
+    "page": 45,
+    "printed_page": 21,
+    "chars": 2959,
+    "drawings": 2,
+    "images": 0,
+    "labels": [],
+    "chapter": 1,
+    "chapter_title": "Analysis of External Debt Stocks and Debt Flows as of End-2025",
+    "has_visual": false,
+    "included": true
+  },
+  {
+    "page": 46,
+    "printed_page": 22,
+    "chars": 2074,
+    "drawings": 38,
+    "images": 0,
+    "labels": [
+      "Figure 1.6"
+    ],
+    "chapter": 1,
+    "chapter_title": "Analysis of External Debt Stocks and Debt Flows as of End-2025",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 47,
+    "printed_page": 23,
+    "chars": 2178,
+    "drawings": 34,
+    "images": 0,
+    "labels": [
+      "Figure 1.7"
+    ],
+    "chapter": 1,
+    "chapter_title": "Analysis of External Debt Stocks and Debt Flows as of End-2025",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 48,
+    "printed_page": 24,
+    "chars": 1809,
+    "drawings": 44,
+    "images": 0,
+    "labels": [
+      "Figure 1.8"
+    ],
+    "chapter": 1,
+    "chapter_title": "Analysis of External Debt Stocks and Debt Flows as of End-2025",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 49,
+    "printed_page": 25,
+    "chars": 3158,
+    "drawings": 2,
+    "images": 0,
+    "labels": [],
+    "chapter": 1,
+    "chapter_title": "Analysis of External Debt Stocks and Debt Flows as of End-2025",
+    "has_visual": false,
+    "included": true
+  },
+  {
+    "page": 50,
+    "printed_page": 26,
+    "chars": 2115,
+    "drawings": 74,
+    "images": 0,
+    "labels": [
+      "Figure 1.9"
+    ],
+    "chapter": 1,
+    "chapter_title": "Analysis of External Debt Stocks and Debt Flows as of End-2025",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 51,
+    "printed_page": 27,
+    "chars": 2369,
+    "drawings": 78,
+    "images": 0,
+    "labels": [
+      "Figure 1.10"
+    ],
+    "chapter": 1,
+    "chapter_title": "Analysis of External Debt Stocks and Debt Flows as of End-2025",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 52,
+    "printed_page": 28,
+    "chars": 1468,
+    "drawings": 34,
+    "images": 0,
+    "labels": [
+      "Box 1.5",
+      "Figure 1.11"
+    ],
+    "chapter": 1,
+    "chapter_title": "Analysis of External Debt Stocks and Debt Flows as of End-2025",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 53,
+    "printed_page": 29,
+    "chars": 3038,
+    "drawings": 3,
+    "images": 0,
+    "labels": [
+      "Box 1.5"
+    ],
+    "chapter": 1,
+    "chapter_title": "Analysis of External Debt Stocks and Debt Flows as of End-2025",
+    "has_visual": false,
+    "included": true
+  },
+  {
+    "page": 54,
+    "printed_page": 30,
+    "chars": 2735,
+    "drawings": 3,
+    "images": 0,
+    "labels": [
+      "Box 1.5"
+    ],
+    "chapter": 1,
+    "chapter_title": "Analysis of External Debt Stocks and Debt Flows as of End-2025",
+    "has_visual": false,
+    "included": true
+  },
+  {
+    "page": 55,
+    "printed_page": 31,
+    "chars": 2083,
+    "drawings": 102,
+    "images": 0,
+    "labels": [
+      "Figure 1.12"
+    ],
+    "chapter": 1,
+    "chapter_title": "Analysis of External Debt Stocks and Debt Flows as of End-2025",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 56,
+    "printed_page": 32,
+    "chars": 1666,
+    "drawings": 50,
+    "images": 0,
+    "labels": [
+      "Figure 1.13"
+    ],
+    "chapter": 1,
+    "chapter_title": "Analysis of External Debt Stocks and Debt Flows as of End-2025",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 57,
+    "printed_page": 33,
+    "chars": 1910,
+    "drawings": 46,
+    "images": 0,
+    "labels": [
+      "Figure 1.14"
+    ],
+    "chapter": 1,
+    "chapter_title": "Analysis of External Debt Stocks and Debt Flows as of End-2025",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 58,
+    "printed_page": 34,
+    "chars": 1840,
+    "drawings": 47,
+    "images": 0,
+    "labels": [
+      "Figure 1.15"
+    ],
+    "chapter": 1,
+    "chapter_title": "Analysis of External Debt Stocks and Debt Flows as of End-2025",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 59,
+    "printed_page": 35,
+    "chars": 2967,
+    "drawings": 2,
+    "images": 0,
+    "labels": [],
+    "chapter": 1,
+    "chapter_title": "Analysis of External Debt Stocks and Debt Flows as of End-2025",
+    "has_visual": false,
+    "included": true
+  },
+  {
+    "page": 60,
+    "printed_page": 36,
+    "chars": 2317,
+    "drawings": 36,
+    "images": 0,
+    "labels": [
+      "Figure 1.16"
+    ],
+    "chapter": 1,
+    "chapter_title": "Analysis of External Debt Stocks and Debt Flows as of End-2025",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 61,
+    "printed_page": 37,
+    "chars": 2260,
+    "drawings": 38,
+    "images": 0,
+    "labels": [
+      "Figure 1.17"
+    ],
+    "chapter": 1,
+    "chapter_title": "Analysis of External Debt Stocks and Debt Flows as of End-2025",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 62,
+    "printed_page": 38,
+    "chars": 2105,
+    "drawings": 36,
+    "images": 0,
+    "labels": [
+      "Figure 1.18"
+    ],
+    "chapter": 1,
+    "chapter_title": "Analysis of External Debt Stocks and Debt Flows as of End-2025",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 63,
+    "printed_page": 39,
+    "chars": 2755,
+    "drawings": 39,
+    "images": 0,
+    "labels": [
+      "Table 1.2"
+    ],
+    "chapter": 1,
+    "chapter_title": "Analysis of External Debt Stocks and Debt Flows as of End-2025",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 64,
+    "printed_page": 40,
+    "chars": 2784,
+    "drawings": 2,
+    "images": 0,
+    "labels": [],
+    "chapter": 1,
+    "chapter_title": "Analysis of External Debt Stocks and Debt Flows as of End-2025",
+    "has_visual": false,
+    "included": true
+  },
+  {
+    "page": 65,
+    "printed_page": 41,
+    "chars": 2213,
+    "drawings": 50,
+    "images": 0,
+    "labels": [
+      "Figure 1.19"
+    ],
+    "chapter": 1,
+    "chapter_title": "Analysis of External Debt Stocks and Debt Flows as of End-2025",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 66,
+    "printed_page": 42,
+    "chars": 1947,
+    "drawings": 147,
+    "images": 0,
+    "labels": [
+      "Figure 1.20"
+    ],
+    "chapter": 1,
+    "chapter_title": "Analysis of External Debt Stocks and Debt Flows as of End-2025",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 67,
+    "printed_page": 43,
+    "chars": 3221,
+    "drawings": 2,
+    "images": 0,
+    "labels": [],
+    "chapter": 1,
+    "chapter_title": "Analysis of External Debt Stocks and Debt Flows as of End-2025",
+    "has_visual": false,
+    "included": true
+  },
+  {
+    "page": 68,
+    "printed_page": 44,
+    "chars": 1828,
+    "drawings": 37,
+    "images": 0,
+    "labels": [
+      "Figure 1.21"
+    ],
+    "chapter": 1,
+    "chapter_title": "Analysis of External Debt Stocks and Debt Flows as of End-2025",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 69,
+    "printed_page": 45,
+    "chars": 2845,
+    "drawings": 3,
+    "images": 0,
+    "labels": [],
+    "chapter": 1,
+    "chapter_title": "Analysis of External Debt Stocks and Debt Flows as of End-2025",
+    "has_visual": false,
+    "included": true
+  },
+  {
+    "page": 70,
+    "printed_page": 46,
+    "chars": 3052,
+    "drawings": 2,
+    "images": 0,
+    "labels": [],
+    "chapter": 1,
+    "chapter_title": "Analysis of External Debt Stocks and Debt Flows as of End-2025",
+    "has_visual": false,
+    "included": true
+  },
+  {
+    "page": 71,
+    "printed_page": 47,
+    "chars": 2787,
+    "drawings": 2,
+    "images": 0,
+    "labels": [],
+    "chapter": 1,
+    "chapter_title": "Analysis of External Debt Stocks and Debt Flows as of End-2025",
+    "has_visual": false,
+    "included": true
+  },
+  {
+    "page": 72,
+    "printed_page": 48,
+    "chars": 1839,
+    "drawings": 9,
+    "images": 0,
+    "labels": [
+      "Figure 1.22"
+    ],
+    "chapter": 1,
+    "chapter_title": "Analysis of External Debt Stocks and Debt Flows as of End-2025",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 73,
+    "printed_page": 49,
+    "chars": 2610,
+    "drawings": 2,
+    "images": 0,
+    "labels": [],
+    "chapter": 1,
+    "chapter_title": "Analysis of External Debt Stocks and Debt Flows as of End-2025",
+    "has_visual": false,
+    "included": true
+  },
+  {
+    "page": 74,
+    "printed_page": 50,
+    "chars": 1405,
+    "drawings": 2,
+    "images": 0,
+    "labels": [],
+    "chapter": 1,
+    "chapter_title": "Analysis of External Debt Stocks and Debt Flows as of End-2025",
+    "has_visual": false,
+    "included": true
+  },
+  {
+    "page": 75,
+    "printed_page": 51,
+    "chars": 2416,
+    "drawings": 3,
+    "images": 0,
+    "labels": [],
+    "chapter": 2,
+    "chapter_title": "Debt Dynamics: Policy Implications",
+    "has_visual": false,
+    "included": true
+  },
+  {
+    "page": 76,
+    "printed_page": 52,
+    "chars": 1815,
+    "drawings": 27,
+    "images": 0,
+    "labels": [
+      "Figure 2.1"
+    ],
+    "chapter": 2,
+    "chapter_title": "Debt Dynamics: Policy Implications",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 77,
+    "printed_page": 53,
+    "chars": 1900,
+    "drawings": 91,
+    "images": 0,
+    "labels": [
+      "Figure 2.2"
+    ],
+    "chapter": 2,
+    "chapter_title": "Debt Dynamics: Policy Implications",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 78,
+    "printed_page": 54,
+    "chars": 2062,
+    "drawings": 65,
+    "images": 0,
+    "labels": [
+      "Figure 2.3"
+    ],
+    "chapter": 2,
+    "chapter_title": "Debt Dynamics: Policy Implications",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 79,
+    "printed_page": 55,
+    "chars": 2881,
+    "drawings": 2,
+    "images": 0,
+    "labels": [],
+    "chapter": 2,
+    "chapter_title": "Debt Dynamics: Policy Implications",
+    "has_visual": false,
+    "included": true
+  },
+  {
+    "page": 80,
+    "printed_page": 56,
+    "chars": 1797,
+    "drawings": 12,
+    "images": 0,
+    "labels": [
+      "Figure 2.4"
+    ],
+    "chapter": 2,
+    "chapter_title": "Debt Dynamics: Policy Implications",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 81,
+    "printed_page": 57,
+    "chars": 1754,
+    "drawings": 20,
+    "images": 0,
+    "labels": [
+      "Figure 2.5"
+    ],
+    "chapter": 2,
+    "chapter_title": "Debt Dynamics: Policy Implications",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 82,
+    "printed_page": 58,
+    "chars": 3148,
+    "drawings": 2,
+    "images": 0,
+    "labels": [],
+    "chapter": 2,
+    "chapter_title": "Debt Dynamics: Policy Implications",
+    "has_visual": false,
+    "included": true
+  },
+  {
+    "page": 83,
+    "printed_page": 59,
+    "chars": 1404,
+    "drawings": 28,
+    "images": 0,
+    "labels": [
+      "Figure 2.6"
+    ],
+    "chapter": 2,
+    "chapter_title": "Debt Dynamics: Policy Implications",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 84,
+    "printed_page": 60,
+    "chars": 1967,
+    "drawings": 111,
+    "images": 0,
+    "labels": [
+      "Figure 2.7"
+    ],
+    "chapter": 2,
+    "chapter_title": "Debt Dynamics: Policy Implications",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 85,
+    "printed_page": 61,
+    "chars": 2263,
+    "drawings": 15,
+    "images": 0,
+    "labels": [
+      "Figure 2.8"
+    ],
+    "chapter": 2,
+    "chapter_title": "Debt Dynamics: Policy Implications",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 86,
+    "printed_page": 62,
+    "chars": 2945,
+    "drawings": 3,
+    "images": 0,
+    "labels": [
+      "Box 2.1"
+    ],
+    "chapter": 2,
+    "chapter_title": "Debt Dynamics: Policy Implications",
+    "has_visual": false,
+    "included": true
+  },
+  {
+    "page": 87,
+    "printed_page": 63,
+    "chars": 2220,
+    "drawings": 145,
+    "images": 0,
+    "labels": [
+      "Figure 2.9"
+    ],
+    "chapter": 2,
+    "chapter_title": "Debt Dynamics: Policy Implications",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 88,
+    "printed_page": 64,
+    "chars": 2233,
+    "drawings": 85,
+    "images": 0,
+    "labels": [
+      "Figure 2.10"
+    ],
+    "chapter": 2,
+    "chapter_title": "Debt Dynamics: Policy Implications",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 89,
+    "printed_page": 65,
+    "chars": 2404,
+    "drawings": 3,
+    "images": 0,
+    "labels": [
+      "Box 2.2"
+    ],
+    "chapter": 2,
+    "chapter_title": "Debt Dynamics: Policy Implications",
+    "has_visual": false,
+    "included": true
+  },
+  {
+    "page": 90,
+    "printed_page": 66,
+    "chars": 2064,
+    "drawings": 114,
+    "images": 0,
+    "labels": [
+      "Figure 2.11"
+    ],
+    "chapter": 2,
+    "chapter_title": "Debt Dynamics: Policy Implications",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 91,
+    "printed_page": 67,
+    "chars": 2272,
+    "drawings": 98,
+    "images": 0,
+    "labels": [
+      "Figure 2.12"
+    ],
+    "chapter": 2,
+    "chapter_title": "Debt Dynamics: Policy Implications",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 92,
+    "printed_page": 68,
+    "chars": 2916,
+    "drawings": 3,
+    "images": 0,
+    "labels": [],
+    "chapter": 2,
+    "chapter_title": "Debt Dynamics: Policy Implications",
+    "has_visual": false,
+    "included": true
+  },
+  {
+    "page": 93,
+    "printed_page": 69,
+    "chars": 2583,
+    "drawings": 3,
+    "images": 0,
+    "labels": [
+      "Box 2.3"
+    ],
+    "chapter": 2,
+    "chapter_title": "Debt Dynamics: Policy Implications",
+    "has_visual": false,
+    "included": true
+  },
+  {
+    "page": 94,
+    "printed_page": 70,
+    "chars": 1054,
+    "drawings": 23,
+    "images": 0,
+    "labels": [
+      "Box 2.3",
+      "Figure B2.3.1",
+      "Figure B2.3.2"
+    ],
+    "chapter": 2,
+    "chapter_title": "Debt Dynamics: Policy Implications",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 95,
+    "printed_page": 71,
+    "chars": 2788,
+    "drawings": 2,
+    "images": 0,
+    "labels": [],
+    "chapter": 2,
+    "chapter_title": "Debt Dynamics: Policy Implications",
+    "has_visual": false,
+    "included": true
+  },
+  {
+    "page": 96,
+    "printed_page": 72,
+    "chars": 2873,
+    "drawings": 4,
+    "images": 0,
+    "labels": [
+      "Figure 2.14"
+    ],
+    "chapter": 2,
+    "chapter_title": "Debt Dynamics: Policy Implications",
+    "has_visual": false,
+    "included": true
+  },
+  {
+    "page": 97,
+    "printed_page": 73,
+    "chars": 1729,
+    "drawings": 268,
+    "images": 0,
+    "labels": [
+      "Figure 2.13"
+    ],
+    "chapter": 2,
+    "chapter_title": "Debt Dynamics: Policy Implications",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 98,
+    "printed_page": 74,
+    "chars": 1187,
+    "drawings": 628,
+    "images": 0,
+    "labels": [
+      "Figure 2.14"
+    ],
+    "chapter": 2,
+    "chapter_title": "Debt Dynamics: Policy Implications",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 99,
+    "printed_page": 75,
+    "chars": 2815,
+    "drawings": 249,
+    "images": 0,
+    "labels": [
+      "Figure 2.14"
+    ],
+    "chapter": 2,
+    "chapter_title": "Debt Dynamics: Policy Implications",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 100,
+    "printed_page": 76,
+    "chars": 1712,
+    "drawings": 435,
+    "images": 0,
+    "labels": [
+      "Figure 2.15"
+    ],
+    "chapter": 2,
+    "chapter_title": "Debt Dynamics: Policy Implications",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 101,
+    "printed_page": 77,
+    "chars": 2371,
+    "drawings": 221,
+    "images": 0,
+    "labels": [
+      "Figure 2.15"
+    ],
+    "chapter": 2,
+    "chapter_title": "Debt Dynamics: Policy Implications",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 102,
+    "printed_page": 78,
+    "chars": 2047,
+    "drawings": 512,
+    "images": 0,
+    "labels": [
+      "Figure 2.16"
+    ],
+    "chapter": 2,
+    "chapter_title": "Debt Dynamics: Policy Implications",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 103,
+    "printed_page": 79,
+    "chars": 3168,
+    "drawings": 2,
+    "images": 0,
+    "labels": [],
+    "chapter": 2,
+    "chapter_title": "Debt Dynamics: Policy Implications",
+    "has_visual": false,
+    "included": true
+  },
+  {
+    "page": 104,
+    "printed_page": 80,
+    "chars": 3972,
+    "drawings": 2,
+    "images": 0,
+    "labels": [],
+    "chapter": 2,
+    "chapter_title": "Debt Dynamics: Policy Implications",
+    "has_visual": false,
+    "included": true
+  },
+  {
+    "page": 105,
+    "printed_page": 81,
+    "chars": 2512,
+    "drawings": 2,
+    "images": 0,
+    "labels": [],
+    "chapter": 2,
+    "chapter_title": "Debt Dynamics: Policy Implications",
+    "has_visual": false,
+    "included": true
+  },
+  {
+    "page": 106,
+    "printed_page": 82,
+    "chars": 0,
+    "drawings": 0,
+    "images": 0,
+    "labels": [],
+    "chapter": 0,
+    "chapter_title": "Front matter",
+    "has_visual": false,
+    "included": false,
+    "reason": "blank or section divider (< 40 characters, no graphics)"
+  },
+  {
+    "page": 107,
+    "printed_page": 83,
+    "chars": 2319,
+    "drawings": 3,
+    "images": 0,
+    "labels": [],
+    "chapter": 3,
+    "chapter_title": "Advancing Debt Transparency",
+    "has_visual": false,
+    "included": true
+  },
+  {
+    "page": 108,
+    "printed_page": 84,
+    "chars": 3142,
+    "drawings": 2,
+    "images": 0,
+    "labels": [],
+    "chapter": 3,
+    "chapter_title": "Advancing Debt Transparency",
+    "has_visual": false,
+    "included": true
+  },
+  {
+    "page": 109,
+    "printed_page": 85,
+    "chars": 2946,
+    "drawings": 2,
+    "images": 0,
+    "labels": [],
+    "chapter": 3,
+    "chapter_title": "Advancing Debt Transparency",
+    "has_visual": false,
+    "included": true
+  },
+  {
+    "page": 110,
+    "printed_page": 86,
+    "chars": 1668,
+    "drawings": 29,
+    "images": 0,
+    "labels": [
+      "Figure 3.1"
+    ],
+    "chapter": 3,
+    "chapter_title": "Advancing Debt Transparency",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 111,
+    "printed_page": 87,
+    "chars": 1792,
+    "drawings": 49,
+    "images": 0,
+    "labels": [
+      "Figure 3.2"
+    ],
+    "chapter": 3,
+    "chapter_title": "Advancing Debt Transparency",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 112,
+    "printed_page": 88,
+    "chars": 3199,
+    "drawings": 2,
+    "images": 0,
+    "labels": [
+      "Figure 3.4"
+    ],
+    "chapter": 3,
+    "chapter_title": "Advancing Debt Transparency",
+    "has_visual": false,
+    "included": true
+  },
+  {
+    "page": 113,
+    "printed_page": 89,
+    "chars": 1144,
+    "drawings": 73,
+    "images": 0,
+    "labels": [
+      "Figure 3.3",
+      "Figure 3.4"
+    ],
+    "chapter": 3,
+    "chapter_title": "Advancing Debt Transparency",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 114,
+    "printed_page": 90,
+    "chars": 2678,
+    "drawings": 2,
+    "images": 0,
+    "labels": [],
+    "chapter": 3,
+    "chapter_title": "Advancing Debt Transparency",
+    "has_visual": false,
+    "included": true
+  },
+  {
+    "page": 115,
+    "printed_page": 91,
+    "chars": 2678,
+    "drawings": 2,
+    "images": 0,
+    "labels": [],
+    "chapter": 3,
+    "chapter_title": "Advancing Debt Transparency",
+    "has_visual": false,
+    "included": true
+  },
+  {
+    "page": 116,
+    "printed_page": 92,
+    "chars": 2973,
+    "drawings": 2,
+    "images": 0,
+    "labels": [],
+    "chapter": 3,
+    "chapter_title": "Advancing Debt Transparency",
+    "has_visual": false,
+    "included": true
+  },
+  {
+    "page": 117,
+    "printed_page": 93,
+    "chars": 2891,
+    "drawings": 2,
+    "images": 0,
+    "labels": [],
+    "chapter": 3,
+    "chapter_title": "Advancing Debt Transparency",
+    "has_visual": false,
+    "included": true
+  },
+  {
+    "page": 118,
+    "printed_page": 94,
+    "chars": 2824,
+    "drawings": 2,
+    "images": 0,
+    "labels": [],
+    "chapter": 3,
+    "chapter_title": "Advancing Debt Transparency",
+    "has_visual": false,
+    "included": true
+  },
+  {
+    "page": 119,
+    "printed_page": 95,
+    "chars": 2809,
+    "drawings": 2,
+    "images": 0,
+    "labels": [],
+    "chapter": 3,
+    "chapter_title": "Advancing Debt Transparency",
+    "has_visual": false,
+    "included": true
+  },
+  {
+    "page": 120,
+    "printed_page": 96,
+    "chars": 2957,
+    "drawings": 3,
+    "images": 0,
+    "labels": [
+      "Box 3.1"
+    ],
+    "chapter": 3,
+    "chapter_title": "Advancing Debt Transparency",
+    "has_visual": false,
+    "included": true
+  },
+  {
+    "page": 121,
+    "printed_page": 97,
+    "chars": 3099,
+    "drawings": 2,
+    "images": 0,
+    "labels": [],
+    "chapter": 3,
+    "chapter_title": "Advancing Debt Transparency",
+    "has_visual": false,
+    "included": true
+  },
+  {
+    "page": 122,
+    "printed_page": 98,
+    "chars": 2951,
+    "drawings": 2,
+    "images": 0,
+    "labels": [],
+    "chapter": 3,
+    "chapter_title": "Advancing Debt Transparency",
+    "has_visual": false,
+    "included": true
+  },
+  {
+    "page": 123,
+    "printed_page": 99,
+    "chars": 2932,
+    "drawings": 2,
+    "images": 0,
+    "labels": [],
+    "chapter": 3,
+    "chapter_title": "Advancing Debt Transparency",
+    "has_visual": false,
+    "included": true
+  },
+  {
+    "page": 124,
+    "printed_page": 100,
+    "chars": 2959,
+    "drawings": 2,
+    "images": 0,
+    "labels": [],
+    "chapter": 3,
+    "chapter_title": "Advancing Debt Transparency",
+    "has_visual": false,
+    "included": true
+  },
+  {
+    "page": 125,
+    "printed_page": 101,
+    "chars": 2797,
+    "drawings": 2,
+    "images": 0,
+    "labels": [],
+    "chapter": 3,
+    "chapter_title": "Advancing Debt Transparency",
+    "has_visual": false,
+    "included": true
+  },
+  {
+    "page": 126,
+    "printed_page": 102,
+    "chars": 2978,
+    "drawings": 2,
+    "images": 0,
+    "labels": [],
+    "chapter": 3,
+    "chapter_title": "Advancing Debt Transparency",
+    "has_visual": false,
+    "included": true
+  },
+  {
+    "page": 127,
+    "printed_page": 103,
+    "chars": 2774,
+    "drawings": 2,
+    "images": 0,
+    "labels": [],
+    "chapter": 3,
+    "chapter_title": "Advancing Debt Transparency",
+    "has_visual": false,
+    "included": true
+  },
+  {
+    "page": 128,
+    "printed_page": 104,
+    "chars": 2840,
+    "drawings": 2,
+    "images": 0,
+    "labels": [],
+    "chapter": 3,
+    "chapter_title": "Advancing Debt Transparency",
+    "has_visual": false,
+    "included": true
+  },
+  {
+    "page": 129,
+    "printed_page": 105,
+    "chars": 2708,
+    "drawings": 2,
+    "images": 0,
+    "labels": [],
+    "chapter": 3,
+    "chapter_title": "Advancing Debt Transparency",
+    "has_visual": false,
+    "included": true
+  },
+  {
+    "page": 130,
+    "printed_page": 106,
+    "chars": 2872,
+    "drawings": 2,
+    "images": 0,
+    "labels": [],
+    "chapter": 3,
+    "chapter_title": "Advancing Debt Transparency",
+    "has_visual": false,
+    "included": true
+  },
+  {
+    "page": 131,
+    "printed_page": 107,
+    "chars": 2742,
+    "drawings": 2,
+    "images": 0,
+    "labels": [],
+    "chapter": 3,
+    "chapter_title": "Advancing Debt Transparency",
+    "has_visual": false,
+    "included": true
+  },
+  {
+    "page": 132,
+    "printed_page": 108,
+    "chars": 2191,
+    "drawings": 45,
+    "images": 0,
+    "labels": [
+      "Figure 3B.1"
+    ],
+    "chapter": 3,
+    "chapter_title": "Advancing Debt Transparency",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 133,
+    "printed_page": 109,
+    "chars": 2839,
+    "drawings": 2,
+    "images": 0,
+    "labels": [],
+    "chapter": 3,
+    "chapter_title": "Advancing Debt Transparency",
+    "has_visual": false,
+    "included": true
+  },
+  {
+    "page": 134,
+    "printed_page": 110,
+    "chars": 911,
+    "drawings": 2,
+    "images": 0,
+    "labels": [],
+    "chapter": 3,
+    "chapter_title": "Advancing Debt Transparency",
+    "has_visual": false,
+    "included": true
+  },
+  {
+    "page": 135,
+    "printed_page": 111,
+    "chars": 41,
+    "drawings": 4,
+    "images": 0,
+    "labels": [],
+    "chapter": 4,
+    "chapter_title": "Part 2: Aggregate and Country Profiles",
+    "has_visual": false,
+    "included": true
+  },
+  {
+    "page": 136,
+    "printed_page": 112,
+    "chars": 4231,
+    "drawings": 100,
+    "images": 0,
+    "labels": [
+      "Figure 1",
+      "Figure 2",
+      "Figure 3",
+      "Figure 4"
+    ],
+    "chapter": 4,
+    "chapter_title": "Part 2: Aggregate and Country Profiles",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 137,
+    "printed_page": 113,
+    "chars": 1296,
+    "drawings": 77,
+    "images": 0,
+    "labels": [
+      "Figure 1",
+      "Figure 2",
+      "Figure 3",
+      "Figure 4"
+    ],
+    "chapter": 4,
+    "chapter_title": "Part 2: Aggregate and Country Profiles",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 138,
+    "printed_page": 114,
+    "chars": 1258,
+    "drawings": 77,
+    "images": 0,
+    "labels": [
+      "Figure 1",
+      "Figure 2",
+      "Figure 3",
+      "Figure 4"
+    ],
+    "chapter": 4,
+    "chapter_title": "Part 2: Aggregate and Country Profiles",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 139,
+    "printed_page": 115,
+    "chars": 1262,
+    "drawings": 79,
+    "images": 0,
+    "labels": [
+      "Figure 1",
+      "Figure 2",
+      "Figure 3",
+      "Figure 4"
+    ],
+    "chapter": 4,
+    "chapter_title": "Part 2: Aggregate and Country Profiles",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 140,
+    "printed_page": 116,
+    "chars": 1261,
+    "drawings": 81,
+    "images": 0,
+    "labels": [
+      "Figure 1",
+      "Figure 2",
+      "Figure 3",
+      "Figure 4"
+    ],
+    "chapter": 4,
+    "chapter_title": "Part 2: Aggregate and Country Profiles",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 141,
+    "printed_page": 117,
+    "chars": 1334,
+    "drawings": 80,
+    "images": 0,
+    "labels": [
+      "Figure 1",
+      "Figure 2",
+      "Figure 3",
+      "Figure 4"
+    ],
+    "chapter": 4,
+    "chapter_title": "Part 2: Aggregate and Country Profiles",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 142,
+    "printed_page": 118,
+    "chars": 1215,
+    "drawings": 78,
+    "images": 0,
+    "labels": [
+      "Figure 1",
+      "Figure 2",
+      "Figure 3",
+      "Figure 4"
+    ],
+    "chapter": 4,
+    "chapter_title": "Part 2: Aggregate and Country Profiles",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 143,
+    "printed_page": 119,
+    "chars": 1237,
+    "drawings": 78,
+    "images": 0,
+    "labels": [
+      "Figure 1",
+      "Figure 2",
+      "Figure 3",
+      "Figure 4"
+    ],
+    "chapter": 4,
+    "chapter_title": "Part 2: Aggregate and Country Profiles",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 144,
+    "printed_page": 120,
+    "chars": 1534,
+    "drawings": 76,
+    "images": 0,
+    "labels": [
+      "Figure 1",
+      "Figure 2",
+      "Figure 3",
+      "Figure 4"
+    ],
+    "chapter": 4,
+    "chapter_title": "Part 2: Aggregate and Country Profiles",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 145,
+    "printed_page": 121,
+    "chars": 1312,
+    "drawings": 82,
+    "images": 0,
+    "labels": [
+      "Figure 1",
+      "Figure 2",
+      "Figure 3",
+      "Figure 4"
+    ],
+    "chapter": 4,
+    "chapter_title": "Part 2: Aggregate and Country Profiles",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 146,
+    "printed_page": 122,
+    "chars": 1450,
+    "drawings": 76,
+    "images": 0,
+    "labels": [
+      "Figure 1",
+      "Figure 2",
+      "Figure 3",
+      "Figure 4"
+    ],
+    "chapter": 4,
+    "chapter_title": "Part 2: Aggregate and Country Profiles",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 147,
+    "printed_page": 123,
+    "chars": 1309,
+    "drawings": 84,
+    "images": 0,
+    "labels": [
+      "Figure 1",
+      "Figure 2",
+      "Figure 3",
+      "Figure 4"
+    ],
+    "chapter": 4,
+    "chapter_title": "Part 2: Aggregate and Country Profiles",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 148,
+    "printed_page": 124,
+    "chars": 1322,
+    "drawings": 83,
+    "images": 0,
+    "labels": [
+      "Figure 1",
+      "Figure 2",
+      "Figure 3",
+      "Figure 4"
+    ],
+    "chapter": 4,
+    "chapter_title": "Part 2: Aggregate and Country Profiles",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 149,
+    "printed_page": 125,
+    "chars": 1311,
+    "drawings": 81,
+    "images": 0,
+    "labels": [
+      "Figure 1",
+      "Figure 2",
+      "Figure 3",
+      "Figure 4"
+    ],
+    "chapter": 4,
+    "chapter_title": "Part 2: Aggregate and Country Profiles",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 150,
+    "printed_page": 126,
+    "chars": 1411,
+    "drawings": 82,
+    "images": 0,
+    "labels": [
+      "Figure 1",
+      "Figure 2",
+      "Figure 3",
+      "Figure 4"
+    ],
+    "chapter": 4,
+    "chapter_title": "Part 2: Aggregate and Country Profiles",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 151,
+    "printed_page": 127,
+    "chars": 1437,
+    "drawings": 79,
+    "images": 0,
+    "labels": [
+      "Figure 1",
+      "Figure 2",
+      "Figure 3",
+      "Figure 4"
+    ],
+    "chapter": 4,
+    "chapter_title": "Part 2: Aggregate and Country Profiles",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 152,
+    "printed_page": 128,
+    "chars": 1445,
+    "drawings": 78,
+    "images": 0,
+    "labels": [
+      "Figure 1",
+      "Figure 2",
+      "Figure 3",
+      "Figure 4"
+    ],
+    "chapter": 4,
+    "chapter_title": "Part 2: Aggregate and Country Profiles",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 153,
+    "printed_page": 129,
+    "chars": 1297,
+    "drawings": 83,
+    "images": 0,
+    "labels": [
+      "Figure 1",
+      "Figure 2",
+      "Figure 3",
+      "Figure 4"
+    ],
+    "chapter": 4,
+    "chapter_title": "Part 2: Aggregate and Country Profiles",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 154,
+    "printed_page": 130,
+    "chars": 1295,
+    "drawings": 84,
+    "images": 0,
+    "labels": [
+      "Figure 1",
+      "Figure 2",
+      "Figure 3",
+      "Figure 4"
+    ],
+    "chapter": 4,
+    "chapter_title": "Part 2: Aggregate and Country Profiles",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 155,
+    "printed_page": 131,
+    "chars": 1355,
+    "drawings": 81,
+    "images": 0,
+    "labels": [
+      "Figure 1",
+      "Figure 2",
+      "Figure 3",
+      "Figure 4"
+    ],
+    "chapter": 4,
+    "chapter_title": "Part 2: Aggregate and Country Profiles",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 156,
+    "printed_page": 132,
+    "chars": 1401,
+    "drawings": 81,
+    "images": 0,
+    "labels": [
+      "Figure 1",
+      "Figure 2",
+      "Figure 3",
+      "Figure 4"
+    ],
+    "chapter": 4,
+    "chapter_title": "Part 2: Aggregate and Country Profiles",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 157,
+    "printed_page": 133,
+    "chars": 1305,
+    "drawings": 82,
+    "images": 0,
+    "labels": [
+      "Figure 1",
+      "Figure 2",
+      "Figure 3",
+      "Figure 4"
+    ],
+    "chapter": 4,
+    "chapter_title": "Part 2: Aggregate and Country Profiles",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 158,
+    "printed_page": 134,
+    "chars": 1308,
+    "drawings": 77,
+    "images": 0,
+    "labels": [
+      "Figure 1",
+      "Figure 2",
+      "Figure 3",
+      "Figure 4"
+    ],
+    "chapter": 4,
+    "chapter_title": "Part 2: Aggregate and Country Profiles",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 159,
+    "printed_page": 135,
+    "chars": 1334,
+    "drawings": 84,
+    "images": 0,
+    "labels": [
+      "Figure 1",
+      "Figure 2",
+      "Figure 3",
+      "Figure 4"
+    ],
+    "chapter": 4,
+    "chapter_title": "Part 2: Aggregate and Country Profiles",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 160,
+    "printed_page": 136,
+    "chars": 1367,
+    "drawings": 80,
+    "images": 0,
+    "labels": [
+      "Figure 1",
+      "Figure 2",
+      "Figure 3",
+      "Figure 4"
+    ],
+    "chapter": 4,
+    "chapter_title": "Part 2: Aggregate and Country Profiles",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 161,
+    "printed_page": 137,
+    "chars": 1325,
+    "drawings": 79,
+    "images": 0,
+    "labels": [
+      "Figure 1",
+      "Figure 2",
+      "Figure 3",
+      "Figure 4"
+    ],
+    "chapter": 4,
+    "chapter_title": "Part 2: Aggregate and Country Profiles",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 162,
+    "printed_page": 138,
+    "chars": 1356,
+    "drawings": 79,
+    "images": 0,
+    "labels": [
+      "Figure 1",
+      "Figure 2",
+      "Figure 3",
+      "Figure 4"
+    ],
+    "chapter": 4,
+    "chapter_title": "Part 2: Aggregate and Country Profiles",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 163,
+    "printed_page": 139,
+    "chars": 1391,
+    "drawings": 77,
+    "images": 0,
+    "labels": [
+      "Figure 1",
+      "Figure 2",
+      "Figure 3",
+      "Figure 4"
+    ],
+    "chapter": 4,
+    "chapter_title": "Part 2: Aggregate and Country Profiles",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 164,
+    "printed_page": 140,
+    "chars": 1293,
+    "drawings": 84,
+    "images": 0,
+    "labels": [
+      "Figure 1",
+      "Figure 2",
+      "Figure 3",
+      "Figure 4"
+    ],
+    "chapter": 4,
+    "chapter_title": "Part 2: Aggregate and Country Profiles",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 165,
+    "printed_page": 141,
+    "chars": 1373,
+    "drawings": 75,
+    "images": 0,
+    "labels": [
+      "Figure 1",
+      "Figure 2",
+      "Figure 3",
+      "Figure 4"
+    ],
+    "chapter": 4,
+    "chapter_title": "Part 2: Aggregate and Country Profiles",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 166,
+    "printed_page": 142,
+    "chars": 1352,
+    "drawings": 78,
+    "images": 0,
+    "labels": [
+      "Figure 1",
+      "Figure 2",
+      "Figure 3",
+      "Figure 4"
+    ],
+    "chapter": 4,
+    "chapter_title": "Part 2: Aggregate and Country Profiles",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 167,
+    "printed_page": 143,
+    "chars": 1358,
+    "drawings": 83,
+    "images": 0,
+    "labels": [
+      "Figure 1",
+      "Figure 2",
+      "Figure 3",
+      "Figure 4"
+    ],
+    "chapter": 4,
+    "chapter_title": "Part 2: Aggregate and Country Profiles",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 168,
+    "printed_page": 144,
+    "chars": 1329,
+    "drawings": 84,
+    "images": 0,
+    "labels": [
+      "Figure 1",
+      "Figure 2",
+      "Figure 3",
+      "Figure 4"
+    ],
+    "chapter": 4,
+    "chapter_title": "Part 2: Aggregate and Country Profiles",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 169,
+    "printed_page": 145,
+    "chars": 1352,
+    "drawings": 72,
+    "images": 0,
+    "labels": [
+      "Figure 1",
+      "Figure 2",
+      "Figure 3",
+      "Figure 4"
+    ],
+    "chapter": 4,
+    "chapter_title": "Part 2: Aggregate and Country Profiles",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 170,
+    "printed_page": 146,
+    "chars": 1284,
+    "drawings": 82,
+    "images": 0,
+    "labels": [
+      "Figure 1",
+      "Figure 2",
+      "Figure 3",
+      "Figure 4"
+    ],
+    "chapter": 4,
+    "chapter_title": "Part 2: Aggregate and Country Profiles",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 171,
+    "printed_page": 147,
+    "chars": 1367,
+    "drawings": 90,
+    "images": 0,
+    "labels": [
+      "Figure 1",
+      "Figure 2",
+      "Figure 3",
+      "Figure 4"
+    ],
+    "chapter": 4,
+    "chapter_title": "Part 2: Aggregate and Country Profiles",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 172,
+    "printed_page": 148,
+    "chars": 1314,
+    "drawings": 84,
+    "images": 0,
+    "labels": [
+      "Figure 1",
+      "Figure 2",
+      "Figure 3",
+      "Figure 4"
+    ],
+    "chapter": 4,
+    "chapter_title": "Part 2: Aggregate and Country Profiles",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 173,
+    "printed_page": 149,
+    "chars": 1391,
+    "drawings": 78,
+    "images": 0,
+    "labels": [
+      "Figure 1",
+      "Figure 2",
+      "Figure 3",
+      "Figure 4"
+    ],
+    "chapter": 4,
+    "chapter_title": "Part 2: Aggregate and Country Profiles",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 174,
+    "printed_page": 150,
+    "chars": 1312,
+    "drawings": 86,
+    "images": 0,
+    "labels": [
+      "Figure 1",
+      "Figure 2",
+      "Figure 3",
+      "Figure 4"
+    ],
+    "chapter": 4,
+    "chapter_title": "Part 2: Aggregate and Country Profiles",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 175,
+    "printed_page": 151,
+    "chars": 1320,
+    "drawings": 85,
+    "images": 0,
+    "labels": [
+      "Figure 1",
+      "Figure 2",
+      "Figure 3",
+      "Figure 4"
+    ],
+    "chapter": 4,
+    "chapter_title": "Part 2: Aggregate and Country Profiles",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 176,
+    "printed_page": 152,
+    "chars": 1304,
+    "drawings": 85,
+    "images": 0,
+    "labels": [
+      "Figure 1",
+      "Figure 2",
+      "Figure 3",
+      "Figure 4"
+    ],
+    "chapter": 4,
+    "chapter_title": "Part 2: Aggregate and Country Profiles",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 177,
+    "printed_page": 153,
+    "chars": 1389,
+    "drawings": 82,
+    "images": 0,
+    "labels": [
+      "Figure 1",
+      "Figure 2",
+      "Figure 3",
+      "Figure 4"
+    ],
+    "chapter": 4,
+    "chapter_title": "Part 2: Aggregate and Country Profiles",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 178,
+    "printed_page": 154,
+    "chars": 1291,
+    "drawings": 83,
+    "images": 0,
+    "labels": [
+      "Figure 1",
+      "Figure 2",
+      "Figure 3",
+      "Figure 4"
+    ],
+    "chapter": 4,
+    "chapter_title": "Part 2: Aggregate and Country Profiles",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 179,
+    "printed_page": 155,
+    "chars": 1368,
+    "drawings": 69,
+    "images": 0,
+    "labels": [
+      "Figure 1",
+      "Figure 2",
+      "Figure 3",
+      "Figure 4"
+    ],
+    "chapter": 4,
+    "chapter_title": "Part 2: Aggregate and Country Profiles",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 180,
+    "printed_page": 156,
+    "chars": 1343,
+    "drawings": 55,
+    "images": 0,
+    "labels": [
+      "Figure 1",
+      "Figure 2",
+      "Figure 3",
+      "Figure 4"
+    ],
+    "chapter": 4,
+    "chapter_title": "Part 2: Aggregate and Country Profiles",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 181,
+    "printed_page": 157,
+    "chars": 1272,
+    "drawings": 85,
+    "images": 0,
+    "labels": [
+      "Figure 1",
+      "Figure 2",
+      "Figure 3",
+      "Figure 4"
+    ],
+    "chapter": 4,
+    "chapter_title": "Part 2: Aggregate and Country Profiles",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 182,
+    "printed_page": 158,
+    "chars": 1280,
+    "drawings": 82,
+    "images": 0,
+    "labels": [
+      "Figure 1",
+      "Figure 2",
+      "Figure 3",
+      "Figure 4"
+    ],
+    "chapter": 4,
+    "chapter_title": "Part 2: Aggregate and Country Profiles",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 183,
+    "printed_page": 159,
+    "chars": 1370,
+    "drawings": 78,
+    "images": 0,
+    "labels": [
+      "Figure 1",
+      "Figure 2",
+      "Figure 3",
+      "Figure 4"
+    ],
+    "chapter": 4,
+    "chapter_title": "Part 2: Aggregate and Country Profiles",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 184,
+    "printed_page": 160,
+    "chars": 1328,
+    "drawings": 81,
+    "images": 0,
+    "labels": [
+      "Figure 1",
+      "Figure 2",
+      "Figure 3",
+      "Figure 4"
+    ],
+    "chapter": 4,
+    "chapter_title": "Part 2: Aggregate and Country Profiles",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 185,
+    "printed_page": 161,
+    "chars": 1384,
+    "drawings": 80,
+    "images": 0,
+    "labels": [
+      "Figure 1",
+      "Figure 2",
+      "Figure 3",
+      "Figure 4"
+    ],
+    "chapter": 4,
+    "chapter_title": "Part 2: Aggregate and Country Profiles",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 186,
+    "printed_page": 162,
+    "chars": 1418,
+    "drawings": 79,
+    "images": 0,
+    "labels": [
+      "Figure 1",
+      "Figure 2",
+      "Figure 3",
+      "Figure 4"
+    ],
+    "chapter": 4,
+    "chapter_title": "Part 2: Aggregate and Country Profiles",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 187,
+    "printed_page": 163,
+    "chars": 1411,
+    "drawings": 81,
+    "images": 0,
+    "labels": [
+      "Figure 1",
+      "Figure 2",
+      "Figure 3",
+      "Figure 4"
+    ],
+    "chapter": 4,
+    "chapter_title": "Part 2: Aggregate and Country Profiles",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 188,
+    "printed_page": 164,
+    "chars": 1401,
+    "drawings": 78,
+    "images": 0,
+    "labels": [
+      "Figure 1",
+      "Figure 2",
+      "Figure 3",
+      "Figure 4"
+    ],
+    "chapter": 4,
+    "chapter_title": "Part 2: Aggregate and Country Profiles",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 189,
+    "printed_page": 165,
+    "chars": 1299,
+    "drawings": 84,
+    "images": 0,
+    "labels": [
+      "Figure 1",
+      "Figure 2",
+      "Figure 3",
+      "Figure 4"
+    ],
+    "chapter": 4,
+    "chapter_title": "Part 2: Aggregate and Country Profiles",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 190,
+    "printed_page": 166,
+    "chars": 1473,
+    "drawings": 81,
+    "images": 0,
+    "labels": [
+      "Figure 1",
+      "Figure 2",
+      "Figure 3",
+      "Figure 4"
+    ],
+    "chapter": 4,
+    "chapter_title": "Part 2: Aggregate and Country Profiles",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 191,
+    "printed_page": 167,
+    "chars": 1357,
+    "drawings": 81,
+    "images": 0,
+    "labels": [
+      "Figure 1",
+      "Figure 2",
+      "Figure 3",
+      "Figure 4"
+    ],
+    "chapter": 4,
+    "chapter_title": "Part 2: Aggregate and Country Profiles",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 192,
+    "printed_page": 168,
+    "chars": 1396,
+    "drawings": 85,
+    "images": 0,
+    "labels": [
+      "Figure 1",
+      "Figure 2",
+      "Figure 3",
+      "Figure 4"
+    ],
+    "chapter": 4,
+    "chapter_title": "Part 2: Aggregate and Country Profiles",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 193,
+    "printed_page": 169,
+    "chars": 1418,
+    "drawings": 78,
+    "images": 0,
+    "labels": [
+      "Figure 1",
+      "Figure 2",
+      "Figure 3",
+      "Figure 4"
+    ],
+    "chapter": 4,
+    "chapter_title": "Part 2: Aggregate and Country Profiles",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 194,
+    "printed_page": 170,
+    "chars": 1300,
+    "drawings": 84,
+    "images": 0,
+    "labels": [
+      "Figure 1",
+      "Figure 2",
+      "Figure 3",
+      "Figure 4"
+    ],
+    "chapter": 4,
+    "chapter_title": "Part 2: Aggregate and Country Profiles",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 195,
+    "printed_page": 171,
+    "chars": 1336,
+    "drawings": 82,
+    "images": 0,
+    "labels": [
+      "Figure 1",
+      "Figure 2",
+      "Figure 3",
+      "Figure 4"
+    ],
+    "chapter": 4,
+    "chapter_title": "Part 2: Aggregate and Country Profiles",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 196,
+    "printed_page": 172,
+    "chars": 1337,
+    "drawings": 83,
+    "images": 0,
+    "labels": [
+      "Figure 1",
+      "Figure 2",
+      "Figure 3",
+      "Figure 4"
+    ],
+    "chapter": 4,
+    "chapter_title": "Part 2: Aggregate and Country Profiles",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 197,
+    "printed_page": 173,
+    "chars": 1441,
+    "drawings": 82,
+    "images": 0,
+    "labels": [
+      "Figure 1",
+      "Figure 2",
+      "Figure 3",
+      "Figure 4"
+    ],
+    "chapter": 4,
+    "chapter_title": "Part 2: Aggregate and Country Profiles",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 198,
+    "printed_page": 174,
+    "chars": 1447,
+    "drawings": 78,
+    "images": 0,
+    "labels": [
+      "Figure 1",
+      "Figure 2",
+      "Figure 3",
+      "Figure 4"
+    ],
+    "chapter": 4,
+    "chapter_title": "Part 2: Aggregate and Country Profiles",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 199,
+    "printed_page": 175,
+    "chars": 1295,
+    "drawings": 83,
+    "images": 0,
+    "labels": [
+      "Figure 1",
+      "Figure 2",
+      "Figure 3",
+      "Figure 4"
+    ],
+    "chapter": 4,
+    "chapter_title": "Part 2: Aggregate and Country Profiles",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 200,
+    "printed_page": 176,
+    "chars": 1342,
+    "drawings": 82,
+    "images": 0,
+    "labels": [
+      "Figure 1",
+      "Figure 2",
+      "Figure 3",
+      "Figure 4"
+    ],
+    "chapter": 4,
+    "chapter_title": "Part 2: Aggregate and Country Profiles",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 201,
+    "printed_page": 177,
+    "chars": 1313,
+    "drawings": 83,
+    "images": 0,
+    "labels": [
+      "Figure 1",
+      "Figure 2",
+      "Figure 3",
+      "Figure 4"
+    ],
+    "chapter": 4,
+    "chapter_title": "Part 2: Aggregate and Country Profiles",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 202,
+    "printed_page": 178,
+    "chars": 1300,
+    "drawings": 84,
+    "images": 0,
+    "labels": [
+      "Figure 1",
+      "Figure 2",
+      "Figure 3",
+      "Figure 4"
+    ],
+    "chapter": 4,
+    "chapter_title": "Part 2: Aggregate and Country Profiles",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 203,
+    "printed_page": 179,
+    "chars": 1391,
+    "drawings": 78,
+    "images": 0,
+    "labels": [
+      "Figure 1",
+      "Figure 2",
+      "Figure 3",
+      "Figure 4"
+    ],
+    "chapter": 4,
+    "chapter_title": "Part 2: Aggregate and Country Profiles",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 204,
+    "printed_page": 180,
+    "chars": 1308,
+    "drawings": 82,
+    "images": 0,
+    "labels": [
+      "Figure 1",
+      "Figure 2",
+      "Figure 3",
+      "Figure 4"
+    ],
+    "chapter": 4,
+    "chapter_title": "Part 2: Aggregate and Country Profiles",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 205,
+    "printed_page": 181,
+    "chars": 1333,
+    "drawings": 84,
+    "images": 0,
+    "labels": [
+      "Figure 1",
+      "Figure 2",
+      "Figure 3",
+      "Figure 4"
+    ],
+    "chapter": 4,
+    "chapter_title": "Part 2: Aggregate and Country Profiles",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 206,
+    "printed_page": 182,
+    "chars": 1523,
+    "drawings": 81,
+    "images": 0,
+    "labels": [
+      "Figure 1",
+      "Figure 2",
+      "Figure 3",
+      "Figure 4"
+    ],
+    "chapter": 4,
+    "chapter_title": "Part 2: Aggregate and Country Profiles",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 207,
+    "printed_page": 183,
+    "chars": 1355,
+    "drawings": 79,
+    "images": 0,
+    "labels": [
+      "Figure 1",
+      "Figure 2",
+      "Figure 3",
+      "Figure 4"
+    ],
+    "chapter": 4,
+    "chapter_title": "Part 2: Aggregate and Country Profiles",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 208,
+    "printed_page": 184,
+    "chars": 1380,
+    "drawings": 85,
+    "images": 0,
+    "labels": [
+      "Figure 1",
+      "Figure 2",
+      "Figure 3",
+      "Figure 4"
+    ],
+    "chapter": 4,
+    "chapter_title": "Part 2: Aggregate and Country Profiles",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 209,
+    "printed_page": 185,
+    "chars": 1386,
+    "drawings": 84,
+    "images": 0,
+    "labels": [
+      "Figure 1",
+      "Figure 2",
+      "Figure 3",
+      "Figure 4"
+    ],
+    "chapter": 4,
+    "chapter_title": "Part 2: Aggregate and Country Profiles",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 210,
+    "printed_page": 186,
+    "chars": 1320,
+    "drawings": 78,
+    "images": 0,
+    "labels": [
+      "Figure 1",
+      "Figure 2",
+      "Figure 3",
+      "Figure 4"
+    ],
+    "chapter": 4,
+    "chapter_title": "Part 2: Aggregate and Country Profiles",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 211,
+    "printed_page": 187,
+    "chars": 1382,
+    "drawings": 81,
+    "images": 0,
+    "labels": [
+      "Figure 1",
+      "Figure 2",
+      "Figure 3",
+      "Figure 4"
+    ],
+    "chapter": 4,
+    "chapter_title": "Part 2: Aggregate and Country Profiles",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 212,
+    "printed_page": 188,
+    "chars": 1337,
+    "drawings": 77,
+    "images": 0,
+    "labels": [
+      "Figure 1",
+      "Figure 2",
+      "Figure 3",
+      "Figure 4"
+    ],
+    "chapter": 4,
+    "chapter_title": "Part 2: Aggregate and Country Profiles",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 213,
+    "printed_page": 189,
+    "chars": 1345,
+    "drawings": 77,
+    "images": 0,
+    "labels": [
+      "Figure 1",
+      "Figure 2",
+      "Figure 3",
+      "Figure 4"
+    ],
+    "chapter": 4,
+    "chapter_title": "Part 2: Aggregate and Country Profiles",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 214,
+    "printed_page": 190,
+    "chars": 1290,
+    "drawings": 81,
+    "images": 0,
+    "labels": [
+      "Figure 1",
+      "Figure 2",
+      "Figure 3",
+      "Figure 4"
+    ],
+    "chapter": 4,
+    "chapter_title": "Part 2: Aggregate and Country Profiles",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 215,
+    "printed_page": 191,
+    "chars": 1342,
+    "drawings": 83,
+    "images": 0,
+    "labels": [
+      "Figure 1",
+      "Figure 2",
+      "Figure 3",
+      "Figure 4"
+    ],
+    "chapter": 4,
+    "chapter_title": "Part 2: Aggregate and Country Profiles",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 216,
+    "printed_page": 192,
+    "chars": 1394,
+    "drawings": 80,
+    "images": 0,
+    "labels": [
+      "Figure 1",
+      "Figure 2",
+      "Figure 3",
+      "Figure 4"
+    ],
+    "chapter": 4,
+    "chapter_title": "Part 2: Aggregate and Country Profiles",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 217,
+    "printed_page": 193,
+    "chars": 1308,
+    "drawings": 82,
+    "images": 0,
+    "labels": [
+      "Figure 1",
+      "Figure 2",
+      "Figure 3",
+      "Figure 4"
+    ],
+    "chapter": 4,
+    "chapter_title": "Part 2: Aggregate and Country Profiles",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 218,
+    "printed_page": 194,
+    "chars": 1281,
+    "drawings": 83,
+    "images": 0,
+    "labels": [
+      "Figure 1",
+      "Figure 2",
+      "Figure 3",
+      "Figure 4"
+    ],
+    "chapter": 4,
+    "chapter_title": "Part 2: Aggregate and Country Profiles",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 219,
+    "printed_page": 195,
+    "chars": 1342,
+    "drawings": 81,
+    "images": 0,
+    "labels": [
+      "Figure 1",
+      "Figure 2",
+      "Figure 3",
+      "Figure 4"
+    ],
+    "chapter": 4,
+    "chapter_title": "Part 2: Aggregate and Country Profiles",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 220,
+    "printed_page": 196,
+    "chars": 1396,
+    "drawings": 80,
+    "images": 0,
+    "labels": [
+      "Figure 1",
+      "Figure 2",
+      "Figure 3",
+      "Figure 4"
+    ],
+    "chapter": 4,
+    "chapter_title": "Part 2: Aggregate and Country Profiles",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 221,
+    "printed_page": 197,
+    "chars": 1414,
+    "drawings": 78,
+    "images": 0,
+    "labels": [
+      "Figure 1",
+      "Figure 2",
+      "Figure 3",
+      "Figure 4"
+    ],
+    "chapter": 4,
+    "chapter_title": "Part 2: Aggregate and Country Profiles",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 222,
+    "printed_page": 198,
+    "chars": 1389,
+    "drawings": 83,
+    "images": 0,
+    "labels": [
+      "Figure 1",
+      "Figure 2",
+      "Figure 3",
+      "Figure 4"
+    ],
+    "chapter": 4,
+    "chapter_title": "Part 2: Aggregate and Country Profiles",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 223,
+    "printed_page": 199,
+    "chars": 1292,
+    "drawings": 85,
+    "images": 0,
+    "labels": [
+      "Figure 1",
+      "Figure 2",
+      "Figure 3",
+      "Figure 4"
+    ],
+    "chapter": 4,
+    "chapter_title": "Part 2: Aggregate and Country Profiles",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 224,
+    "printed_page": 200,
+    "chars": 1346,
+    "drawings": 81,
+    "images": 0,
+    "labels": [
+      "Figure 1",
+      "Figure 2",
+      "Figure 3",
+      "Figure 4"
+    ],
+    "chapter": 4,
+    "chapter_title": "Part 2: Aggregate and Country Profiles",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 225,
+    "printed_page": 201,
+    "chars": 1321,
+    "drawings": 82,
+    "images": 0,
+    "labels": [
+      "Figure 1",
+      "Figure 2",
+      "Figure 3",
+      "Figure 4"
+    ],
+    "chapter": 4,
+    "chapter_title": "Part 2: Aggregate and Country Profiles",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 226,
+    "printed_page": 202,
+    "chars": 1410,
+    "drawings": 78,
+    "images": 0,
+    "labels": [
+      "Figure 1",
+      "Figure 2",
+      "Figure 3",
+      "Figure 4"
+    ],
+    "chapter": 4,
+    "chapter_title": "Part 2: Aggregate and Country Profiles",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 227,
+    "printed_page": 203,
+    "chars": 1370,
+    "drawings": 83,
+    "images": 0,
+    "labels": [
+      "Figure 1",
+      "Figure 2",
+      "Figure 3",
+      "Figure 4"
+    ],
+    "chapter": 4,
+    "chapter_title": "Part 2: Aggregate and Country Profiles",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 228,
+    "printed_page": 204,
+    "chars": 1421,
+    "drawings": 80,
+    "images": 0,
+    "labels": [
+      "Figure 1",
+      "Figure 2",
+      "Figure 3",
+      "Figure 4"
+    ],
+    "chapter": 4,
+    "chapter_title": "Part 2: Aggregate and Country Profiles",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 229,
+    "printed_page": 205,
+    "chars": 1298,
+    "drawings": 84,
+    "images": 0,
+    "labels": [
+      "Figure 1",
+      "Figure 2",
+      "Figure 3",
+      "Figure 4"
+    ],
+    "chapter": 4,
+    "chapter_title": "Part 2: Aggregate and Country Profiles",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 230,
+    "printed_page": 206,
+    "chars": 1313,
+    "drawings": 84,
+    "images": 0,
+    "labels": [
+      "Figure 1",
+      "Figure 2",
+      "Figure 3",
+      "Figure 4"
+    ],
+    "chapter": 4,
+    "chapter_title": "Part 2: Aggregate and Country Profiles",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 231,
+    "printed_page": 207,
+    "chars": 1332,
+    "drawings": 82,
+    "images": 0,
+    "labels": [
+      "Figure 1",
+      "Figure 2",
+      "Figure 3",
+      "Figure 4"
+    ],
+    "chapter": 4,
+    "chapter_title": "Part 2: Aggregate and Country Profiles",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 232,
+    "printed_page": 208,
+    "chars": 1281,
+    "drawings": 84,
+    "images": 0,
+    "labels": [
+      "Figure 1",
+      "Figure 2",
+      "Figure 3",
+      "Figure 4"
+    ],
+    "chapter": 4,
+    "chapter_title": "Part 2: Aggregate and Country Profiles",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 233,
+    "printed_page": 209,
+    "chars": 1356,
+    "drawings": 74,
+    "images": 0,
+    "labels": [
+      "Figure 1",
+      "Figure 2",
+      "Figure 3",
+      "Figure 4"
+    ],
+    "chapter": 4,
+    "chapter_title": "Part 2: Aggregate and Country Profiles",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 234,
+    "printed_page": 210,
+    "chars": 1391,
+    "drawings": 79,
+    "images": 0,
+    "labels": [
+      "Figure 1",
+      "Figure 2",
+      "Figure 3",
+      "Figure 4"
+    ],
+    "chapter": 4,
+    "chapter_title": "Part 2: Aggregate and Country Profiles",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 235,
+    "printed_page": 211,
+    "chars": 1414,
+    "drawings": 79,
+    "images": 0,
+    "labels": [
+      "Figure 1",
+      "Figure 2",
+      "Figure 3",
+      "Figure 4"
+    ],
+    "chapter": 4,
+    "chapter_title": "Part 2: Aggregate and Country Profiles",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 236,
+    "printed_page": 212,
+    "chars": 1318,
+    "drawings": 82,
+    "images": 0,
+    "labels": [
+      "Figure 1",
+      "Figure 2",
+      "Figure 3",
+      "Figure 4"
+    ],
+    "chapter": 4,
+    "chapter_title": "Part 2: Aggregate and Country Profiles",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 237,
+    "printed_page": 213,
+    "chars": 1355,
+    "drawings": 81,
+    "images": 0,
+    "labels": [
+      "Figure 1",
+      "Figure 2",
+      "Figure 3",
+      "Figure 4"
+    ],
+    "chapter": 4,
+    "chapter_title": "Part 2: Aggregate and Country Profiles",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 238,
+    "printed_page": 214,
+    "chars": 1388,
+    "drawings": 79,
+    "images": 0,
+    "labels": [
+      "Figure 1",
+      "Figure 2",
+      "Figure 3",
+      "Figure 4"
+    ],
+    "chapter": 4,
+    "chapter_title": "Part 2: Aggregate and Country Profiles",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 239,
+    "printed_page": 215,
+    "chars": 1373,
+    "drawings": 72,
+    "images": 0,
+    "labels": [
+      "Figure 1",
+      "Figure 2",
+      "Figure 3",
+      "Figure 4"
+    ],
+    "chapter": 4,
+    "chapter_title": "Part 2: Aggregate and Country Profiles",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 240,
+    "printed_page": 216,
+    "chars": 1333,
+    "drawings": 83,
+    "images": 0,
+    "labels": [
+      "Figure 1",
+      "Figure 2",
+      "Figure 3",
+      "Figure 4"
+    ],
+    "chapter": 4,
+    "chapter_title": "Part 2: Aggregate and Country Profiles",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 241,
+    "printed_page": 217,
+    "chars": 1415,
+    "drawings": 77,
+    "images": 0,
+    "labels": [
+      "Figure 1",
+      "Figure 2",
+      "Figure 3",
+      "Figure 4"
+    ],
+    "chapter": 4,
+    "chapter_title": "Part 2: Aggregate and Country Profiles",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 242,
+    "printed_page": 218,
+    "chars": 1385,
+    "drawings": 80,
+    "images": 0,
+    "labels": [
+      "Figure 1",
+      "Figure 2",
+      "Figure 3",
+      "Figure 4"
+    ],
+    "chapter": 4,
+    "chapter_title": "Part 2: Aggregate and Country Profiles",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 243,
+    "printed_page": 219,
+    "chars": 1431,
+    "drawings": 81,
+    "images": 0,
+    "labels": [
+      "Figure 1",
+      "Figure 2",
+      "Figure 3",
+      "Figure 4"
+    ],
+    "chapter": 4,
+    "chapter_title": "Part 2: Aggregate and Country Profiles",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 244,
+    "printed_page": 220,
+    "chars": 1449,
+    "drawings": 79,
+    "images": 0,
+    "labels": [
+      "Figure 1",
+      "Figure 2",
+      "Figure 3",
+      "Figure 4"
+    ],
+    "chapter": 4,
+    "chapter_title": "Part 2: Aggregate and Country Profiles",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 245,
+    "printed_page": 221,
+    "chars": 1288,
+    "drawings": 83,
+    "images": 0,
+    "labels": [
+      "Figure 1",
+      "Figure 2",
+      "Figure 3",
+      "Figure 4"
+    ],
+    "chapter": 4,
+    "chapter_title": "Part 2: Aggregate and Country Profiles",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 246,
+    "printed_page": 222,
+    "chars": 1491,
+    "drawings": 65,
+    "images": 0,
+    "labels": [
+      "Figure 1",
+      "Figure 2",
+      "Figure 3",
+      "Figure 4"
+    ],
+    "chapter": 4,
+    "chapter_title": "Part 2: Aggregate and Country Profiles",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 247,
+    "printed_page": 223,
+    "chars": 1393,
+    "drawings": 79,
+    "images": 0,
+    "labels": [
+      "Figure 1",
+      "Figure 2",
+      "Figure 3",
+      "Figure 4"
+    ],
+    "chapter": 4,
+    "chapter_title": "Part 2: Aggregate and Country Profiles",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 248,
+    "printed_page": 224,
+    "chars": 1299,
+    "drawings": 84,
+    "images": 0,
+    "labels": [
+      "Figure 1",
+      "Figure 2",
+      "Figure 3",
+      "Figure 4"
+    ],
+    "chapter": 4,
+    "chapter_title": "Part 2: Aggregate and Country Profiles",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 249,
+    "printed_page": 225,
+    "chars": 1314,
+    "drawings": 85,
+    "images": 0,
+    "labels": [
+      "Figure 1",
+      "Figure 2",
+      "Figure 3",
+      "Figure 4"
+    ],
+    "chapter": 4,
+    "chapter_title": "Part 2: Aggregate and Country Profiles",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 250,
+    "printed_page": 226,
+    "chars": 1325,
+    "drawings": 75,
+    "images": 0,
+    "labels": [
+      "Figure 1",
+      "Figure 2",
+      "Figure 3",
+      "Figure 4"
+    ],
+    "chapter": 4,
+    "chapter_title": "Part 2: Aggregate and Country Profiles",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 251,
+    "printed_page": 227,
+    "chars": 1280,
+    "drawings": 83,
+    "images": 0,
+    "labels": [
+      "Figure 1",
+      "Figure 2",
+      "Figure 3",
+      "Figure 4"
+    ],
+    "chapter": 4,
+    "chapter_title": "Part 2: Aggregate and Country Profiles",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 252,
+    "printed_page": 228,
+    "chars": 1306,
+    "drawings": 69,
+    "images": 0,
+    "labels": [
+      "Figure 1",
+      "Figure 2",
+      "Figure 3",
+      "Figure 4"
+    ],
+    "chapter": 4,
+    "chapter_title": "Part 2: Aggregate and Country Profiles",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 253,
+    "printed_page": 229,
+    "chars": 1444,
+    "drawings": 81,
+    "images": 0,
+    "labels": [
+      "Figure 1",
+      "Figure 2",
+      "Figure 3",
+      "Figure 4"
+    ],
+    "chapter": 4,
+    "chapter_title": "Part 2: Aggregate and Country Profiles",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 254,
+    "printed_page": 230,
+    "chars": 1352,
+    "drawings": 83,
+    "images": 0,
+    "labels": [
+      "Figure 1",
+      "Figure 2",
+      "Figure 3",
+      "Figure 4"
+    ],
+    "chapter": 4,
+    "chapter_title": "Part 2: Aggregate and Country Profiles",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 255,
+    "printed_page": 231,
+    "chars": 1440,
+    "drawings": 72,
+    "images": 0,
+    "labels": [
+      "Figure 1",
+      "Figure 2",
+      "Figure 3",
+      "Figure 4"
+    ],
+    "chapter": 4,
+    "chapter_title": "Part 2: Aggregate and Country Profiles",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 256,
+    "printed_page": 232,
+    "chars": 1284,
+    "drawings": 83,
+    "images": 0,
+    "labels": [
+      "Figure 1",
+      "Figure 2",
+      "Figure 3",
+      "Figure 4"
+    ],
+    "chapter": 4,
+    "chapter_title": "Part 2: Aggregate and Country Profiles",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 257,
+    "printed_page": 233,
+    "chars": 1337,
+    "drawings": 85,
+    "images": 0,
+    "labels": [
+      "Figure 1",
+      "Figure 2",
+      "Figure 3",
+      "Figure 4"
+    ],
+    "chapter": 4,
+    "chapter_title": "Part 2: Aggregate and Country Profiles",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 258,
+    "printed_page": 234,
+    "chars": 1326,
+    "drawings": 81,
+    "images": 0,
+    "labels": [
+      "Figure 1",
+      "Figure 2",
+      "Figure 3",
+      "Figure 4"
+    ],
+    "chapter": 4,
+    "chapter_title": "Part 2: Aggregate and Country Profiles",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 259,
+    "printed_page": 235,
+    "chars": 1343,
+    "drawings": 71,
+    "images": 0,
+    "labels": [
+      "Figure 1",
+      "Figure 2",
+      "Figure 3",
+      "Figure 4"
+    ],
+    "chapter": 4,
+    "chapter_title": "Part 2: Aggregate and Country Profiles",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 260,
+    "printed_page": 236,
+    "chars": 1337,
+    "drawings": 82,
+    "images": 0,
+    "labels": [
+      "Figure 1",
+      "Figure 2",
+      "Figure 3",
+      "Figure 4"
+    ],
+    "chapter": 4,
+    "chapter_title": "Part 2: Aggregate and Country Profiles",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 261,
+    "printed_page": 237,
+    "chars": 1526,
+    "drawings": 82,
+    "images": 0,
+    "labels": [
+      "Figure 1",
+      "Figure 2",
+      "Figure 3",
+      "Figure 4"
+    ],
+    "chapter": 4,
+    "chapter_title": "Part 2: Aggregate and Country Profiles",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 262,
+    "printed_page": 238,
+    "chars": 1422,
+    "drawings": 76,
+    "images": 0,
+    "labels": [
+      "Figure 1",
+      "Figure 2",
+      "Figure 3",
+      "Figure 4"
+    ],
+    "chapter": 4,
+    "chapter_title": "Part 2: Aggregate and Country Profiles",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 263,
+    "printed_page": 239,
+    "chars": 1433,
+    "drawings": 77,
+    "images": 0,
+    "labels": [
+      "Figure 1",
+      "Figure 2",
+      "Figure 3",
+      "Figure 4"
+    ],
+    "chapter": 4,
+    "chapter_title": "Part 2: Aggregate and Country Profiles",
+    "has_visual": true,
+    "included": true
+  },
+  {
+    "page": 264,
+    "printed_page": 240,
+    "chars": 0,
+    "drawings": 0,
+    "images": 0,
+    "labels": [],
+    "chapter": 0,
+    "chapter_title": "Front matter",
+    "has_visual": false,
+    "included": false,
+    "reason": "blank or section divider (< 40 characters, no graphics)"
+  },
+  {
+    "page": 265,
+    "printed_page": 241,
+    "chars": 8,
+    "drawings": 3,
+    "images": 0,
+    "labels": [],
+    "chapter": 5,
+    "chapter_title": "Appendix: Data Sources, Country Groups, Glossary",
+    "has_visual": false,
+    "included": false,
+    "reason": "blank or section divider (< 40 characters, no graphics)"
+  },
+  {
+    "page": 266,
+    "printed_page": 242,
+    "chars": 0,
+    "drawings": 0,
+    "images": 0,
+    "labels": [],
+    "chapter": 5,
+    "chapter_title": "Appendix: Data Sources, Country Groups, Glossary",
+    "has_visual": false,
+    "included": false,
+    "reason": "blank or section divider (< 40 characters, no graphics)"
+  },
+  {
+    "page": 267,
+    "printed_page": 243,
+    "chars": 2626,
+    "drawings": 2,
+    "images": 0,
+    "labels": [],
+    "chapter": 5,
+    "chapter_title": "Appendix: Data Sources, Country Groups, Glossary",
+    "has_visual": false,
+    "included": true
+  },
+  {
+    "page": 268,
+    "printed_page": 244,
+    "chars": 1329,
+    "drawings": 2,
+    "images": 0,
+    "labels": [],
+    "chapter": 5,
+    "chapter_title": "Appendix: Data Sources, Country Groups, Glossary",
+    "has_visual": false,
+    "included": true
+  },
+  {
+    "page": 269,
+    "printed_page": 245,
+    "chars": 3189,
+    "drawings": 6,
+    "images": 0,
+    "labels": [],
+    "chapter": 5,
+    "chapter_title": "Appendix: Data Sources, Country Groups, Glossary",
+    "has_visual": false,
+    "included": true
+  },
+  {
+    "page": 270,
+    "printed_page": 246,
+    "chars": 2026,
+    "drawings": 6,
+    "images": 0,
+    "labels": [],
+    "chapter": 5,
+    "chapter_title": "Appendix: Data Sources, Country Groups, Glossary",
+    "has_visual": false,
+    "included": true
+  },
+  {
+    "page": 271,
+    "printed_page": 247,
+    "chars": 2132,
+    "drawings": 2,
+    "images": 0,
+    "labels": [],
+    "chapter": 5,
+    "chapter_title": "Appendix: Data Sources, Country Groups, Glossary",
+    "has_visual": false,
+    "included": true
+  },
+  {
+    "page": 272,
+    "printed_page": 248,
+    "chars": 2434,
+    "drawings": 2,
+    "images": 0,
+    "labels": [],
+    "chapter": 5,
+    "chapter_title": "Appendix: Data Sources, Country Groups, Glossary",
+    "has_visual": false,
+    "included": true
+  },
+  {
+    "page": 273,
+    "printed_page": 249,
+    "chars": 2293,
+    "drawings": 2,
+    "images": 0,
+    "labels": [],
+    "chapter": 5,
+    "chapter_title": "Appendix: Data Sources, Country Groups, Glossary",
+    "has_visual": false,
+    "included": true
+  },
+  {
+    "page": 274,
+    "printed_page": 250,
+    "chars": 2737,
+    "drawings": 2,
+    "images": 0,
+    "labels": [],
+    "chapter": 5,
+    "chapter_title": "Appendix: Data Sources, Country Groups, Glossary",
+    "has_visual": false,
+    "included": true
+  },
+  {
+    "page": 275,
+    "printed_page": 251,
+    "chars": 2519,
+    "drawings": 2,
+    "images": 0,
+    "labels": [],
+    "chapter": 5,
+    "chapter_title": "Appendix: Data Sources, Country Groups, Glossary",
+    "has_visual": false,
+    "included": true
+  },
+  {
+    "page": 276,
+    "printed_page": 252,
+    "chars": 2402,
+    "drawings": 2,
+    "images": 0,
+    "labels": [],
+    "chapter": 5,
+    "chapter_title": "Appendix: Data Sources, Country Groups, Glossary",
+    "has_visual": false,
+    "included": true
+  },
+  {
+    "page": 277,
+    "printed_page": 253,
+    "chars": 1716,
+    "drawings": 2,
+    "images": 0,
+    "labels": [],
+    "chapter": 5,
+    "chapter_title": "Appendix: Data Sources, Country Groups, Glossary",
+    "has_visual": false,
+    "included": true
+  },
+  {
+    "page": 278,
+    "printed_page": 254,
+    "chars": 0,
+    "drawings": 0,
+    "images": 0,
+    "labels": [],
+    "chapter": 5,
+    "chapter_title": "Appendix: Data Sources, Country Groups, Glossary",
+    "has_visual": false,
+    "included": false,
+    "reason": "blank or section divider (< 40 characters, no graphics)"
+  },
+  {
+    "page": 279,
+    "printed_page": 255,
+    "chars": 0,
+    "drawings": 0,
+    "images": 0,
+    "labels": [],
+    "chapter": 5,
+    "chapter_title": "Appendix: Data Sources, Country Groups, Glossary",
+    "has_visual": false,
+    "included": false,
+    "reason": "blank or section divider (< 40 characters, no graphics)"
+  },
+  {
+    "page": 280,
+    "printed_page": 256,
+    "chars": 1683,
+    "drawings": 5,
+    "images": 1,
+    "labels": [],
+    "chapter": 0,
+    "chapter_title": "Front matter",
+    "has_visual": true,
+    "included": false,
+    "reason": "back cover marketing blurb"
+  }
+]

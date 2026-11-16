@@ -1,0 +1,51 @@
+{
+  "page": 37,
+  "model": "gemini-3.5-flash",
+  "seconds": 6.9,
+  "tokens_in": 2102,
+  "tokens_out": 1468,
+  "visuals": [
+    {
+      "label": "Figure B1.3.1",
+      "title": "Figure B1.3.1 Number of Low-, Middle-, and High-Income Countries Covered in International Debt Report 2026, by FY27 Income and Lending Groups",
+      "kind": "bar chart",
+      "region": [
+        0.195,
+        0.4,
+        0.805,
+        0.685
+      ],
+      "units": "Number",
+      "description": "Stacked bar chart showing the count of low-, middle-, and high-income countries across three lending groups: IDA-only countries, Blend countries, and IBRD-only countries. IDA-only countries include 23 low-income, 30 middle-income, and 1 high-income country. Blend countries consist of 19 middle-income countries. IBRD-only countries consist of 47 middle-income countries.",
+      "data": [
+        [
+          "Lending Group",
+          "Low-income",
+          "Middle-income",
+          "High-income"
+        ],
+        [
+          "IDA-only countries",
+          "23",
+          "30",
+          "1"
+        ],
+        [
+          "Blend countries",
+          "0",
+          "19",
+          "0"
+        ],
+        [
+          "IBRD-only countries",
+          "0",
+          "47",
+          "0"
+        ]
+      ],
+      "numbers_total": 6,
+      "numbers_in_text_layer": 6
+    }
+  ],
+  "parse_ok": true
+}

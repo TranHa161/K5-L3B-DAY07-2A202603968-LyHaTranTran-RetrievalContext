@@ -1,0 +1,21 @@
+p004 1 visuals 4.9s
+p006 1 visuals 3.6s
+p028 parse error 'visuals'; retry
+p028 parse error 'visuals'; retry
+p028 parse error 'visuals'; retry
+p028 parse error Extra data: line 25 column 4 (char 2521); retry
+p028 2 visuals 21.1s
+p030 1 visuals 7.9s
+p035 1 visuals 11.2s
+p036 1 visuals 10.1s
+p037 1 visuals 6.9s
+p039 1 visuals 11.5s
+p043 1 visuals 5.1s
+p046 1 visuals 13.4s
+p047 API 429: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and  -> retry in 10s
+p047 1 visuals 7.7s
+p048 API 429: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and  -> retry in 10s
+p048 1 visuals 10.9s
+p050 API 429: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and  -> retry in 10s
+p050 API 429: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and  -> retry in 20s
+p050 API 429: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and  -> retry in 40s

@@ -1,0 +1,83 @@
+{
+  "page": 47,
+  "model": "gemini-3.5-flash",
+  "seconds": 7.7,
+  "tokens_in": 2144,
+  "tokens_out": 1604,
+  "visuals": [
+    {
+      "label": "Figure 1.7",
+      "title": "Long-Term Net Transfers on External Debt in Low- and Middle-Income Countries, by Debtor Type, 2015–25",
+      "kind": "line chart",
+      "region": [
+        0.178,
+        0.138,
+        0.812,
+        0.468
+      ],
+      "units": "US$ (billion)",
+      "description": "Line chart displaying long-term net transfers on external debt in low- and middle-income countries from 2015 to 2025 across three categories: Long-term + IMF, Private nonguaranteed, and Public and publicly guaranteed + IMF. Net transfers peaked around 2017–2021, sharply dropped to negative values (net outflows) in 2022–2024, and rebounded to positive values in 2025.",
+      "data": [
+        [
+          "Debtor Type",
+          "2015",
+          "2016",
+          "2017",
+          "2018",
+          "2019",
+          "2020",
+          "2021",
+          "2022",
+          "2023",
+          "2024",
+          "2025"
+        ],
+        [
+          "Long-term + IMF",
+          "~90",
+          "~120",
+          "~270",
+          "~210",
+          "~130",
+          "~210",
+          "~190",
+          "~-140",
+          "~-170",
+          "~-100",
+          "~60"
+        ],
+        [
+          "Private nonguaranteed",
+          "~30",
+          "~30",
+          "~120",
+          "~40",
+          "~30",
+          "~40",
+          "~20",
+          "~-140",
+          "~-130",
+          "~-100",
+          "~20"
+        ],
+        [
+          "Public and publicly guaranteed + IMF",
+          "~60",
+          "~90",
+          "~150",
+          "~160",
+          "~100",
+          "~170",
+          "~175",
+          "~-40",
+          "~-60",
+          "~0",
+          "~50"
+        ]
+      ],
+      "numbers_total": 29,
+      "numbers_in_text_layer": 13
+    }
+  ],
+  "parse_ok": true
+}

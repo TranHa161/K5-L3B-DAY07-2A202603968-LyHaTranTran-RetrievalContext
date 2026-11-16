@@ -1,0 +1,1589 @@
+[
+  {
+    "query_id": "d01",
+    "question": "What was the total external debt of low- and middle-income countries (LMICs) at the end of 2025, and how much did it grow from 2024?",
+    "filter": null,
+    "elapsed_ms": 2.7362999971956015,
+    "results": [
+      {
+        "id": "B-idr2026-p027-c000",
+        "page": 27,
+        "score": 17.010572255092953,
+        "rank": 1,
+        "hit": true
+      },
+      {
+        "id": "B-idr2026-p047-c000",
+        "page": 47,
+        "score": 16.062959465367616,
+        "rank": 2,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p061-c000",
+        "page": 61,
+        "score": 14.089149696401162,
+        "rank": 3,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p030-c001",
+        "page": 30,
+        "score": 13.10863077626085,
+        "rank": 4,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p062-c000",
+        "page": 62,
+        "score": 12.741411168853976,
+        "rank": 5,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p060-c000",
+        "page": 60,
+        "score": 12.169280567280287,
+        "rank": 6,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p048-c000",
+        "page": 48,
+        "score": 11.923367918456123,
+        "rank": 7,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p078-c001",
+        "page": 78,
+        "score": 11.683374958867043,
+        "rank": 8,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p080-c000",
+        "page": 80,
+        "score": 11.63903849387296,
+        "rank": 9,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p036-c000",
+        "page": 36,
+        "score": 11.569810533282537,
+        "rank": 10,
+        "hit": false
+      }
+    ],
+    "first_hit_rank": 1,
+    "hit1": true,
+    "hit3": true,
+    "context_ids": [
+      "B-idr2026-p027-c000",
+      "B-idr2026-p047-c000",
+      "B-idr2026-p061-c000",
+      "B-idr2026-p030-c001",
+      "B-idr2026-p062-c000",
+      "B-idr2026-p060-c000",
+      "B-idr2026-p048-c000",
+      "B-idr2026-p078-c001"
+    ],
+    "context_chars": 7016,
+    "context_hit": true
+  },
+  {
+    "query_id": "d02",
+    "question": "Apart from the depreciation of the US dollar, what drove the increase in LMICs' debt stock in 2025?",
+    "filter": null,
+    "elapsed_ms": 1.256400006241165,
+    "results": [
+      {
+        "id": "B-idr2026-p027-c000",
+        "page": 27,
+        "score": 18.028424895963976,
+        "rank": 1,
+        "hit": true
+      },
+      {
+        "id": "B-idr2026-p034-c001",
+        "page": 34,
+        "score": 17.719080978919706,
+        "rank": 2,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p033-c003",
+        "page": 33,
+        "score": 15.53615000953472,
+        "rank": 3,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p059-c000",
+        "page": 59,
+        "score": 14.267201880722467,
+        "rank": 4,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p034-c000",
+        "page": 34,
+        "score": 13.769830941501649,
+        "rank": 5,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p033-c002",
+        "page": 33,
+        "score": 11.888621159366101,
+        "rank": 6,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p061-c000",
+        "page": 61,
+        "score": 11.874170573421786,
+        "rank": 7,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p072-c000",
+        "page": 72,
+        "score": 9.416921465082632,
+        "rank": 8,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p081-c000",
+        "page": 81,
+        "score": 8.758305779563116,
+        "rank": 9,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p049-c003",
+        "page": 49,
+        "score": 8.234642917274918,
+        "rank": 10,
+        "hit": false
+      }
+    ],
+    "first_hit_rank": 1,
+    "hit1": true,
+    "hit3": true,
+    "context_ids": [
+      "B-idr2026-p027-c000",
+      "B-idr2026-p034-c001",
+      "B-idr2026-p033-c003",
+      "B-idr2026-p059-c000",
+      "B-idr2026-p034-c000",
+      "B-idr2026-p033-c002",
+      "B-idr2026-p061-c000",
+      "B-idr2026-p072-c000"
+    ],
+    "context_chars": 6980,
+    "context_hit": true
+  },
+  {
+    "query_id": "d03",
+    "question": "What components make up a country's total external debt?",
+    "filter": null,
+    "elapsed_ms": 1.131500001065433,
+    "results": [
+      {
+        "id": "B-idr2026-p114-c003",
+        "page": 114,
+        "score": 8.202832645556454,
+        "rank": 1,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p117-c003",
+        "page": 117,
+        "score": 7.549505083301443,
+        "rank": 2,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p033-c003",
+        "page": 33,
+        "score": 7.482584965788372,
+        "rank": 3,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p049-c001",
+        "page": 49,
+        "score": 6.71724535241761,
+        "rank": 4,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p130-c000",
+        "page": 130,
+        "score": 6.631381458831353,
+        "rank": 5,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p133-c000",
+        "page": 133,
+        "score": 6.519419609286742,
+        "rank": 6,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p125-c001",
+        "page": 125,
+        "score": 6.260245226324823,
+        "rank": 7,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p060-c001",
+        "page": 60,
+        "score": 5.937882837117784,
+        "rank": 8,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p029-c000",
+        "page": 29,
+        "score": 5.813510072405864,
+        "rank": 9,
+        "hit": true
+      },
+      {
+        "id": "B-idr2026-p031-c001",
+        "page": 31,
+        "score": 5.777219426099314,
+        "rank": 10,
+        "hit": false
+      }
+    ],
+    "first_hit_rank": 9,
+    "hit1": false,
+    "hit3": false,
+    "context_ids": [
+      "B-idr2026-p114-c003",
+      "B-idr2026-p117-c003",
+      "B-idr2026-p033-c003",
+      "B-idr2026-p049-c001",
+      "B-idr2026-p130-c000",
+      "B-idr2026-p133-c000",
+      "B-idr2026-p125-c001",
+      "B-idr2026-p060-c001"
+    ],
+    "context_chars": 7028,
+    "context_hit": false
+  },
+  {
+    "query_id": "d04",
+    "question": "How is short-term debt defined, and is it required to be reported to the Debtor Reporting System (DRS)?",
+    "filter": null,
+    "elapsed_ms": 1.1098000104539096,
+    "results": [
+      {
+        "id": "B-idr2026-p029-c001",
+        "page": 29,
+        "score": 18.210037794696966,
+        "rank": 1,
+        "hit": true
+      },
+      {
+        "id": "B-idr2026-p029-c000",
+        "page": 29,
+        "score": 14.229331760730982,
+        "rank": 2,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p107-c002",
+        "page": 107,
+        "score": 13.941377318482727,
+        "rank": 3,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p129-c002",
+        "page": 129,
+        "score": 13.423138381568334,
+        "rank": 4,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p111-c000",
+        "page": 111,
+        "score": 13.238957338303958,
+        "rank": 5,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p129-c003",
+        "page": 129,
+        "score": 13.128139103466587,
+        "rank": 6,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p121-c002",
+        "page": 121,
+        "score": 12.932245939462401,
+        "rank": 7,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p112-c001",
+        "page": 112,
+        "score": 12.399956192870976,
+        "rank": 8,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p112-c000",
+        "page": 112,
+        "score": 9.296011437348154,
+        "rank": 9,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p071-c001",
+        "page": 71,
+        "score": 9.268256809709458,
+        "rank": 10,
+        "hit": false
+      }
+    ],
+    "first_hit_rank": 1,
+    "hit1": true,
+    "hit3": true,
+    "context_ids": [
+      "B-idr2026-p029-c001",
+      "B-idr2026-p029-c000",
+      "B-idr2026-p107-c002",
+      "B-idr2026-p129-c002",
+      "B-idr2026-p111-c000",
+      "B-idr2026-p129-c003",
+      "B-idr2026-p121-c002",
+      "B-idr2026-p112-c001"
+    ],
+    "context_chars": 7533,
+    "context_hit": true
+  },
+  {
+    "query_id": "d05",
+    "question": "How much did Ukraine's external debt stock increase in 2025?",
+    "filter": null,
+    "elapsed_ms": 1.1067999876104295,
+    "results": [
+      {
+        "id": "B-idr2026-p031-c000",
+        "page": 31,
+        "score": 14.428057956722958,
+        "rank": 1,
+        "hit": true
+      },
+      {
+        "id": "B-idr2026-p038-c002",
+        "page": 38,
+        "score": 14.229229856525652,
+        "rank": 2,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p039-c000",
+        "page": 39,
+        "score": 11.958123417972796,
+        "rank": 3,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p038-c000",
+        "page": 38,
+        "score": 11.541427049959534,
+        "rank": 4,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p035-c001",
+        "page": 35,
+        "score": 10.767809602975177,
+        "rank": 5,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p062-c000",
+        "page": 62,
+        "score": 9.949598239578922,
+        "rank": 6,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p049-c003",
+        "page": 49,
+        "score": 8.70307696239433,
+        "rank": 7,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p040-c000",
+        "page": 40,
+        "score": 8.629690230004533,
+        "rank": 8,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p029-c002",
+        "page": 29,
+        "score": 8.170760901903757,
+        "rank": 9,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p030-c000",
+        "page": 30,
+        "score": 8.116115478679047,
+        "rank": 10,
+        "hit": false
+      }
+    ],
+    "first_hit_rank": 1,
+    "hit1": true,
+    "hit3": true,
+    "context_ids": [
+      "B-idr2026-p031-c000",
+      "B-idr2026-p038-c002",
+      "B-idr2026-p039-c000",
+      "B-idr2026-p038-c000",
+      "B-idr2026-p035-c001",
+      "B-idr2026-p062-c000",
+      "B-idr2026-p049-c003",
+      "B-idr2026-p040-c000"
+    ],
+    "context_chars": 7855,
+    "context_hit": true
+  },
+  {
+    "query_id": "d06",
+    "question": "What is a total return swap (TRS)?",
+    "filter": null,
+    "elapsed_ms": 0.4920999926980585,
+    "results": [
+      {
+        "id": "B-idr2026-p031-c001",
+        "page": 31,
+        "score": 15.428272485320612,
+        "rank": 1,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p031-c002",
+        "page": 31,
+        "score": 13.516803964760152,
+        "rank": 2,
+        "hit": true
+      },
+      {
+        "id": "B-idr2026-p032-c000",
+        "page": 32,
+        "score": 8.134715763706902,
+        "rank": 3,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p033-c000",
+        "page": 33,
+        "score": 7.916293382358565,
+        "rank": 4,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p032-c002",
+        "page": 32,
+        "score": 5.9878289255117405,
+        "rank": 5,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p040-c001",
+        "page": 40,
+        "score": 5.733058779642763,
+        "rank": 6,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p033-c001",
+        "page": 33,
+        "score": 4.4988099813465645,
+        "rank": 7,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p108-c002",
+        "page": 108,
+        "score": 4.3589088842645545,
+        "rank": 8,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p030-c000",
+        "page": 30,
+        "score": 4.222164829684742,
+        "rank": 9,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p116-c001",
+        "page": 116,
+        "score": 4.093711331785316,
+        "rank": 10,
+        "hit": false
+      }
+    ],
+    "first_hit_rank": 2,
+    "hit1": false,
+    "hit3": true,
+    "context_ids": [
+      "B-idr2026-p031-c001",
+      "B-idr2026-p031-c002",
+      "B-idr2026-p032-c000",
+      "B-idr2026-p033-c000",
+      "B-idr2026-p032-c002",
+      "B-idr2026-p040-c001",
+      "B-idr2026-p033-c001",
+      "B-idr2026-p108-c002"
+    ],
+    "context_chars": 7375,
+    "context_hit": true
+  },
+  {
+    "query_id": "d07",
+    "question": "What share of long-term net debt inflows to LMICs came from private creditors in 2025?",
+    "filter": null,
+    "elapsed_ms": 1.244099999894388,
+    "results": [
+      {
+        "id": "B-idr2026-p040-c001",
+        "page": 40,
+        "score": 22.782721450805607,
+        "rank": 1,
+        "hit": true
+      },
+      {
+        "id": "B-idr2026-p041-c000",
+        "page": 41,
+        "score": 21.904062025224043,
+        "rank": 2,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p044-c001",
+        "page": 44,
+        "score": 20.17927940306776,
+        "rank": 3,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p063-c001",
+        "page": 63,
+        "score": 18.66939918898555,
+        "rank": 4,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p045-c002",
+        "page": 45,
+        "score": 18.65475770301792,
+        "rank": 5,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p041-c001",
+        "page": 41,
+        "score": 18.07885022638194,
+        "rank": 6,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p064-c000",
+        "page": 64,
+        "score": 16.854245151626955,
+        "rank": 7,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p044-c000",
+        "page": 44,
+        "score": 15.624168185440869,
+        "rank": 8,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p048-c000",
+        "page": 48,
+        "score": 14.996544121639598,
+        "rank": 9,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p046-c001",
+        "page": 46,
+        "score": 13.457421126473285,
+        "rank": 10,
+        "hit": false
+      }
+    ],
+    "first_hit_rank": 1,
+    "hit1": true,
+    "hit3": true,
+    "context_ids": [
+      "B-idr2026-p040-c001",
+      "B-idr2026-p041-c000",
+      "B-idr2026-p044-c001",
+      "B-idr2026-p063-c001",
+      "B-idr2026-p045-c002",
+      "B-idr2026-p041-c001",
+      "B-idr2026-p064-c000",
+      "B-idr2026-p044-c000"
+    ],
+    "context_chars": 8052,
+    "context_hit": true
+  },
+  {
+    "query_id": "d08",
+    "question": "How were 2025 net debt inflows from private creditors split between bonds and commercial bank lending?",
+    "filter": null,
+    "elapsed_ms": 1.1654000118141994,
+    "results": [
+      {
+        "id": "B-idr2026-p041-c000",
+        "page": 41,
+        "score": 21.524732621393266,
+        "rank": 1,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p040-c002",
+        "page": 40,
+        "score": 18.90340846812825,
+        "rank": 2,
+        "hit": true
+      },
+      {
+        "id": "B-idr2026-p040-c001",
+        "page": 40,
+        "score": 17.30104434788355,
+        "rank": 3,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p044-c002",
+        "page": 44,
+        "score": 16.9021370193886,
+        "rank": 4,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p044-c000",
+        "page": 44,
+        "score": 15.083282173154611,
+        "rank": 5,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p064-c000",
+        "page": 64,
+        "score": 15.071763857200576,
+        "rank": 6,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p048-c000",
+        "page": 48,
+        "score": 14.257990166934167,
+        "rank": 7,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p065-c000",
+        "page": 65,
+        "score": 13.494128843537535,
+        "rank": 8,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p063-c001",
+        "page": 63,
+        "score": 13.120562834851254,
+        "rank": 9,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p034-c003",
+        "page": 34,
+        "score": 12.424112379627172,
+        "rank": 10,
+        "hit": false
+      }
+    ],
+    "first_hit_rank": 2,
+    "hit1": false,
+    "hit3": true,
+    "context_ids": [
+      "B-idr2026-p041-c000",
+      "B-idr2026-p040-c002",
+      "B-idr2026-p040-c001",
+      "B-idr2026-p044-c002",
+      "B-idr2026-p044-c000",
+      "B-idr2026-p064-c000",
+      "B-idr2026-p048-c000",
+      "B-idr2026-p065-c000"
+    ],
+    "context_chars": 8272,
+    "context_hit": true
+  },
+  {
+    "query_id": "d09",
+    "question": "What were the average interest rates on new commitments from official and private creditors in 2025?",
+    "filter": null,
+    "elapsed_ms": 0.9716999920783564,
+    "results": [
+      {
+        "id": "B-idr2026-p050-c001",
+        "page": 50,
+        "score": 26.77363621009856,
+        "rank": 1,
+        "hit": true
+      },
+      {
+        "id": "B-idr2026-p065-c001",
+        "page": 65,
+        "score": 24.525074727249606,
+        "rank": 2,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p066-c001",
+        "page": 66,
+        "score": 24.444130346692997,
+        "rank": 3,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p051-c000",
+        "page": 51,
+        "score": 23.342590730459833,
+        "rank": 4,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p050-c000",
+        "page": 50,
+        "score": 21.1315298300295,
+        "rank": 5,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p051-c001",
+        "page": 51,
+        "score": 15.025676020717313,
+        "rank": 6,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p052-c000",
+        "page": 52,
+        "score": 11.508690489804943,
+        "rank": 7,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p044-c002",
+        "page": 44,
+        "score": 11.072830928374156,
+        "rank": 8,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p029-c000",
+        "page": 29,
+        "score": 10.797207152054185,
+        "rank": 9,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p067-c003",
+        "page": 67,
+        "score": 9.83441047034752,
+        "rank": 10,
+        "hit": false
+      }
+    ],
+    "first_hit_rank": 1,
+    "hit1": true,
+    "hit3": true,
+    "context_ids": [
+      "B-idr2026-p050-c001",
+      "B-idr2026-p065-c001",
+      "B-idr2026-p066-c001",
+      "B-idr2026-p051-c000",
+      "B-idr2026-p050-c000",
+      "B-idr2026-p051-c001",
+      "B-idr2026-p052-c000",
+      "B-idr2026-p044-c002"
+    ],
+    "context_chars": 8187,
+    "context_hit": true
+  },
+  {
+    "query_id": "d10",
+    "question": "How large were FDI and personal remittances to LMICs excluding China in 2025?",
+    "filter": null,
+    "elapsed_ms": 1.0332000092603266,
+    "results": [
+      {
+        "id": "B-idr2026-p055-c001",
+        "page": 55,
+        "score": 28.683441408181704,
+        "rank": 1,
+        "hit": true
+      },
+      {
+        "id": "B-idr2026-p056-c001",
+        "page": 56,
+        "score": 22.736658817352243,
+        "rank": 2,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p058-c000",
+        "page": 58,
+        "score": 21.791855639140074,
+        "rank": 3,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p055-c000",
+        "page": 55,
+        "score": 19.765063205089806,
+        "rank": 4,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p054-c002",
+        "page": 54,
+        "score": 17.527211607799572,
+        "rank": 5,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p057-c001",
+        "page": 57,
+        "score": 17.48657520595448,
+        "rank": 6,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p058-c001",
+        "page": 58,
+        "score": 16.53070673349606,
+        "rank": 7,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p057-c000",
+        "page": 57,
+        "score": 15.412457228883088,
+        "rank": 8,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p056-c000",
+        "page": 56,
+        "score": 14.359075888957927,
+        "rank": 9,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p048-c000",
+        "page": 48,
+        "score": 9.693013121097069,
+        "rank": 10,
+        "hit": false
+      }
+    ],
+    "first_hit_rank": 1,
+    "hit1": true,
+    "hit3": true,
+    "context_ids": [
+      "B-idr2026-p055-c001",
+      "B-idr2026-p056-c001",
+      "B-idr2026-p058-c000",
+      "B-idr2026-p055-c000",
+      "B-idr2026-p054-c002",
+      "B-idr2026-p057-c001",
+      "B-idr2026-p058-c001",
+      "B-idr2026-p057-c000"
+    ],
+    "context_chars": 6903,
+    "context_hit": true
+  },
+  {
+    "query_id": "d11",
+    "question": "What was Sub-Saharan Africa's external debt-to-GNI ratio in 2025?",
+    "filter": null,
+    "elapsed_ms": 1.108700002077967,
+    "results": [
+      {
+        "id": "B-idr2026-p060-c000",
+        "page": 60,
+        "score": 24.64117586883544,
+        "rank": 1,
+        "hit": true
+      },
+      {
+        "id": "B-idr2026-p061-c001",
+        "page": 61,
+        "score": 15.27116400378975,
+        "rank": 2,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p066-c001",
+        "page": 66,
+        "score": 14.931011043116442,
+        "rank": 3,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p059-c002",
+        "page": 59,
+        "score": 14.242241242554682,
+        "rank": 4,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p059-c001",
+        "page": 59,
+        "score": 14.153611970673367,
+        "rank": 5,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p064-c001",
+        "page": 64,
+        "score": 13.918783361412624,
+        "rank": 6,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p060-c001",
+        "page": 60,
+        "score": 13.885705236733108,
+        "rank": 7,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p066-c000",
+        "page": 66,
+        "score": 13.685483264753344,
+        "rank": 8,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p086-c001",
+        "page": 86,
+        "score": 13.003900476911713,
+        "rank": 9,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p053-c001",
+        "page": 53,
+        "score": 9.77902855968637,
+        "rank": 10,
+        "hit": false
+      }
+    ],
+    "first_hit_rank": 1,
+    "hit1": true,
+    "hit3": true,
+    "context_ids": [
+      "B-idr2026-p060-c000",
+      "B-idr2026-p061-c001",
+      "B-idr2026-p066-c001",
+      "B-idr2026-p059-c002",
+      "B-idr2026-p059-c001",
+      "B-idr2026-p064-c001",
+      "B-idr2026-p060-c001",
+      "B-idr2026-p066-c000"
+    ],
+    "context_chars": 7640,
+    "context_hit": true
+  },
+  {
+    "query_id": "d12",
+    "question": "In the chapter analyzing external debt data (chapter 1), what was the external debt stock of IDA-eligible countries in 2025?",
+    "filter": {
+      "chapter": 1
+    },
+    "elapsed_ms": 0.6861000001663342,
+    "results": [
+      {
+        "id": "B-idr2026-p062-c000",
+        "page": 62,
+        "score": 12.531279059814983,
+        "rank": 1,
+        "hit": true
+      },
+      {
+        "id": "B-idr2026-p062-c001",
+        "page": 62,
+        "score": 11.177228528528326,
+        "rank": 2,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p061-c000",
+        "page": 61,
+        "score": 10.597260498551462,
+        "rank": 3,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p059-c002",
+        "page": 59,
+        "score": 9.90780787170573,
+        "rank": 4,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p034-c002",
+        "page": 34,
+        "score": 9.754917128523296,
+        "rank": 5,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p059-c001",
+        "page": 59,
+        "score": 9.128198802791102,
+        "rank": 6,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p051-c001",
+        "page": 51,
+        "score": 8.996461567540177,
+        "rank": 7,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p043-c000",
+        "page": 43,
+        "score": 8.644284088536372,
+        "rank": 8,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p063-c000",
+        "page": 63,
+        "score": 8.418271846209608,
+        "rank": 9,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p066-c001",
+        "page": 66,
+        "score": 8.330821263025845,
+        "rank": 10,
+        "hit": false
+      }
+    ],
+    "first_hit_rank": 1,
+    "hit1": true,
+    "hit3": true,
+    "context_ids": [
+      "B-idr2026-p062-c000",
+      "B-idr2026-p062-c001",
+      "B-idr2026-p061-c000",
+      "B-idr2026-p059-c002",
+      "B-idr2026-p034-c002",
+      "B-idr2026-p059-c001",
+      "B-idr2026-p051-c001",
+      "B-idr2026-p043-c000"
+    ],
+    "context_chars": 7623,
+    "context_hit": true
+  },
+  {
+    "query_id": "d13",
+    "question": "When Lao PDR returned to international markets in 2025, how much did it issue and at what interest rate?",
+    "filter": null,
+    "elapsed_ms": 0.9513000113656744,
+    "results": [
+      {
+        "id": "B-idr2026-p066-c001",
+        "page": 66,
+        "score": 23.244102665531898,
+        "rank": 1,
+        "hit": true
+      },
+      {
+        "id": "B-idr2026-p064-c001",
+        "page": 64,
+        "score": 14.023718910227311,
+        "rank": 2,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p050-c000",
+        "page": 50,
+        "score": 10.820968547716205,
+        "rank": 3,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p051-c001",
+        "page": 51,
+        "score": 10.741367912438143,
+        "rank": 4,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p049-c003",
+        "page": 49,
+        "score": 10.508835770452198,
+        "rank": 5,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p065-c001",
+        "page": 65,
+        "score": 10.170755875717333,
+        "rank": 6,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p067-c003",
+        "page": 67,
+        "score": 9.873222292871473,
+        "rank": 7,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p062-c000",
+        "page": 62,
+        "score": 6.663517039889079,
+        "rank": 8,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p030-c000",
+        "page": 30,
+        "score": 6.62747552066914,
+        "rank": 9,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p031-c000",
+        "page": 31,
+        "score": 6.550280054357819,
+        "rank": 10,
+        "hit": false
+      }
+    ],
+    "first_hit_rank": 1,
+    "hit1": true,
+    "hit3": true,
+    "context_ids": [
+      "B-idr2026-p066-c001",
+      "B-idr2026-p064-c001",
+      "B-idr2026-p050-c000",
+      "B-idr2026-p051-c001",
+      "B-idr2026-p049-c003",
+      "B-idr2026-p065-c001",
+      "B-idr2026-p067-c003",
+      "B-idr2026-p062-c000"
+    ],
+    "context_chars": 7797,
+    "context_hit": true
+  },
+  {
+    "query_id": "d14",
+    "question": "In the chapter on debt dynamics and policy implications (chapter 2), what were gross financing needs (GFNs) of IDA countries in 2025 as a share of GDP?",
+    "filter": {
+      "chapter": 2
+    },
+    "elapsed_ms": 0.4413999995449558,
+    "results": [
+      {
+        "id": "B-idr2026-p085-c001",
+        "page": 85,
+        "score": 28.099531935757145,
+        "rank": 1,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p086-c000",
+        "page": 86,
+        "score": 20.116018503197513,
+        "rank": 2,
+        "hit": true
+      },
+      {
+        "id": "B-idr2026-p087-c000",
+        "page": 87,
+        "score": 19.973056973078357,
+        "rank": 3,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p075-c000",
+        "page": 75,
+        "score": 18.68728279313843,
+        "rank": 4,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p075-c001",
+        "page": 75,
+        "score": 13.992890031920252,
+        "rank": 5,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p090-c001",
+        "page": 90,
+        "score": 13.418538251881943,
+        "rank": 6,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p079-c000",
+        "page": 79,
+        "score": 12.269739067887281,
+        "rank": 7,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p076-c000",
+        "page": 76,
+        "score": 10.856390322436718,
+        "rank": 8,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p078-c001",
+        "page": 78,
+        "score": 10.757638114865122,
+        "rank": 9,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p084-c000",
+        "page": 84,
+        "score": 9.341688047959703,
+        "rank": 10,
+        "hit": false
+      }
+    ],
+    "first_hit_rank": 2,
+    "hit1": false,
+    "hit3": true,
+    "context_ids": [
+      "B-idr2026-p085-c001",
+      "B-idr2026-p086-c000",
+      "B-idr2026-p087-c000",
+      "B-idr2026-p075-c000",
+      "B-idr2026-p075-c001",
+      "B-idr2026-p090-c001",
+      "B-idr2026-p079-c000",
+      "B-idr2026-p076-c000"
+    ],
+    "context_chars": 6909,
+    "context_hit": true
+  },
+  {
+    "query_id": "d15",
+    "question": "In the chapter on debt transparency (chapter 3), how many IDA-eligible countries published fully accessible public debt data in 2025?",
+    "filter": {
+      "chapter": 3
+    },
+    "elapsed_ms": 0.5461999971885234,
+    "results": [
+      {
+        "id": "B-idr2026-p109-c002",
+        "page": 109,
+        "score": 29.766379826086833,
+        "rank": 1,
+        "hit": true
+      },
+      {
+        "id": "B-idr2026-p107-c000",
+        "page": 107,
+        "score": 16.339700808847937,
+        "rank": 2,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p117-c002",
+        "page": 117,
+        "score": 11.466551595819078,
+        "rank": 3,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p107-c001",
+        "page": 107,
+        "score": 11.338146419696386,
+        "rank": 4,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p110-c000",
+        "page": 110,
+        "score": 11.150239101954343,
+        "rank": 5,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p128-c002",
+        "page": 128,
+        "score": 10.161103057109962,
+        "rank": 6,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p131-c002",
+        "page": 131,
+        "score": 8.416469513693778,
+        "rank": 7,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p109-c001",
+        "page": 109,
+        "score": 8.290107149985495,
+        "rank": 8,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p108-c000",
+        "page": 108,
+        "score": 8.231189662544741,
+        "rank": 9,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p118-c002",
+        "page": 118,
+        "score": 8.118445883791711,
+        "rank": 10,
+        "hit": false
+      }
+    ],
+    "first_hit_rank": 1,
+    "hit1": true,
+    "hit3": true,
+    "context_ids": [
+      "B-idr2026-p109-c002",
+      "B-idr2026-p107-c000",
+      "B-idr2026-p117-c002",
+      "B-idr2026-p107-c001",
+      "B-idr2026-p110-c000",
+      "B-idr2026-p128-c002",
+      "B-idr2026-p131-c002",
+      "B-idr2026-p109-c001"
+    ],
+    "context_chars": 6574,
+    "context_hit": true
+  },
+  {
+    "query_id": "d16",
+    "question": "What share of total public debt does domestic public debt now account for in many LMICs?",
+    "filter": null,
+    "elapsed_ms": 1.1018999939551577,
+    "results": [
+      {
+        "id": "B-idr2026-p117-c002",
+        "page": 117,
+        "score": 18.69442001351594,
+        "rank": 1,
+        "hit": true
+      },
+      {
+        "id": "B-idr2026-p118-c002",
+        "page": 118,
+        "score": 10.745331252353338,
+        "rank": 2,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p118-c000",
+        "page": 118,
+        "score": 10.482433322636153,
+        "rank": 3,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p090-c001",
+        "page": 90,
+        "score": 8.520371009778783,
+        "rank": 4,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p090-c000",
+        "page": 90,
+        "score": 8.370550523756513,
+        "rank": 5,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p084-c000",
+        "page": 84,
+        "score": 8.218606332913136,
+        "rank": 6,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p108-c002",
+        "page": 108,
+        "score": 8.148067030638591,
+        "rank": 7,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p122-c000",
+        "page": 122,
+        "score": 8.04966436104948,
+        "rank": 8,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p064-c000",
+        "page": 64,
+        "score": 8.042943958112305,
+        "rank": 9,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p045-c002",
+        "page": 45,
+        "score": 7.8788673743594355,
+        "rank": 10,
+        "hit": false
+      }
+    ],
+    "first_hit_rank": 1,
+    "hit1": true,
+    "hit3": true,
+    "context_ids": [
+      "B-idr2026-p117-c002",
+      "B-idr2026-p118-c002",
+      "B-idr2026-p118-c000",
+      "B-idr2026-p090-c001",
+      "B-idr2026-p090-c000",
+      "B-idr2026-p084-c000",
+      "B-idr2026-p108-c002",
+      "B-idr2026-p122-c000"
+    ],
+    "context_chars": 7708,
+    "context_hit": true
+  },
+  {
+    "query_id": "d17",
+    "question": "Why can the external debt a creditor records for a country be higher than the figure in IDS?",
+    "filter": null,
+    "elapsed_ms": 1.0509999992791563,
+    "results": [
+      {
+        "id": "B-idr2026-p125-c001",
+        "page": 125,
+        "score": 15.122329366023793,
+        "rank": 1,
+        "hit": true
+      },
+      {
+        "id": "B-idr2026-p132-c001",
+        "page": 132,
+        "score": 11.52979013614594,
+        "rank": 2,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p115-c000",
+        "page": 115,
+        "score": 9.438397345004226,
+        "rank": 3,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p112-c001",
+        "page": 112,
+        "score": 7.485561634851573,
+        "rank": 4,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p128-c001",
+        "page": 128,
+        "score": 7.459150304565958,
+        "rank": 5,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p066-c001",
+        "page": 66,
+        "score": 7.230667406044373,
+        "rank": 6,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p050-c000",
+        "page": 50,
+        "score": 6.761961742500692,
+        "rank": 7,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p051-c001",
+        "page": 51,
+        "score": 6.673236263570227,
+        "rank": 8,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p120-c002",
+        "page": 120,
+        "score": 6.48268453138511,
+        "rank": 9,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p096-c001",
+        "page": 96,
+        "score": 6.416347671027672,
+        "rank": 10,
+        "hit": false
+      }
+    ],
+    "first_hit_rank": 1,
+    "hit1": true,
+    "hit3": true,
+    "context_ids": [
+      "B-idr2026-p125-c001",
+      "B-idr2026-p132-c001",
+      "B-idr2026-p115-c000",
+      "B-idr2026-p112-c001",
+      "B-idr2026-p128-c001",
+      "B-idr2026-p066-c001",
+      "B-idr2026-p050-c000",
+      "B-idr2026-p051-c001"
+    ],
+    "context_chars": 7905,
+    "context_hit": true
+  }
+]

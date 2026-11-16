@@ -1,0 +1,1290 @@
+[
+  {
+    "query_id": "d01",
+    "split": "dev",
+    "question": "What was the total external debt of low- and middle-income countries (LMICs) at the end of 2025, and how much did it grow from 2024?",
+    "filter": null,
+    "status": "answered",
+    "answer": "At the end of 2025, the total external debt of low- and middle-income countries (LMICs) reached a record $9.4 trillion [B-idr2026-p027-c000]. This represented a 5.5 percent increase from the $8.9 trillion recorded in 2024 [B-idr2026-p027-c000].",
+    "citations": [
+      "B-idr2026-p027-c000"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "retriever": "hybrid",
+        "query": "total external debt of low- and middle-income countries LMICs end of 2025 growth from 2024",
+        "filter": null,
+        "top_k": 3,
+        "elapsed_ms": 620.3,
+        "results": [
+          {
+            "id": "B-idr2026-p027-c000",
+            "page": 27,
+            "score": 0.032266458495966696,
+            "rank": 1
+          },
+          {
+            "id": "B-idr2026-p035-c000",
+            "page": 35,
+            "score": 0.031754032258064516,
+            "rank": 2
+          },
+          {
+            "id": "B-idr2026-p030-c001",
+            "page": 30,
+            "score": 0.031544957774465976,
+            "rank": 3
+          }
+        ],
+        "context_ids": [
+          "B-idr2026-p027-c000",
+          "B-idr2026-p035-c000"
+        ],
+        "context_chars": 2412
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "context": "[B-idr2026-p027-c000 | data/9781464823558.pdf | page 27]\n1. Analysis of External Debt Stocks and Debt Flows as of End-2025 Trends in External Debt, 2015–25\nRenewed global inflationary pressures, geopolitical tensions, and decreased fiscal space continued to put substantial pressure on the external debt positions of low- and middle-income countries (LMICs) in 2025. LMICs’ external borrowing levels reached a record $9.4 trillion at the end of the year, increasing 5.5 percent from $8.9 trillion in 2024. LMIC external debt has grown about 60 percent over the past decade, and the 2025 increase was the largest since the easing of the COVID-19 pandemic in 2021. The change in debt stock was driven by net debt inflows of $423.5 billion, a more than twofold increase from 2024, as well as by some debt forgiveness and the upward accounting effect of US dollar depreciation. During the first half of 2025, the US dollar experienced its biggest depreciation against other currencies in more than five decades, and the increase in new debt flows went largely to middle-income countries (MICs), predominantly because of continued support from multilateral creditors and a rebound in lending from private creditors.\n\n[B-idr2026-p035-c000 | data/9781464823558.pdf | page 35]\nFigure 1.2 Creditor Composition of External Debt Stock in Low- and Middle-Income Countries, 2015–25\nAlmost three-fourths of total LMIC debt stock owed to bondholders was issued by public sector entities; that share increased 6.2 percent in 2025, to $1.8 trillion. The increase is even more pronounced when China is excluded: debt stock owed to bondholders increased 11.1 percent, to $1.8 trillion, and debt stock owed to commercial banks and other private creditors rose 8.3 percent, to $2.3 trillion (figure 1.3). The increase in private lending, which is highly procyclical, was correlated with this group of countries’ robust economic growth, as measured by their gross national income (GNI), which grew 6.0 percent in 2025. Through the most recent crises, decreases in debt stock from this creditor base have been associated with the 2008 financial crisis, the 2015 turbulence, and the COVID-19 pandemic. The robust 2025 economic growth of LMICs (excluding China) attracted lenders back to these economies, and many LMIC governments proved eager to borrow when international investors are willing to lend, even at elevated borrowing rates.",
+    "context_ids": [
+      "B-idr2026-p027-c000",
+      "B-idr2026-p035-c000"
+    ],
+    "tokens": {
+      "prompt": 1678,
+      "output": 173,
+      "model_calls": 2
+    },
+    "queries": [
+      "total external debt of low- and middle-income countries LMICs end of 2025 growth from 2024"
+    ],
+    "api_retries": [],
+    "elapsed_s": 4.04
+  },
+  {
+    "query_id": "d02",
+    "split": "dev",
+    "question": "Apart from the depreciation of the US dollar, what drove the increase in LMICs' debt stock in 2025?",
+    "filter": null,
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "reason": "The provided context identifies the depreciation of the US dollar as a factor contributing to the increase in LMICs' debt stock in 2025, but it does not specify other drivers for the increase in the debt stock itself. While page 59 mentions factors influencing debt ratios (export/income growth, debt restructuring), it does not explicitly state these as drivers for the increase in the debt stock.",
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "retriever": "hybrid",
+        "query": "what drove the increase in LMICs' debt stock in 2025 apart from US dollar depreciation",
+        "filter": null,
+        "top_k": 3,
+        "elapsed_ms": 291.4,
+        "results": [
+          {
+            "id": "B-idr2026-p034-c001",
+            "page": 34,
+            "score": 0.03252247488101534,
+            "rank": 1
+          },
+          {
+            "id": "B-idr2026-p033-c003",
+            "page": 33,
+            "score": 0.03200204813108039,
+            "rank": 2
+          },
+          {
+            "id": "B-idr2026-p059-c000",
+            "page": 59,
+            "score": 0.03149801587301587,
+            "rank": 3
+          }
+        ],
+        "context_ids": [
+          "B-idr2026-p034-c001",
+          "B-idr2026-p033-c003",
+          "B-idr2026-p059-c000"
+        ],
+        "context_chars": 2268
+      },
+      {
+        "event": "abstain",
+        "reason": "The provided context identifies the depreciation of the US dollar as a factor contributing to the increase in LMICs' debt stock in 2025, but it does not specify other drivers for the increase in the debt stock itself. While page 59 mentions factors influencing debt ratios (export/income growth, debt restructuring), it does not explicitly state these as drivers for the increase in the debt stock."
+      }
+    ],
+    "context": "[B-idr2026-p034-c001 | data/9781464823558.pdf | page 34]\nOf the $301.8 billion increase in LMICs’ PPG debt stock (external debt obligations of a country’s government and any private sector debts backed by a public sector guarantee) recorded in 2025, at least 28.2 percent can be attributed to the depreciation of the US dollar. Borrowing by the PPG sector of the economy gets reported at the instrument level and in the currency in which the liabilities are denominated or repaid. Accordingly, this level of detailed reporting makes possible the computation of the effect of the cross-currency valuation.\n\n[B-idr2026-p033-c003 | data/9781464823558.pdf | page 33]\nAdditionally, in this publication, the US dollar is used as the common currency by convention to measure all external borrowing of LMICs, which has implications over time. As the US dollar depreciated in 2025 against the euro, the British pound, the Chinese yuan, and many other currencies, the debt stock denominated in those currencies increased when converted to US dollars. The euro, IMF special drawing rights (SDR), the Chinese yuan, and the Japanese yen are the four currencies that make up the largest portion of LMICs’ non-dollar-denominated debt. In 2025 the dollar depreciated 13.1 percent against the euro, 5.0 percent against SDR, and 4.4 percent against the yuan, and remained essentially stable against the weakened\n\n[B-idr2026-p059-c000 | data/9781464823558.pdf | page 59]\nKey Debt Indicators, 2015–25\nIn 2025, LMICs’ external debt ratios remained mainly stable from the peak levels recorded during the COVID-19 pandemic in 2020; however, aggregate improvement was uneven, with debt stock ratios rising or holding flat while debt service and interest payment ratios declined across most borrower groups. This change in ratios reflects a combination of strong export and income growth, the completion of debt restructuring agreements in several IDA-eligible countries, and the depreciation of the US dollar, which inflated the dollar-measured value of both debt stocks and GNI simultaneously through an accounting effect, partly moderating ratio movements in both directions. Ratios of debt to national income and exports are valuable indicators of countries’ ability to service their debt.",
+    "context_ids": [
+      "B-idr2026-p034-c001",
+      "B-idr2026-p033-c003",
+      "B-idr2026-p059-c000"
+    ],
+    "tokens": {
+      "prompt": 1580,
+      "output": 129,
+      "model_calls": 2
+    },
+    "queries": [
+      "what drove the increase in LMICs' debt stock in 2025 apart from US dollar depreciation"
+    ],
+    "api_retries": [],
+    "elapsed_s": 3.59
+  },
+  {
+    "query_id": "d03",
+    "split": "dev",
+    "question": "What components make up a country's total external debt?",
+    "filter": null,
+    "status": "answered",
+    "answer": "A country's total external debt is the sum of three components: public and publicly guaranteed debt, private nonguaranteed debt, and short-term debt [B-idr2026-p029-c000].",
+    "citations": [
+      "B-idr2026-p029-c000"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "retriever": "hybrid",
+        "query": "components of a country's total external debt",
+        "filter": null,
+        "top_k": 3,
+        "elapsed_ms": 266.0,
+        "results": [
+          {
+            "id": "B-idr2026-p029-c000",
+            "page": 29,
+            "score": 0.032018442622950824,
+            "rank": 1
+          },
+          {
+            "id": "B-idr2026-p049-c001",
+            "page": 49,
+            "score": 0.029551337359792925,
+            "rank": 2
+          },
+          {
+            "id": "B-idr2026-p067-c000",
+            "page": 67,
+            "score": 0.029083245521601686,
+            "rank": 3
+          }
+        ],
+        "context_ids": [
+          "B-idr2026-p029-c000",
+          "B-idr2026-p049-c001"
+        ],
+        "context_chars": 2209
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "context": "[B-idr2026-p029-c000 | data/9781464823558.pdf | page 29]\nBox 1.1 External Debt Data: Concepts, Sources, and Coverage (continued)\nsome point(s) in the future and that are owed to nonresidents by residents of an economy. The sum of principal and interest payments is defined as debt service.\n\n• The total external debt of a country is the sum of public and publicly guaranteed debt, private nonguaranteed debt, and short-term debt.\n\n• Public and publicly guaranteed external debt comprises long-term external obligations (maturities of over one year) of all public debtors, including debt held by the central government and by state-owned enterprises. Data are collected on a loan-by-loan basis through the DRS. Reporting countries submit quarterly reports on new loan commitments and annual reports on loan status and transactions (new commitments, gross disbursements, principal, and interest payments).\n\n• Private nonguaranteed debt comprises long-term external obligations of private debtors that are not guaranteed by a public entity. The DRS has covered private nonguaranteed debt since 1973; however, for this category of debt data, the annual status and transactions (gross disbursements, principal, and interest payments) are reported in aggregate.\n\n[B-idr2026-p049-c001 | data/9781464823558.pdf | page 49]\nChina, the largest borrower among LMICs, accounted for 30.0 percent of the group’s total debt service payments, and recorded a 13.7 percent increase to $419.8 billion in 2025. The country’s largest share of debt service payments, and its largest yearly increase in payments, went to private creditors, recording a 19.2 percent increase to $330.3 billion in 2025. When China is excluded, total debt service payments of LMICs decreased 2.5 percent to $979.0 billion in 2025. For this group, the increase in total debt payments to bondholders persists, recording a 4.6 percent increase to $242.3 billion in 2025, as total payments to all other creditors continued to record a decrease. However, when the buyback and prepayment operations’ amounts are considered, debt service payments from LMICs to bondholders for this group of countries also decreased by 10.3 percent, to $207.9 billion, in 2025.",
+    "context_ids": [
+      "B-idr2026-p029-c000",
+      "B-idr2026-p049-c001"
+    ],
+    "tokens": {
+      "prompt": 1536,
+      "output": 109,
+      "model_calls": 2
+    },
+    "queries": [
+      "components of a country's total external debt"
+    ],
+    "api_retries": [],
+    "elapsed_s": 3.45
+  },
+  {
+    "query_id": "d04",
+    "split": "dev",
+    "question": "How is short-term debt defined, and is it required to be reported to the Debtor Reporting System (DRS)?",
+    "filter": null,
+    "status": "answered",
+    "answer": "Short-term debt is defined as debt with an original maturity of one year or less [B-idr2026-p029-c001]. It is not covered under the reporting requirements of the Debtor Reporting System (DRS) [B-idr2026-p029-c001, B-idr2026-p129-c003]. However, most DRS reporters provide annual reports on outstanding short-term debt stocks on a voluntary basis [B-idr2026-p029-c001].",
+    "citations": [
+      "B-idr2026-p029-c001",
+      "B-idr2026-p129-c003"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "retriever": "hybrid",
+        "query": "definition of short-term debt Debtor Reporting System DRS",
+        "filter": null,
+        "top_k": 3,
+        "elapsed_ms": 237.9,
+        "results": [
+          {
+            "id": "B-idr2026-p029-c001",
+            "page": 29,
+            "score": 0.03278688524590164,
+            "rank": 1
+          },
+          {
+            "id": "B-idr2026-p129-c003",
+            "page": 129,
+            "score": 0.03076923076923077,
+            "rank": 2
+          },
+          {
+            "id": "B-idr2026-p028-c000",
+            "page": 28,
+            "score": 0.02904040404040404,
+            "rank": 3
+          }
+        ],
+        "context_ids": [
+          "B-idr2026-p029-c001",
+          "B-idr2026-p129-c003"
+        ],
+        "context_chars": 1962
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "context": "[B-idr2026-p029-c001 | data/9781464823558.pdf | page 29]\n• Short-term debt is defined as debt with an original maturity of one year or less and is not covered under DRS reporting requirements. However, most DRS reporters provide an annual report on outstanding short-term debt stocks on a voluntary basis. For countries that do not provide these data, information on their short-term debt is drawn from the Quarterly External Debt Statistics database, a joint World Bank Group–International Monetary Fund initiative, wherein data are compiled and reported by countries’ central banks, along with data compiled by the Bank for International Settlements.\n\nAll debt data reported to the DRS are validated against—and, when appropriate, supplemented by—data from other sources. These additional data include the Balance of Payments and International Investment Position statistics, Quarterly External Debt Statistics, information published on official government websites, reports from the International Monetary Fund, regional development banks, the Organisation for Economic Co-operation and Development, the Bank for International Settlements, and websites and annual publications of lending agencies.\n\n[B-idr2026-p129-c003 | data/9781464823558.pdf | page 129]\nThe DRS covers long-term public and publicly guaranteed external debt, along with aggregate information for private nonguaranteed debt when available. Data are reported on an instrument-by-instrument basis, providing detailed information on terms, disbursements, debt service, and outstanding amounts. The key strength of the DRS is the depth and consistency of coverage for LMICs, enabling granular analysis. Its main limitation is the absence of short-term debt and certain debt instruments, such as pension fund liabilities (owed to national households but held by nonresidents), currency and deposits, and trade credit and advances. Moreover, the aggregation of private nonguaranteed debt reporting",
+    "context_ids": [
+      "B-idr2026-p029-c001",
+      "B-idr2026-p129-c003"
+    ],
+    "tokens": {
+      "prompt": 1409,
+      "output": 214,
+      "model_calls": 2
+    },
+    "queries": [
+      "definition of short-term debt Debtor Reporting System DRS"
+    ],
+    "api_retries": [],
+    "elapsed_s": 2.73
+  },
+  {
+    "query_id": "d05",
+    "split": "dev",
+    "question": "How much did Ukraine's external debt stock increase in 2025?",
+    "filter": null,
+    "status": "answered",
+    "answer": "Ukraine's long-term external debt stock was $227 billion in 2025 [B-idr2026-p038-c002]. The provided text does not state the specific amount of the increase in 2025, only the total stock for that year [B-idr2026-p038-c002].",
+    "citations": [
+      "B-idr2026-p038-c002"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "retriever": "hybrid",
+        "query": "Ukraine external debt stock 2025",
+        "filter": null,
+        "top_k": 3,
+        "elapsed_ms": 284.4,
+        "results": [
+          {
+            "id": "B-idr2026-p038-c000",
+            "page": 38,
+            "score": 0.03252247488101534,
+            "rank": 1
+          },
+          {
+            "id": "B-idr2026-p038-c002",
+            "page": 38,
+            "score": 0.032018442622950824,
+            "rank": 2
+          },
+          {
+            "id": "B-idr2026-p031-c000",
+            "page": 31,
+            "score": 0.031746031746031744,
+            "rank": 3
+          }
+        ],
+        "context_ids": [
+          "B-idr2026-p038-c000",
+          "B-idr2026-p038-c002"
+        ],
+        "context_chars": 2433
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "context": "[B-idr2026-p038-c000 | data/9781464823558.pdf | page 38]\nLMICs’ debt stock owed to all other creditor groups also increased in 2025. Debt stock owed to official creditors (public institutions such as national governments and international organizations) increased 8.4 percent in 2025, to $2.0 trillion. Lending by official bilateral creditors (national governments and their agencies) also showed a comeback, increasing 4.7 percent in 2025 after a 3.4 percent retrenchment in 2024. Support from multilateral institutions such as the World Bank Group and the IMF continued to be positive in 2025, but at a decreasing pace when compared to the COVID-19 pandemic era. Except for the multilateral support to Ukraine provided under the Extraordinary Revenue Acceleration Loans for Ukraine initiative, the cumulative countercyclical lending by these institutions decelerated in 2025. (Box 1.4 describes the international support for Ukraine through this initiative.) LMICs’ debt stock owed to multilateral creditors increased 9.6 percent to $1.5 trillion in 2025. However, when the European Union’s support to Ukraine is excluded, debt stock owed to multilateral creditors increased 7.0 percent to $1.4 trillion in 2026.\n\n[B-idr2026-p038-c002 | data/9781464823558.pdf | page 38]\nFinancial support for Ukraine from bilateral and multilateral creditors has reached unprecedented levels since the start of the Ukraine War in February 2022. Official creditors, including the Group of Seven (G-7) bilateral creditors and multilaterals like the European Union and the World Bank Group, provided $122.2 billion in disbursements during the 2022–25 period. This support reshaped the composition of Ukraine’s external debt (figure B1.4.1). Long-term external debt stock rose from $99 billion in 2015 to $227 billion in 2025, but little of that increase was driven by private creditors, whose claims remained broadly flat over the past decade, rising slightly from $72 billion to $82 billion. Debt owed to multilateral creditors accounts for most of the increase. Bilateral claims increased sixfold over the past decade but grew from a much smaller base and remained a modest share of the total. These official creditors delivered support to Ukraine not only through direct lending but also through grants, trust funds, guarantees, and co- and parallel financing, among other financial instruments.\n\nThe ERA and the Ukraine Loan Cooperation Mechanism",
+    "context_ids": [
+      "B-idr2026-p038-c000",
+      "B-idr2026-p038-c002"
+    ],
+    "tokens": {
+      "prompt": 1576,
+      "output": 145,
+      "model_calls": 2
+    },
+    "queries": [
+      "Ukraine external debt stock 2025"
+    ],
+    "api_retries": [],
+    "elapsed_s": 3.11
+  },
+  {
+    "query_id": "d06",
+    "split": "dev",
+    "question": "What is a total return swap (TRS)?",
+    "filter": null,
+    "status": "answered",
+    "answer": "A total return swap (TRS) is a financial derivative contract where one party transfers the total economic return of a reference asset—including income and changes in market value—to another party in exchange for a predetermined stream of payments, which is typically linked to a benchmark interest rate plus a spread [B-idr2026-p031-c002]. Traditionally, these instruments have been used to transfer the economic risks and returns of an asset without transferring its legal ownership [B-idr2026-p031-c002]. In the context of sovereign financing, TRS structures can combine derivative features with financing, often involving up-front funding and the pledging of assets, such as government securities, as collateral [B-idr2026-p031-c002].",
+    "citations": [
+      "B-idr2026-p031-c002"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "retriever": "hybrid",
+        "query": "\"total return swap\" definition",
+        "filter": null,
+        "top_k": 3,
+        "elapsed_ms": 187.9,
+        "results": [
+          {
+            "id": "B-idr2026-p031-c002",
+            "page": 31,
+            "score": 0.03252247488101534,
+            "rank": 1
+          },
+          {
+            "id": "B-idr2026-p031-c001",
+            "page": 31,
+            "score": 0.03177805800756621,
+            "rank": 2
+          },
+          {
+            "id": "B-idr2026-p032-c000",
+            "page": 32,
+            "score": 0.031754032258064516,
+            "rank": 3
+          }
+        ],
+        "context_ids": [
+          "B-idr2026-p031-c002",
+          "B-idr2026-p031-c001",
+          "B-idr2026-p032-c000"
+        ],
+        "context_chars": 2498
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "context": "[B-idr2026-p031-c002 | data/9781464823558.pdf | page 31]\nBox 1.2 Total Return Swaps: An Emerging Form of Sovereign Financing\nTotal return swaps (TRSs) have traditionally been used in financial markets to transfer the economic risks and returns of an underlying asset without transferring its legal ownership. More recently, TRS structures have gained prominence as a form of sovereign financing, often involving up-front funding and the pledging of government securities or other assets as collateral.\n\nHow a TRS Works\n\nA TRS is a financial derivative contract in which one party transfers the total economic return of a reference asset, including income and changes in market value, to another party in exchange for a predetermined stream of payments, typically linked to a benchmark interest rate plus a spread.\n\nIn sovereign transactions, TRS structures can combine derivative features with financing. This combination can blur the distinction between a financial derivative and conventional borrowing, and makes it important to assess the economic substance of the transaction.\n\nSovereign borrowers may turn to TRS arrangements when conventional market financing is unavailable, slow, or prohibitively expensive. By using government\n\n[B-idr2026-p031-c001 | data/9781464823558.pdf | page 31]\nSome of these countries also turned to complex liability management operations to transform the profile of their debt portfolios, as well as total return swap operations, which have gained prominence for LMICs (refer to box 1.2 for definitions and country-specific use of total return swaps).\n\n[B-idr2026-p032-c000 | data/9781464823558.pdf | page 32]\nBox 1.2 Total Return Swaps: An Emerging Form of Sovereign Financing (continued)\nsecurities as collateral, borrowers can obtain foreign currency liquidity quickly and potentially at a lower short-term financing rate. These benefits, however, come with substantial collateral requirements, margin-call, refinancing, and transparency risks.\n\nThe Growing Use of TRSs in Sovereign Financing\n\nSince 2024, TRS arrangements have been identified in Angola, Argentina, Colombia, Nigeria, and Senegal, with financing amounts ranging from about $1.0 billion to $9.3 billion. Maturities have generally ranged from one to three years, and disclosed collateralization ratios have typically been between 133 and 198 percent. Collateral has included domestic government securities, external sovereign bonds, US Treasury securities, or combinations of these instruments.",
+    "context_ids": [
+      "B-idr2026-p031-c002",
+      "B-idr2026-p031-c001",
+      "B-idr2026-p032-c000"
+    ],
+    "tokens": {
+      "prompt": 1525,
+      "output": 229,
+      "model_calls": 2
+    },
+    "queries": [
+      "\"total return swap\" definition"
+    ],
+    "api_retries": [],
+    "elapsed_s": 5.16
+  },
+  {
+    "query_id": "d07",
+    "split": "dev",
+    "question": "What share of long-term net debt inflows to LMICs came from private creditors in 2025?",
+    "filter": null,
+    "status": "answered",
+    "answer": "In 2025, private creditors accounted for 75.2 percent of total long-term net debt inflows to LMICs [B-idr2026-p040-c001].",
+    "citations": [
+      "B-idr2026-p040-c001"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "retriever": "hybrid",
+        "query": "share of long-term net debt inflows to LMICs from private creditors 2025",
+        "filter": null,
+        "top_k": 3,
+        "elapsed_ms": 245.4,
+        "results": [
+          {
+            "id": "B-idr2026-p044-c001",
+            "page": 44,
+            "score": 0.032266458495966696,
+            "rank": 1
+          },
+          {
+            "id": "B-idr2026-p041-c000",
+            "page": 41,
+            "score": 0.03225806451612903,
+            "rank": 2
+          },
+          {
+            "id": "B-idr2026-p040-c001",
+            "page": 40,
+            "score": 0.031544957774465976,
+            "rank": 3
+          }
+        ],
+        "context_ids": [
+          "B-idr2026-p044-c001",
+          "B-idr2026-p041-c000",
+          "B-idr2026-p040-c001"
+        ],
+        "context_chars": 2966
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "context": "[B-idr2026-p044-c001 | data/9781464823558.pdf | page 44]\nNet debt flows from official creditors to LMICs increased 7.7 percent to $83.0 billion in 2025, after an 18.2 percent decrease in 2024. As financing from the aftermath of the COVID-19 pandemic has continued to taper off, official creditors’ share of total long-term debt inflows decreased from 46.2 percent in 2024 to 24.8 percent in 2025. Net debt inflows from official multilateral creditors accounted for 89.4 percent of the official flows, increasing 3.8 percent to $74.1 billion in 2025. Inflows from official bilateral creditors almost doubled to $8.8 billion but accounted for a moderate 10.6 percent share of total official flows.\n\n[B-idr2026-p041-c000 | data/9781464823558.pdf | page 41]\nWhen China, which has recorded four consecutive years of net debt outflows, is excluded, LMICs’ net debt inflows increased to a record $527.6 billion in 2025 (figure 1.4). The yearly increase is more than twice the 2024 total volume and is due to record-high net debt inflows from private creditors, which accounted for 80.8 percent of long-term inflows. This group of countries’ net debt inflows from private creditors more than tripled in 2025, to $358.3 billion, with lending from both bondholders and commercial banks recording nearly threefold increases of $177.0 billion and $181.4 billion, respectively. PNG and PPG sector borrowers held an equal share of the volume of these inflows, but obligations to bondholders and commercial banks differed. Net debt inflows to public sector entities from bondholders accounted for 76.6 percent of inflows received from private creditors, at $137.7 billion in 2025, more than twice the volume recorded in the prior year. Although holding a much smaller share, inflows from commercial banks and other private creditors to public sector entities increased at the same rate as bondholders, reaching $42.1 billion in 2025.\n\n[B-idr2026-p040-c001 | data/9781464823558.pdf | page 40]\nTrends in External Debt Flows, 2015–25\nNet debt inflows (disbursements minus principal repayments) to LMICs grew for a third consecutive year, more than doubling in 2025 to $423.5 billion. From a maturity standpoint, short-term net debt inflows recorded a more than fivefold increase in 2025, to $89.4 billion, and long-term net debt inflows doubled, to $334.1 billion, approximately 78.9 percent of the total volume of net inflows. This increase in long-term net debt inflows was due to the return to lending to LMICs by private creditors in 2025; these creditors accounted for 75.2 percent of the total long-term component and increased their lending volume by 180.5 percent to $251.1 billion. Private net debt flows are highly procyclical in nature, and the return of private investors has been highly correlated with LMICs’ ongoing economic growth since the COVID-19 downturn in 2020. In 2025, LMIC economies, as measured by their GNI, grew 5.1 percent, to a cumulative $40.2 trillion.",
+    "context_ids": [
+      "B-idr2026-p044-c001",
+      "B-idr2026-p041-c000",
+      "B-idr2026-p040-c001"
+    ],
+    "tokens": {
+      "prompt": 1845,
+      "output": 116,
+      "model_calls": 2
+    },
+    "queries": [
+      "share of long-term net debt inflows to LMICs from private creditors 2025"
+    ],
+    "api_retries": [],
+    "elapsed_s": 2.5
+  },
+  {
+    "query_id": "d08",
+    "split": "dev",
+    "question": "How were 2025 net debt inflows from private creditors split between bonds and commercial bank lending?",
+    "filter": null,
+    "status": "answered",
+    "answer": "In 2025, net debt inflows from private creditors were $130.4 billion from bond issuance and $120.7 billion from commercial bank lending [B-idr2026-p040-c002].",
+    "citations": [
+      "B-idr2026-p040-c002"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "retriever": "hybrid",
+        "query": "2025 net debt inflows private creditors bonds commercial bank lending",
+        "filter": null,
+        "top_k": 3,
+        "elapsed_ms": 224.5,
+        "results": [
+          {
+            "id": "B-idr2026-p040-c002",
+            "page": 40,
+            "score": 0.03252247488101534,
+            "rank": 1
+          },
+          {
+            "id": "B-idr2026-p041-c000",
+            "page": 41,
+            "score": 0.03252247488101534,
+            "rank": 2
+          },
+          {
+            "id": "B-idr2026-p064-c000",
+            "page": 64,
+            "score": 0.030536130536130537,
+            "rank": 3
+          }
+        ],
+        "context_ids": [
+          "B-idr2026-p040-c002",
+          "B-idr2026-p041-c000",
+          "B-idr2026-p064-c000"
+        ],
+        "context_chars": 2987
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "context": "[B-idr2026-p040-c002 | data/9781464823558.pdf | page 40]\nIn 2025, net debt inflows from private creditors were nearly evenly divided between bond issuance and lending by commercial banks, at $130.4 billion and $120.7 billion, respectively. Net debt inflows from banks and other private creditors, which had retrenched 71.3 percent to $17.6 billion in 2024, saw the biggest increase, reaching volumes not seen since 2018. Although public sector borrowing from these creditors recorded a 19.4 percent decrease to $34.2 billion in 2025, the return was mostly attributed to the PNG sector of the economy, which recorded an inflow of $86.5 billion in 2025, a stark contrast from the outflow of $24.9 billion recorded in 2024.\n\n[B-idr2026-p041-c000 | data/9781464823558.pdf | page 41]\nWhen China, which has recorded four consecutive years of net debt outflows, is excluded, LMICs’ net debt inflows increased to a record $527.6 billion in 2025 (figure 1.4). The yearly increase is more than twice the 2024 total volume and is due to record-high net debt inflows from private creditors, which accounted for 80.8 percent of long-term inflows. This group of countries’ net debt inflows from private creditors more than tripled in 2025, to $358.3 billion, with lending from both bondholders and commercial banks recording nearly threefold increases of $177.0 billion and $181.4 billion, respectively. PNG and PPG sector borrowers held an equal share of the volume of these inflows, but obligations to bondholders and commercial banks differed. Net debt inflows to public sector entities from bondholders accounted for 76.6 percent of inflows received from private creditors, at $137.7 billion in 2025, more than twice the volume recorded in the prior year. Although holding a much smaller share, inflows from commercial banks and other private creditors to public sector entities increased at the same rate as bondholders, reaching $42.1 billion in 2025.\n\n[B-idr2026-p064-c000 | data/9781464823558.pdf | page 64]\n2025, increasing 10.5 percent to $3.2 trillion, the pandemic era financing patterns reversed, recording an increase in inflows from private creditors and a simultaneous decrease in inflows from official creditors.\n\nThe increase in net debt flows from private creditors occurred because of a combined increase in net debt flows from bondholders and from banks and other private creditors. Net debt flows from bondholders increased 73.6 percent in 2025, to $13.5 billion, and were mostly concentrated in borrowing by the public sector, which increased 57.4 percent to $11.9 billion. Net debt inflows from banks and other private creditors more than tripled to $10.4 billion in 2025. The increase was led by net flows to PNG borrowers, which account for a bigger share of the total and switched from an outflow of $572.1 million in 2024 to an inflow of $8.3 billion in 2025. Conversely, net flows from public sector borrowers to this creditor group decreased 36.5 percent to $2.1 billion.",
+    "context_ids": [
+      "B-idr2026-p040-c002",
+      "B-idr2026-p041-c000",
+      "B-idr2026-p064-c000"
+    ],
+    "tokens": {
+      "prompt": 1811,
+      "output": 118,
+      "model_calls": 2
+    },
+    "queries": [
+      "2025 net debt inflows private creditors bonds commercial bank lending"
+    ],
+    "api_retries": [],
+    "elapsed_s": 2.54
+  },
+  {
+    "query_id": "d09",
+    "split": "dev",
+    "question": "What were the average interest rates on new commitments from official and private creditors in 2025?",
+    "filter": null,
+    "status": "answered",
+    "answer": "In 2025, the average interest rate on new commitments from official creditors was 3.0 percent, while the average interest rate on new commitments from private creditors was 5.7 percent [B-idr2026-p050-c001].",
+    "citations": [
+      "B-idr2026-p050-c001"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "retriever": "hybrid",
+        "query": "average interest rates on new commitments 2025 official private creditors",
+        "filter": null,
+        "top_k": 3,
+        "elapsed_ms": 264.6,
+        "results": [
+          {
+            "id": "B-idr2026-p050-c001",
+            "page": 50,
+            "score": 0.03278688524590164,
+            "rank": 1
+          },
+          {
+            "id": "B-idr2026-p065-c001",
+            "page": 65,
+            "score": 0.031754032258064516,
+            "rank": 2
+          },
+          {
+            "id": "B-idr2026-p066-c001",
+            "page": 66,
+            "score": 0.031746031746031744,
+            "rank": 3
+          }
+        ],
+        "context_ids": [
+          "B-idr2026-p050-c001",
+          "B-idr2026-p065-c001",
+          "B-idr2026-p066-c001"
+        ],
+        "context_chars": 2960
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "context": "[B-idr2026-p050-c001 | data/9781464823558.pdf | page 50]\nIn 2025, average interest rates on new commitments from official creditors decreased 0.6 percentage point to 3.0 percent, and those charged by private creditors decreased more modestly, by 0.2 percentage point to 5.7 percent. The higher concessional terms offered by official creditors included longer grace periods and longer maturities than those offered by private creditors. The average maturity on new commitments from official creditors increased by one year in 2025, and the average maturity from private creditors remained almost unchanged. The average grace period on new commitments deteriorated for private creditors, declining by 1.2 years in 2025, but it remained almost unchanged at 6.0 years for official creditors.\nFigure 1.9 Average Terms on New External Debt Commitments for Low- and Middle-Income Countries, by Creditor Type, 2015–25\n\n[B-idr2026-p065-c001 | data/9781464823558.pdf | page 65]\nThe restoration of access to capital markets has come at a higher cost for public sector entities in IDA-eligible countries, however. Although the average interest rate on new commitments from official creditors has remained relatively steady at 2.7 percent over the 2024–25 period, the average rate on new commitments from private creditors continued to increase in 2025, to 8.2 percent, up 0.6 percentage point from 2024. Such elevated interest rates have not been seen since 1989 for public sector entities in this group of countries, when rates spiked in reaction to the 1980s debt crisis. Overall, IDA-eligible countries, which can borrow on highly concessional terms, paid an average 5.5 percentage points higher interest rate in 2025 when borrowing from private creditors than from official ones. This gap has widened\n\n[B-idr2026-p066-c001 | data/9781464823558.pdf | page 66]\nAt the regional level, average interest rates on new commitments from official creditors were the highest in Latin American and Caribbean in 2025, at 4.2 percent, and lowest in Sub-Saharan Africa, at 2 percent. These average rates decreased by 0.5 percentage point in both regions from 2024 (figure 1.20). The average interest rate on new external debt commitments from private creditors was highest in the East Asia and Pacific region in 2025, up 3.5 percentage points from 2024. The regional increase was attributed to new bond issuance by Lao PDR, as the country returned to international markets in 2025 with issuance of $300 million in 11.25 percent sovereign notes on the Singapore Exchange. Average interest rates on new bond issuances among IDA-eligible countries in Sub-Saharan Africa increased 1.1 percentage point in 2025, to 9.8 percent. As IDA-eligible countries’ reliance on bond markets grows, it comes at much higher risk and cost relative to official lending.\nFigure 1.20 Average Interest Rates on New External Debt Commitments for IDA-Eligible Countries, by Region and Creditor Type, 2015–25",
+    "context_ids": [
+      "B-idr2026-p050-c001",
+      "B-idr2026-p065-c001",
+      "B-idr2026-p066-c001"
+    ],
+    "tokens": {
+      "prompt": 1768,
+      "output": 124,
+      "model_calls": 2
+    },
+    "queries": [
+      "average interest rates on new commitments 2025 official private creditors"
+    ],
+    "api_retries": [],
+    "elapsed_s": 4.88
+  },
+  {
+    "query_id": "d10",
+    "split": "dev",
+    "question": "How large were FDI and personal remittances to LMICs excluding China in 2025?",
+    "filter": null,
+    "status": "answered",
+    "answer": "In 2025, LMICs excluding China received $333.5 billion in FDI and $687.1 billion in personal remittances [B-idr2026-p055-c001].",
+    "citations": [
+      "B-idr2026-p055-c001"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "retriever": "hybrid",
+        "query": "FDI and personal remittances to LMICs excluding China 2025",
+        "filter": null,
+        "top_k": 3,
+        "elapsed_ms": 271.4,
+        "results": [
+          {
+            "id": "B-idr2026-p055-c001",
+            "page": 55,
+            "score": 0.03278688524590164,
+            "rank": 1
+          },
+          {
+            "id": "B-idr2026-p056-c001",
+            "page": 56,
+            "score": 0.031754032258064516,
+            "rank": 2
+          },
+          {
+            "id": "B-idr2026-p055-c000",
+            "page": 55,
+            "score": 0.031746031746031744,
+            "rank": 3
+          }
+        ],
+        "context_ids": [
+          "B-idr2026-p055-c001",
+          "B-idr2026-p056-c001",
+          "B-idr2026-p055-c000"
+        ],
+        "context_chars": 2781
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "context": "[B-idr2026-p055-c001 | data/9781464823558.pdf | page 55]\nFDI equity inflows to LMICs, excluding China, expanded during the early 2000s and peaked in 2011 in unison with personal remittances received, which includes both personal transfers and employees’ compensation. Excluding China, LMICs received $316.6 billion in FDI and $313.3 billion in remittances in 2011. The two have been diverging since 2011. FDI was $333.5 billion in 2025, whereas personal remittances grew to $687.1 billion, more than double its 2011 level (figure 1.13). From 2000 to 2011, average annual growth rates of both FDI and personal remittances were both 15.3 percent. From 2012 until 2022, the average annual percentage growth of FDI dropped substantially, to just 1.2 percent, whereas personal remittances grew on average 6.0 percent.\nFigure 1.12 Portfolio Equity to Low- and Middle-Income Countries (Excluding China), 2000–25\n\n[B-idr2026-p056-c001 | data/9781464823558.pdf | page 56]\nPersonal remittance flows to IDA countries grew substantially in 2025 and have outpaced the FDI those countries received over the last two decades, which has led to a large divergence between IBRD and IDA borrowers. Remittances received by IDA countries went from $11.1 billion in 2000 to $203.6 billion in 2025, whereas the amount of direct investment they received remained below its previous record of $42.9 billion in 2011 for about two decades until 2024. Investment and remittances received by IBRD borrowers, excluding China, both grew with equal momentum until 2013. FDI received by IBRD countries (excluding China) grew from $76.1 billion in 2000 to $273.8 billion in 2011. Over the next decade, however, investment in IBRD borrowers stagnated around $249.1 billion, which is the annual average investment received from 2012 to 2025 (figure 1.14).\n\n[B-idr2026-p055-c000 | data/9781464823558.pdf | page 55]\nremain an important source of external resources for LMICs. Against this broader backdrop, FDI has become less dynamic since 2011, whereas personal remittances have continued to expand.\n\nNet equity inflows to LMICs declined from $371 billion in 2010 to a historic low of $219 billion in 2020 before recovering to $313 billion in 2025. PE flows to LMICs, excluding China, turned negative, to –$43.0 billion, in 2008 during the recession. Throughout the era of low interest rates, from 2009 to the onset of the pandemic in 2020, foreign investors remained cautious and PE flows to LMICs, excluding China, fell steadily until 2018 and have not recovered to the 2004 level of about $21.2 billion. In 2025, PE flows remained negative at –$21.0 billion (figure 1.12). Excluding China, nonresident investors continued to withdraw more equity capital from LMICs than they committed to new portfolio investments.",
+    "context_ids": [
+      "B-idr2026-p055-c001",
+      "B-idr2026-p056-c001",
+      "B-idr2026-p055-c000"
+    ],
+    "tokens": {
+      "prompt": 1834,
+      "output": 116,
+      "model_calls": 2
+    },
+    "queries": [
+      "FDI and personal remittances to LMICs excluding China 2025"
+    ],
+    "api_retries": [
+      {
+        "code": 429,
+        "attempt": 1
+      }
+    ],
+    "elapsed_s": 12.1
+  },
+  {
+    "query_id": "d11",
+    "split": "dev",
+    "question": "What was Sub-Saharan Africa's external debt-to-GNI ratio in 2025?",
+    "filter": null,
+    "status": "answered",
+    "answer": "In 2025, Sub-Saharan Africa's external debt-to-GNI ratio was 48.0 percent [B-idr2026-p060-c000].",
+    "citations": [
+      "B-idr2026-p060-c000"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "retriever": "hybrid",
+        "query": "Sub-Saharan Africa external debt-to-GNI ratio 2025",
+        "filter": null,
+        "top_k": 3,
+        "elapsed_ms": 265.3,
+        "results": [
+          {
+            "id": "B-idr2026-p060-c000",
+            "page": 60,
+            "score": 0.03278688524590164,
+            "rank": 1
+          },
+          {
+            "id": "B-idr2026-p059-c001",
+            "page": 59,
+            "score": 0.031754032258064516,
+            "rank": 2
+          },
+          {
+            "id": "B-idr2026-p059-c002",
+            "page": 59,
+            "score": 0.03125763125763126,
+            "rank": 3
+          }
+        ],
+        "context_ids": [
+          "B-idr2026-p060-c000",
+          "B-idr2026-p059-c001"
+        ],
+        "context_chars": 1917
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "context": "[B-idr2026-p060-c000 | data/9781464823558.pdf | page 60]\nFigure 1.16 Ratio of External Debt Stock to GNI of Low-Income, Middle-Income, IDA-Eligible, and Low- and Middle-Income Countries (Excluding China), 2015–25\nThe 2025 data point to a range of outcomes for the group and regions, with a few recording distinct trends. Sub-Saharan Africa continued to carry one of the heaviest debt burdens relative to income, with the debt-to-GNI ratio at 48.0 percent, well above the 34.4 percent recorded in 2015 and equivalent to nearly half of the region’s annual national income. Debt service and interest payments relative to GNI, at 4.4 and 1.6 percent, respectively, remained among the highest recorded for the region over the decade, but both ratios are partly weighted by South Africa’s contribution to the regional aggregate. Europe and Central Asia retained the highest debt service-to-GNI and interest-to-GNI ratios among all LMIC regions in 2025, at 7.9 and 2.2 percent respectively; however, the debt service-to-GNI ratio declined slightly from 8.1 percent in 2024, and the interest-to-GNI ratio remained stable.\n\n[B-idr2026-p059-c001 | data/9781464823558.pdf | page 59]\nFor LMICs excluding China, the external debt-to-GNI ratio increased from 33.5 percent in 2024 to 34.5 percent in 2025, as the rise in debt stock of 9.1 percent exceeded GNI growth of 6.0 percent in 2025. The external debt stock of the group reached $7.2 trillion in 2025, an increase of 56.4 percent compared to 2015, reflecting a decade of external borrowing that has increased the debt burden in absolute terms. LMICs excluding China improved in the overall debt service-to-GNI ratio, from 5.1 percent in 2024 to 4.7 percent in 2025, with total debt service declining from $1 trillion to $979 billion. Moreover, interest payments also declined modestly, with the interest payment-to-GNI ratio declining from 1.5 in 2024 to 1.4 percent in 2025.",
+    "context_ids": [
+      "B-idr2026-p060-c000",
+      "B-idr2026-p059-c001"
+    ],
+    "tokens": {
+      "prompt": 1592,
+      "output": 114,
+      "model_calls": 2
+    },
+    "queries": [
+      "Sub-Saharan Africa external debt-to-GNI ratio 2025"
+    ],
+    "api_retries": [
+      {
+        "code": 429,
+        "attempt": 1
+      },
+      {
+        "code": 429,
+        "attempt": 2
+      }
+    ],
+    "elapsed_s": 21.45
+  },
+  {
+    "query_id": "d12",
+    "split": "dev",
+    "question": "In the chapter analyzing external debt data (chapter 1), what was the external debt stock of IDA-eligible countries in 2025?",
+    "filter": {
+      "chapter": 1
+    },
+    "status": "answered",
+    "answer": "In 2025, the external debt stock of IDA-eligible countries reached a record $1.3 trillion [B-idr2026-p062-c000].",
+    "citations": [
+      "B-idr2026-p062-c000"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "retriever": "hybrid",
+        "query": "external debt stock of IDA-eligible countries 2025 chapter 1",
+        "filter": {
+          "chapter": 1
+        },
+        "top_k": 3,
+        "elapsed_ms": 288.2,
+        "results": [
+          {
+            "id": "B-idr2026-p062-c001",
+            "page": 62,
+            "score": 0.03252247488101534,
+            "rank": 1
+          },
+          {
+            "id": "B-idr2026-p061-c000",
+            "page": 61,
+            "score": 0.031746031746031744,
+            "rank": 2
+          },
+          {
+            "id": "B-idr2026-p062-c000",
+            "page": 62,
+            "score": 0.03131881575727918,
+            "rank": 3
+          }
+        ],
+        "context_ids": [
+          "B-idr2026-p062-c001",
+          "B-idr2026-p061-c000",
+          "B-idr2026-p062-c000"
+        ],
+        "context_chars": 2896
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "context": "[B-idr2026-p062-c001 | data/9781464823558.pdf | page 62]\nDebt stock owed to official creditors increased 8.1 percent to $722.1 billion in 2025, representing 80.8 percent of long-term PPG debt. Obligations owed to this creditor group have remained stable over the past decade, but the composition has slightly changed over this period. In 2025, debt stock owed to official bilateral creditors increased 2.7 percent in 2025, to $241.5 billion, and debt stock owed to multilateral creditors also increased, by 11.0 percent to $480.6 billion (figure 1.18). Multilateral creditors continued to be the most significant creditors for IDA-eligible countries, on average, accounting for half of the official debt position and up 7 percentage points from a decade ago. In 2025, market\nFigure 1.18 Creditor Composition of IDA-Eligible Countries’ Long-Term Public and Publicly Guaranteed External Debt, 2015–25\n\n[B-idr2026-p061-c000 | data/9781464823558.pdf | page 61]\nFigure 1.17 External Debt Stock to Exports of Low-Income, Middle-Income, IDA-Eligible, and Low- and Middle-Income Countries (Excluding China), 2015–25\nin 2025, easing from 17.3 and 5.2 percent in 2024 to 15.7 and 4.8 percent, respectively. The divergence between rising debt stock ratios and declining debt service and interest ratios is partly attributable to the US dollar depreciation effect.\n\nSimilarly, the external debt-to-exports ratio for IDA-eligible countries declined from 184.2 percent in 2024 to 177.2 percent in 2025, supported by strong export growth of 12.4 percent. The debt service-to-exports and interest-to-exports ratios declined from 18.4 percent and 6.1 percent in 2024 to 16.0 percent and 5.4 percent, respectively, in 2025. These improvements were also due to debt restructuring agreements concluded in recent years that began to reduce scheduled repayments for several IDA borrowers. Both ratios nonetheless remain considerably above their 2015 levels of 9.2 percent and 2.8 percent, respectively.\n\n[B-idr2026-p062-c000 | data/9781464823558.pdf | page 62]\nTrends in External Debt of IDA-Eligible Countries, 2015–25\nExternal debt stock of IDA-eligible countries reached a record $1.3 trillion in 2025, accumulating at a rate of 8.1 percent, faster than that of the other LMICs. The pace of accumulation was much higher than the 2.9 percent average recorded during the past three years and raises sustainability concerns for this group of countries. Long-term debt stock rose by 7.9 percent, and short-term debt rose by 10.7 percent, bringing the end-2025 external debt stock to almost double the 2015 level. Long-term obligations of the PPG sector grew at a faster rate of 9.0 percent than the 4.3 percent increase of the PNG debt stock. As a share, PPG debt represented 76.3 percent of total long-term obligations of IDA-eligible countries, remaining almost unchanged from 2024 and 10 percent higher than in 2015.",
+    "context_ids": [
+      "B-idr2026-p062-c001",
+      "B-idr2026-p061-c000",
+      "B-idr2026-p062-c000"
+    ],
+    "tokens": {
+      "prompt": 1896,
+      "output": 109,
+      "model_calls": 2
+    },
+    "queries": [
+      "external debt stock of IDA-eligible countries 2025 chapter 1"
+    ],
+    "api_retries": [],
+    "elapsed_s": 3.11
+  },
+  {
+    "query_id": "d13",
+    "split": "dev",
+    "question": "When Lao PDR returned to international markets in 2025, how much did it issue and at what interest rate?",
+    "filter": null,
+    "status": "answered",
+    "answer": "When Lao PDR returned to international markets in 2025, it issued $300 million in sovereign notes at an interest rate of 11.25 percent [B-idr2026-p066-c001].",
+    "citations": [
+      "B-idr2026-p066-c001"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "retriever": "hybrid",
+        "query": "Lao PDR international markets 2025 issuance interest rate",
+        "filter": null,
+        "top_k": 3,
+        "elapsed_ms": 224.9,
+        "results": [
+          {
+            "id": "B-idr2026-p066-c001",
+            "page": 66,
+            "score": 0.03278688524590164,
+            "rank": 1
+          },
+          {
+            "id": "B-idr2026-p052-c000",
+            "page": 52,
+            "score": 0.03128054740957967,
+            "rank": 2
+          },
+          {
+            "id": "B-idr2026-p051-c001",
+            "page": 51,
+            "score": 0.031009615384615385,
+            "rank": 3
+          }
+        ],
+        "context_ids": [
+          "B-idr2026-p066-c001",
+          "B-idr2026-p052-c000"
+        ],
+        "context_chars": 2345
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "context": "[B-idr2026-p066-c001 | data/9781464823558.pdf | page 66]\nAt the regional level, average interest rates on new commitments from official creditors were the highest in Latin American and Caribbean in 2025, at 4.2 percent, and lowest in Sub-Saharan Africa, at 2 percent. These average rates decreased by 0.5 percentage point in both regions from 2024 (figure 1.20). The average interest rate on new external debt commitments from private creditors was highest in the East Asia and Pacific region in 2025, up 3.5 percentage points from 2024. The regional increase was attributed to new bond issuance by Lao PDR, as the country returned to international markets in 2025 with issuance of $300 million in 11.25 percent sovereign notes on the Singapore Exchange. Average interest rates on new bond issuances among IDA-eligible countries in Sub-Saharan Africa increased 1.1 percentage point in 2025, to 9.8 percent. As IDA-eligible countries’ reliance on bond markets grows, it comes at much higher risk and cost relative to official lending.\nFigure 1.20 Average Interest Rates on New External Debt Commitments for IDA-Eligible Countries, by Region and Creditor Type, 2015–25\n\n[B-idr2026-p052-c000 | data/9781464823558.pdf | page 52]\nFigure 1.11 Average Interest Rates on New External Debt Commitments for IBRD and IDA-Eligible Countries, by Bondholders, 2015–25\nRecent issuances illustrate these affordability pressures. Uzbekistan’s 2028 local currency note carried a yield of 15.5 percent, partly reflecting inflation risk, whereas its dollar-denominated note was priced at 7.38 percent. The Lao People’s Democratic Republic’s 2030 bonds were priced at 11.25 percent, the Republic of Congo’s dual-tranche notes at 13.88 percent, and Kenya’s October 2025 dual-tranche issuance at yields of 8.2 and 9.2 percent. Despite the restoration of market access, the nominal dollar costs of such borrowing substantially exceed the expected growth rates of many issuing economies, implying continued pressure on interest-to-revenue ratios. The durability of the current window also remains uncertain. Demand has been supported by the global search for yield and easing US rates, factors that can reverse quickly. In addition, spreads remain sensitive to country-specific credit events. Box 1.5 illustrates how these trends persisted during the first half of 2026.",
+    "context_ids": [
+      "B-idr2026-p066-c001",
+      "B-idr2026-p052-c000"
+    ],
+    "tokens": {
+      "prompt": 1629,
+      "output": 120,
+      "model_calls": 2
+    },
+    "queries": [
+      "Lao PDR international markets 2025 issuance interest rate"
+    ],
+    "api_retries": [],
+    "elapsed_s": 2.44
+  },
+  {
+    "query_id": "d14",
+    "split": "dev",
+    "question": "In the chapter on debt dynamics and policy implications (chapter 2), what were gross financing needs (GFNs) of IDA countries in 2025 as a share of GDP?",
+    "filter": {
+      "chapter": 2
+    },
+    "status": "answered",
+    "answer": "In 2025, the gross financing needs (GFNs) of IDA countries were 8.7 percent of GDP [B-idr2026-p086-c000].",
+    "citations": [
+      "B-idr2026-p086-c000"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "retriever": "hybrid",
+        "query": "gross financing needs GFNs IDA countries 2025 share of GDP chapter 2",
+        "filter": {
+          "chapter": 2
+        },
+        "top_k": 3,
+        "elapsed_ms": 225.4,
+        "results": [
+          {
+            "id": "B-idr2026-p085-c001",
+            "page": 85,
+            "score": 0.03252247488101534,
+            "rank": 1
+          },
+          {
+            "id": "B-idr2026-p086-c000",
+            "page": 86,
+            "score": 0.03252247488101534,
+            "rank": 2
+          },
+          {
+            "id": "B-idr2026-p075-c001",
+            "page": 75,
+            "score": 0.031024531024531024,
+            "rank": 3
+          }
+        ],
+        "context_ids": [
+          "B-idr2026-p085-c001",
+          "B-idr2026-p086-c000",
+          "B-idr2026-p075-c001"
+        ],
+        "context_chars": 2309
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "context": "[B-idr2026-p085-c001 | data/9781464823558.pdf | page 85]\nThese developments have contributed to a sustained increase in gross financing needs (GFNs) in IDA countries. Higher debt service burdens have important implications for fiscal space and refinancing needs. A larger share of government revenues must be allocated to interest payments, leaving fewer resources available for public investment and other policy priorities. At the same time, the need to\nFigure 2.8 Debt Service as Percentage of Government Revenues for IDA-Eligible Countries, 2000–25\n\n[B-idr2026-p086-c000 | data/9781464823558.pdf | page 86]\nrefinance maturing obligations contributes to elevated GFNs, even when fiscal deficits are narrowing. GFNs in IDA countries averaged about 6 percent of GDP during 2015–19, before increasing to roughly 10 percent during 2020–22 as pandemic-related primary deficits widened and debt service obligations increased. Subsequent shocks, including the commodity price and inflation surge following the Russian Federation’s invasion of Ukraine, and the sharp global monetary tightening that began in 2022, further contributed to elevated financing needs. GFNs subsequently moderated but remained well above their prepandemic average, at approximately 8.2 percent of GDP in 2024, before rising to 8.7 percent in 2025.\n\n[B-idr2026-p075-c001 | data/9781464823558.pdf | page 75]\nInternational Debt Report 2025 documented the scale of external debt burdens and their links to economic growth and vulnerability (World Bank 2025). Building on that assessment, this year’s report focuses on the interactions between external shocks and external debt burdens, and how debt might amplify vulnerabilities when global conditions deteriorate. This chapter examines the channels through which these interactions operate across LMICs. The chapter further discusses how rising debt service burdens, elevated financing needs, and changing financing patterns are constraining fiscal space and intensifying debt and rollover risks, as well as the policy priorities for strengthening resilience. Finally, food and nutrition security provides a concrete example of these interactions, illustrating how debt burdens may be closely associated with a decline in the affordability of a healthy diet during periods of global stress.",
+    "context_ids": [
+      "B-idr2026-p085-c001",
+      "B-idr2026-p086-c000",
+      "B-idr2026-p075-c001"
+    ],
+    "tokens": {
+      "prompt": 1606,
+      "output": 114,
+      "model_calls": 2
+    },
+    "queries": [
+      "gross financing needs GFNs IDA countries 2025 share of GDP chapter 2"
+    ],
+    "api_retries": [],
+    "elapsed_s": 3.0
+  },
+  {
+    "query_id": "d15",
+    "split": "dev",
+    "question": "In the chapter on debt transparency (chapter 3), how many IDA-eligible countries published fully accessible public debt data in 2025?",
+    "filter": {
+      "chapter": 3
+    },
+    "status": "answered",
+    "answer": "In 2025, 54 IDA-eligible countries published fully accessible public debt data [B-idr2026-p109-c002].",
+    "citations": [
+      "B-idr2026-p109-c002"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "retriever": "hybrid",
+        "query": "IDA-eligible countries published fully accessible public debt data 2025",
+        "filter": {
+          "chapter": 3
+        },
+        "top_k": 3,
+        "elapsed_ms": 243.1,
+        "results": [
+          {
+            "id": "B-idr2026-p109-c002",
+            "page": 109,
+            "score": 0.03278688524590164,
+            "rank": 1
+          },
+          {
+            "id": "B-idr2026-p110-c000",
+            "page": 110,
+            "score": 0.03225806451612903,
+            "rank": 2
+          },
+          {
+            "id": "B-idr2026-p109-c001",
+            "page": 109,
+            "score": 0.03125763125763126,
+            "rank": 3
+          }
+        ],
+        "context_ids": [
+          "B-idr2026-p109-c002",
+          "B-idr2026-p110-c000",
+          "B-idr2026-p109-c001"
+        ],
+        "context_chars": 2564
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "context": "[B-idr2026-p109-c002 | data/9781464823558.pdf | page 109]\nThe Debt Reporting Heat Map shows that, over the past five years, IDA-eligible borrowers have made significant progress in public debt disclosure practices. In 2020, only 36 IDA-eligible countries, 47 percent of the 76 countries covered by the heat map, published fully accessible public debt data. The 2025 heat map found that 54 countries, or 72 percent, had fully accessible public debt data, a 25-percentage-point gain from 2020 (figure 3.1). Data accessibility in Sub-Saharan African countries has also improved significantly, rising from 19 countries (50 percent of countries in the region) that published fully accessible data in 2020, to 29 countries (or 76 percent) in 2025 despite a regression in accessibility of data in some countries. These countries include Ethiopia, where data accessibility had deteriorated since it defaulted on its international bond in 2023, and Senegal, following the revelation by the auditors of a large understatement in the official debt statistics. Even in countries that have accessible data, important information gaps persist.\n\n[B-idr2026-p110-c000 | data/9781464823558.pdf | page 110]\nFigure 3.1 Public Debt Disclosures by IDA-Eligible Countries, Accessibility and Coverage, 2020 and 2025\nImprovements in data accessibility identified by the heat map are mirrored in enhanced timeliness and accuracy of reporting to the World Bank Group DRS. This is a mandatory reporting requirement for all countries that borrow from the International Bank for Reconstruction and Development (IBRD) and IDA. Borrowers are increasingly meeting this requirement in accordance with the reporting timetable and are providing more comprehensive information on borrowing by central banks and SOEs. These advances have reduced gaps and asymmetries in global debt statistics, strengthened cross-country comparability, and solidified the DRS role as a cornerstone of global debt transparency.\n\n[B-idr2026-p109-c001 | data/9781464823558.pdf | page 109]\nThe World Bank Group tracks progress in borrowing countries’ public debt dissemination practices on an annual basis. Its assessment of these outcomes is presented in a heat map that measures the strengths and weaknesses of the dissemination practices in 76 IDA-eligible countries across nine key indicators: data accessibility, instrument coverage, sectoral coverage, information on recently contracted external loans, periodicity, time lag, debt management strategy, annual borrowing plan, and additional statistics and memo items.",
+    "context_ids": [
+      "B-idr2026-p109-c002",
+      "B-idr2026-p110-c000",
+      "B-idr2026-p109-c001"
+    ],
+    "tokens": {
+      "prompt": 1652,
+      "output": 104,
+      "model_calls": 2
+    },
+    "queries": [
+      "IDA-eligible countries published fully accessible public debt data 2025"
+    ],
+    "api_retries": [],
+    "elapsed_s": 2.68
+  },
+  {
+    "query_id": "d16",
+    "split": "dev",
+    "question": "What share of total public debt does domestic public debt now account for in many LMICs?",
+    "filter": null,
+    "status": "answered",
+    "answer": "In many LMICs, domestic public debt now accounts for 40–60 percent of total public debt, and in some countries, it exceeds those shares [B-idr2026-p117-c002].",
+    "citations": [
+      "B-idr2026-p117-c002"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "retriever": "hybrid",
+        "query": "share of total public debt domestic public debt LMICs",
+        "filter": null,
+        "top_k": 3,
+        "elapsed_ms": 250.4,
+        "results": [
+          {
+            "id": "B-idr2026-p117-c002",
+            "page": 117,
+            "score": 0.03278688524590164,
+            "rank": 1
+          },
+          {
+            "id": "B-idr2026-p049-c001",
+            "page": 49,
+            "score": 0.03021353930031804,
+            "rank": 2
+          },
+          {
+            "id": "B-idr2026-p030-c000",
+            "page": 30,
+            "score": 0.028370221327967807,
+            "rank": 3
+          }
+        ],
+        "context_ids": [
+          "B-idr2026-p117-c002",
+          "B-idr2026-p049-c001",
+          "B-idr2026-p030-c000"
+        ],
+        "context_chars": 2856
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "context": "[B-idr2026-p117-c002 | data/9781464823558.pdf | page 117]\nIntegrating Domestic Public Debt into the Debt Transparency Agenda\nA critical new frontier for the debt transparency agenda is the expansion of data coverage to domestic public debt, which has become an increasingly important share of LMICs’ public debt. In many of these countries, domestic public debt now accounts for 40–60 percent of total public debt, and in some of them it exceeds those shares. Despite the centrality of domestic debt levels to fiscal sustainability, sound monetary policy, and financial stability, data on domestic debt obligations remain fragmented, inconsistently defined, and only partially captured in international data sets. In marked contrast to external public debt, no comprehensive global platform currently exists to systematically collect and disseminate detailed, comprehensive, and cross-country comparable domestic public debt data for LMICs.\n\n[B-idr2026-p049-c001 | data/9781464823558.pdf | page 49]\nChina, the largest borrower among LMICs, accounted for 30.0 percent of the group’s total debt service payments, and recorded a 13.7 percent increase to $419.8 billion in 2025. The country’s largest share of debt service payments, and its largest yearly increase in payments, went to private creditors, recording a 19.2 percent increase to $330.3 billion in 2025. When China is excluded, total debt service payments of LMICs decreased 2.5 percent to $979.0 billion in 2025. For this group, the increase in total debt payments to bondholders persists, recording a 4.6 percent increase to $242.3 billion in 2025, as total payments to all other creditors continued to record a decrease. However, when the buyback and prepayment operations’ amounts are considered, debt service payments from LMICs to bondholders for this group of countries also decreased by 10.3 percent, to $207.9 billion, in 2025.\n\n[B-idr2026-p030-c000 | data/9781464823558.pdf | page 30]\nguaranteed (PPG) debt, including obligations to the International Monetary Fund (IMF), and a much smaller 3.8 percent increase in private nonguaranteed (PNG) external debt (debt obligations of private borrowers that are not backed by a government or public sector guarantee). The return of debt accumulation to 2019–20 levels indicates both continued support from multilateral creditors and a significant rebound of private investor confidence and lending, as well as LMICs’ eagerness to take advantage of times when international investors are willing to lend.\n\nIn addition, the short-term debt stock of LMICs increased 4.0 percent to $2.4 trillion at end-2025. These obligations, which are composed of liabilities with a maturity of one year or less and interest arrears on long term debt, stood for 25.7 percent of total external debt, a share that has remained stable over the past decade for LMICs.",
+    "context_ids": [
+      "B-idr2026-p117-c002",
+      "B-idr2026-p049-c001",
+      "B-idr2026-p030-c000"
+    ],
+    "tokens": {
+      "prompt": 1702,
+      "output": 111,
+      "model_calls": 2
+    },
+    "queries": [
+      "share of total public debt domestic public debt LMICs"
+    ],
+    "api_retries": [],
+    "elapsed_s": 3.04
+  },
+  {
+    "query_id": "d17",
+    "split": "dev",
+    "question": "Why can the external debt a creditor records for a country be higher than the figure in IDS?",
+    "filter": null,
+    "status": "answered",
+    "answer": "Differences between the external debt reported by a creditor and the figure in the International Debt Statistics (IDS) are typically the result of misclassification or differences in reporting norms, rather than true errors [B-idr2026-p112-c001]. These discrepancies are often concentrated in a small number of loans [B-idr2026-p112-c001].",
+    "citations": [
+      "B-idr2026-p112-c001"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "retriever": "hybrid",
+        "query": "external debt creditor records higher than IDS",
+        "filter": null,
+        "top_k": 3,
+        "elapsed_ms": 256.5,
+        "results": [
+          {
+            "id": "B-idr2026-p115-c002",
+            "page": 115,
+            "score": 0.029827662395050816,
+            "rank": 1
+          },
+          {
+            "id": "B-idr2026-p112-c001",
+            "page": 112,
+            "score": 0.029411764705882353,
+            "rank": 2
+          },
+          {
+            "id": "B-idr2026-p115-c000",
+            "page": 115,
+            "score": 0.0293236301369863,
+            "rank": 3
+          }
+        ],
+        "context_ids": [
+          "B-idr2026-p115-c002",
+          "B-idr2026-p112-c001",
+          "B-idr2026-p115-c000"
+        ],
+        "context_chars": 2615
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "context": "[B-idr2026-p115-c002 | data/9781464823558.pdf | page 115]\nThe IDS, the World Bank Group’s flagship statistical database on external debt, underpins the annual publication of the International Debt Report and serves as the primary global repository of external debt data for LMICs. It draws on data reported to the DRS and complementary information from other sources, including multilateral and bilateral creditors, international financial institutions, market data, and other statistical data sets to create the world’s most comprehensive and globally comparable statistical resource for policy makers, investors, researchers, and development partners. (Refer to annex 3A for more information on sources of debt statistics.) Complementary databases updated quarterly—Quarterly External Debt Statistics and Quarterly Public Sector Debt— provide high-frequency data that support the monitoring of evolving debt trends for the current year.\n\n[B-idr2026-p112-c001 | data/9781464823558.pdf | page 112]\nThe overall reporting gap, equivalent to $5.4 billion, masks much wider variations for individual creditors, but the reconciliation exercise found that gaps are also progressively narrowing. Figure 3.4 compares the total end-2024 claims reported by each of the 18 creditors with the total debt owed to each creditor that debtors reported to the DRS. Points on the dashed line indicate perfect alignment between debtor and creditor reporting. For 6 of the 18 participating creditors, the end-2024 claims align fully with the comparable figure reported by borrowers to the DRS, and for 2 creditors the gap was small. For other creditors, where larger differences were observed, these differences were typically concentrated in a small number of loans and found to be primarily the result of misclassification or differences in reporting norms, not true errors. As the chart also shows, discrepancies are not one directional: points above the dashed line indicate that claims reported by the creditor are higher than the comparable amount reported by the debtor, and points below the line reflect cases where the debtor figure is higher than the creditor.\n\n[B-idr2026-p115-c000 | data/9781464823558.pdf | page 115]\nforeign currency obligations and assess creditworthiness, it evolved into a global public good, International Debt Statistics (IDS), which plays a central role in promoting debt transparency through the provision of standardized, cross-country comparable information on external debt levels in LMICs. Together, the DRS and the IDS are the backbone of the World Bank Group’s debt transparency architecture.",
+    "context_ids": [
+      "B-idr2026-p115-c002",
+      "B-idr2026-p112-c001",
+      "B-idr2026-p115-c000"
+    ],
+    "tokens": {
+      "prompt": 1560,
+      "output": 144,
+      "model_calls": 2
+    },
+    "queries": [
+      "external debt creditor records higher than IDS"
+    ],
+    "api_retries": [],
+    "elapsed_s": 3.27
+  },
+  {
+    "query_id": "d18",
+    "split": "dev",
+    "question": "What was Cambodia's total external debt stock at the end of 2025?",
+    "filter": null,
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "reason": "The provided context does not contain information regarding Cambodia's total external debt stock at the end of 2025.",
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "retriever": "hybrid",
+        "query": "Cambodia total external debt stock 2025",
+        "filter": null,
+        "top_k": 3,
+        "elapsed_ms": 239.0,
+        "results": [
+          {
+            "id": "B-idr2026-p029-c002",
+            "page": 29,
+            "score": 0.031544957774465976,
+            "rank": 1
+          },
+          {
+            "id": "B-idr2026-p034-c002",
+            "page": 34,
+            "score": 0.030536130536130537,
+            "rank": 2
+          },
+          {
+            "id": "B-idr2026-p031-c000",
+            "page": 31,
+            "score": 0.0304147465437788,
+            "rank": 3
+          }
+        ],
+        "context_ids": [
+          "B-idr2026-p029-c002",
+          "B-idr2026-p034-c002",
+          "B-idr2026-p031-c000"
+        ],
+        "context_chars": 2392
+      },
+      {
+        "event": "abstain",
+        "reason": "The provided context does not contain information regarding Cambodia's total external debt stock at the end of 2025."
+      }
+    ],
+    "context": "[B-idr2026-p029-c002 | data/9781464823558.pdf | page 29]\nThe rate of LMIC external debt accumulation in 2025 was comparable to the years 2019 and 2020, but it is above the more recent annual average increase of 0.5 percent during the 2022–24 period. Long-term external debt stock rose 6.1 percent to $7.0 trillion, equivalent to 74.3 percent of the total external debt stock, driven by a 7.6 percent rise in long-term external public and publicly\n\n[B-idr2026-p034-c002 | data/9781464823558.pdf | page 34]\nViewed from a lending category perspective, the external debt stock of countries eligible for International Development Association (IDA) financing increased 8.1 percent in 2025, to $1.3 trillion. Of this group, LICs’ debt increased at an even faster pace of 8.9 percent in 2025, to $262.4 billion, a marked increase not seen since 2020. Although LICs account for only a 2.8 percent share of total LMIC debt stock, over 60 percent of these countries are at high risk of debt distress or already in debt distress. An increase of such magnitude for this most vulnerable group of countries exacerbates their susceptibility to financial market volatility and stresses their already limited fiscal space. (Refer to box 1.3 for income and lending classifications.)\n\n[B-idr2026-p031-c000 | data/9781464823558.pdf | page 31]\nWhen China is excluded, the cumulative external debt stock of MICs increased at a much faster pace—by 9.1 percent in 2025, to $6.9 trillion in 2025. An increase of that magnitude has not been seen since 2017 and was concentrated among the 10 largest LMIC borrowers other than China. These borrowers account for 59.5 percent of all LMIC external debt. Half of them recorded double-digit increases in their borrowing levels in 2025, led by a 29.2 percent increase in Ukraine’s debt stock, to $250.3 billion, following continued and unprecedented support from the Group of Seven countries and multilateral creditors. Argentina, Colombia, South Africa, and Türkiye also experienced double-digit increases in their external debt positions. External debt stock of the other five MICs among the top 10 borrowers (again, excluding China) also rose, increasing by 7.0 percent to $2.7 trillion in 2025, with short-term debt stock rising at a rate of 8.8 percent, and long-term debt at a rate of 6.7 percent. These five countries accounted for 29.6 percent of MIC total debt stock.",
+    "context_ids": [
+      "B-idr2026-p029-c002",
+      "B-idr2026-p034-c002",
+      "B-idr2026-p031-c000"
+    ],
+    "tokens": {
+      "prompt": 1672,
+      "output": 63,
+      "model_calls": 2
+    },
+    "queries": [
+      "Cambodia total external debt stock 2025"
+    ],
+    "api_retries": [],
+    "elapsed_s": 2.73
+  },
+  {
+    "query_id": "d19",
+    "split": "dev",
+    "question": "How much FDI did Viet Nam receive in 2025?",
+    "filter": null,
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "reason": "The provided text identifies Viet Nam as one of the largest recipients of FDI in 2025, but it does not provide the specific dollar amount of FDI received by Viet Nam in 2025.",
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "retriever": "hybrid",
+        "query": "Viet Nam FDI 2025",
+        "filter": null,
+        "top_k": 3,
+        "elapsed_ms": 232.7,
+        "results": [
+          {
+            "id": "B-idr2026-p058-c001",
+            "page": 58,
+            "score": 0.03252247488101534,
+            "rank": 1
+          },
+          {
+            "id": "B-idr2026-p056-c001",
+            "page": 56,
+            "score": 0.032018442622950824,
+            "rank": 2
+          },
+          {
+            "id": "B-idr2026-p055-c001",
+            "page": 55,
+            "score": 0.030621785881252923,
+            "rank": 3
+          }
+        ],
+        "context_ids": [
+          "B-idr2026-p058-c001",
+          "B-idr2026-p056-c001",
+          "B-idr2026-p055-c001"
+        ],
+        "context_chars": 2796
+      },
+      {
+        "event": "abstain",
+        "reason": "The provided text identifies Viet Nam as one of the largest recipients of FDI in 2025, but it does not provide the specific dollar amount of FDI received by Viet Nam in 2025."
+      }
+    ],
+    "context": "[B-idr2026-p058-c001 | data/9781464823558.pdf | page 58]\nExcluding China, one of the largest recipients of FDI in the world until 2022, LMICs saw their FDI grow by only 5.3 percent from 2011 to 2025, when investment to LMICs slowed. LMICs in Latin America and the Caribbean received most of the FDI in 2025, $134.2 billion, recovering from the sharp downturn caused by the COVID-19 pandemic: the region’s FDI decreased by $52.7 billion from $124.6 billion in 2019 to just $71.9 billion in 2020. Data show that FDI seems to concentrate in larger and more economically dynamic LMICs, making Brazil, India, Indonesia, Mexico, and Viet Nam some of the largest recipients of FDI. Together, FDI inflows to these five countries accounted for 52.7 percent of total FDI received by all LMICs in 2025, excluding China. Brazil alone received $62.4 billion in investment in 2025. IDA-eligible countries received only 20.1 percent of total FDI received by LMICs in 2025, at $67.1 billion.\n\n[B-idr2026-p056-c001 | data/9781464823558.pdf | page 56]\nPersonal remittance flows to IDA countries grew substantially in 2025 and have outpaced the FDI those countries received over the last two decades, which has led to a large divergence between IBRD and IDA borrowers. Remittances received by IDA countries went from $11.1 billion in 2000 to $203.6 billion in 2025, whereas the amount of direct investment they received remained below its previous record of $42.9 billion in 2011 for about two decades until 2024. Investment and remittances received by IBRD borrowers, excluding China, both grew with equal momentum until 2013. FDI received by IBRD countries (excluding China) grew from $76.1 billion in 2000 to $273.8 billion in 2011. Over the next decade, however, investment in IBRD borrowers stagnated around $249.1 billion, which is the annual average investment received from 2012 to 2025 (figure 1.14).\n\n[B-idr2026-p055-c001 | data/9781464823558.pdf | page 55]\nFDI equity inflows to LMICs, excluding China, expanded during the early 2000s and peaked in 2011 in unison with personal remittances received, which includes both personal transfers and employees’ compensation. Excluding China, LMICs received $316.6 billion in FDI and $313.3 billion in remittances in 2011. The two have been diverging since 2011. FDI was $333.5 billion in 2025, whereas personal remittances grew to $687.1 billion, more than double its 2011 level (figure 1.13). From 2000 to 2011, average annual growth rates of both FDI and personal remittances were both 15.3 percent. From 2012 until 2022, the average annual percentage growth of FDI dropped substantially, to just 1.2 percent, whereas personal remittances grew on average 6.0 percent.\nFigure 1.12 Portfolio Equity to Low- and Middle-Income Countries (Excluding China), 2000–25",
+    "context_ids": [
+      "B-idr2026-p058-c001",
+      "B-idr2026-p056-c001",
+      "B-idr2026-p055-c001"
+    ],
+    "tokens": {
+      "prompt": 1840,
+      "output": 78,
+      "model_calls": 2
+    },
+    "queries": [
+      "Viet Nam FDI 2025"
+    ],
+    "api_retries": [],
+    "elapsed_s": 3.95
+  }
+]

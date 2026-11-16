@@ -1,0 +1,71 @@
+[
+  {
+    "query_id": "t01",
+    "labeled_by": "student",
+    "citation_support": [
+      true,
+      true
+    ],
+    "answer_grade": 2,
+    "reason": "Đúng và đủ ý chính; citation hỗ trợ."
+  },
+  {
+    "query_id": "t02",
+    "labeled_by": "student",
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "reason": "Đúng ý chính: không giảm đáng kể nợ hợp nhất, chuyển rủi ro sang chính phủ; không nêu cải thiện thanh khoản (phụ)."
+  },
+  {
+    "query_id": "t03",
+    "labeled_by": "student",
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "reason": "Đúng và đủ ý chính; citation hỗ trợ."
+  },
+  {
+    "query_id": "t04",
+    "labeled_by": "student",
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "reason": "Đúng và đủ ý chính; citation hỗ trợ."
+  },
+  {
+    "query_id": "t05",
+    "labeled_by": "student",
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "reason": "Đúng 3,655 khoản vay và ~80% khớp; không nêu 18 nước chủ nợ / 90% giá trị (phụ)."
+  },
+  {
+    "query_id": "t06",
+    "labeled_by": "student",
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "reason": "Đúng và đủ ý chính; citation hỗ trợ."
+  },
+  {
+    "query_id": "t07",
+    "labeled_by": "student",
+    "citation_support": [],
+    "abstention_correct": true,
+    "reason": "Từ chối, không thêm khẳng định: The provided context does not contain information regarding the amount raised by LMICs through green, social, or sustainability-linked bonds in 2025."
+  },
+  {
+    "query_id": "t08",
+    "labeled_by": "student",
+    "citation_support": [],
+    "abstention_correct": true,
+    "reason": "Từ chối, không thêm khẳng định: The provided text does not contain information regarding the specific sovereign credit rating assigned to Kenya by S&P in 2025."
+  }
+]

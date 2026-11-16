@@ -1,0 +1,31 @@
+{
+  "method": "bm25",
+  "split": "dev",
+  "query": "original",
+  "filters": "user-provided chapter filter when present",
+  "context_k": 3,
+  "budget_chars": 3600,
+  "hit1": {
+    "n": 13,
+    "N": 17,
+    "rate": 0.7647
+  },
+  "hit3": {
+    "n": 16,
+    "N": 17,
+    "rate": 0.9412
+  },
+  "mrr10": 0.8595,
+  "context_evidence_rate": {
+    "n": 16,
+    "N": 17,
+    "rate": 0.9412
+  },
+  "avg_context_chars": 2802,
+  "median_ms": 2.0,
+  "setup_seconds": 0.1,
+  "cost_usd": 0,
+  "misses_at3": [
+    "d03"
+  ]
+}

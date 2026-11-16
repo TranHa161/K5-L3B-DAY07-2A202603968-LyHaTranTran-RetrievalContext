@@ -1,0 +1,28 @@
+{
+  "model": "gemini-3.1-flash-lite",
+  "retriever": "dense",
+  "max_searches": 3,
+  "top_k": 8,
+  "budget_chars": 9000,
+  "thinking_budget": null,
+  "temperature": 0.0,
+  "prompt": "v1",
+  "context": "cumulative, dedup by id, retrieval order, skip if over budget",
+  "split": "dev",
+  "n": 19,
+  "status": {
+    "answered": 17,
+    "abstain": 2,
+    "error": 0
+  },
+  "searches_distribution": {
+    "0": 0,
+    "1": 19,
+    "2": 0,
+    "3": 0
+  },
+  "median_elapsed_s": 3.33,
+  "prompt_tokens": 54919,
+  "output_tokens": 3022,
+  "model_calls": 38
+}

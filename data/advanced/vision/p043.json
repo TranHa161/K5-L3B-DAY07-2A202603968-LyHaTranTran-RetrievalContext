@@ -1,0 +1,69 @@
+{
+  "page": 43,
+  "model": "gemini-3.5-flash",
+  "seconds": 5.1,
+  "tokens_in": 2101,
+  "tokens_out": 987,
+  "visuals": [
+    {
+      "label": "Figure 1.5",
+      "title": "Bond Flows to Low- and Middle-Income Countries, by Borrower Type, 2024–25",
+      "kind": "bar chart",
+      "region": [
+        0.18,
+        0.565,
+        0.81,
+        0.905
+      ],
+      "units": "US$ (billion)",
+      "description": "Horizontal grouped bar chart showing Disbursements, Amortization, and Net flows of bond financing for Private Nonguaranteed (PNG) and Public and Publicly Guaranteed (PPG) debt in 2024 and 2025.",
+      "data": [
+        [
+          "Sector",
+          "Flow Type",
+          "2024",
+          "2025"
+        ],
+        [
+          "PNG",
+          "Disbursements",
+          "~100",
+          "~120"
+        ],
+        [
+          "PNG",
+          "Amortization",
+          "~-80",
+          "~-110"
+        ],
+        [
+          "PNG",
+          "Net flows",
+          "~20",
+          "~25"
+        ],
+        [
+          "PPG",
+          "Disbursements",
+          "~180",
+          "~245"
+        ],
+        [
+          "PPG",
+          "Amortization",
+          "~-140",
+          "~-150"
+        ],
+        [
+          "PPG",
+          "Net flows",
+          "~45",
+          "~95"
+        ]
+      ],
+      "numbers_total": 14,
+      "numbers_in_text_layer": 5
+    }
+  ],
+  "parse_ok": true
+}

@@ -1,0 +1,193 @@
+{
+  "page": 260,
+  "model": "gemini-3.5-flash",
+  "seconds": 9.5,
+  "tokens_in": 2065,
+  "tokens_out": 2163,
+  "visuals": [
+    {
+      "label": "Figure 1",
+      "title": "Total external debt, 2015–25",
+      "kind": "line chart",
+      "region": [
+        0.511,
+        0.149,
+        0.932,
+        0.256
+      ],
+      "units": "US$ million",
+      "description": "Line chart showing total external debt stock from 2015 to 2025.",
+      "data": [
+        [
+          "Year",
+          "Total external debt"
+        ],
+        [
+          "2015",
+          "81,825"
+        ],
+        [
+          "2025",
+          "131,777"
+        ]
+      ],
+      "numbers_total": 4,
+      "numbers_in_text_layer": 4
+    },
+    {
+      "label": "Figure 2",
+      "title": "External debt by creditor and creditor type in 2025, including IMF credit and SDR allocations",
+      "kind": "treemap diagram",
+      "region": [
+        0.063,
+        0.274,
+        0.936,
+        0.601
+      ],
+      "units": "US$ million",
+      "description": "Nested proportional diagram breaking down total external debt by public vs. private nonguaranteed vs. short-term debt, and detailing public & publicly guaranteed debt by creditor category and specific creditor.",
+      "data": [
+        [
+          "Category Level 1",
+          "Category Level 2",
+          "Category Level 3",
+          "Amount"
+        ],
+        [
+          "Total external debt",
+          "Public & publicly guaranteed",
+          "Multilateral > World Bank-IDA",
+          "11,041"
+        ],
+        [
+          "Total external debt",
+          "Public & publicly guaranteed",
+          "Multilateral > Asian Dev. Bank",
+          "6,965"
+        ],
+        [
+          "Total external debt",
+          "Public & publicly guaranteed",
+          "Multilateral > Other multilateral",
+          "4,387"
+        ],
+        [
+          "Total external debt",
+          "Public & publicly guaranteed",
+          "Bilateral > Japan",
+          "10,155"
+        ],
+        [
+          "Total external debt",
+          "Public & publicly guaranteed",
+          "Bilateral > Russian Federation",
+          "1,392"
+        ],
+        [
+          "Total external debt",
+          "Public & publicly guaranteed",
+          "Bilateral > Other bilateral",
+          "2,873"
+        ],
+        [
+          "Total external debt",
+          "Public & publicly guaranteed",
+          "Private creditors",
+          "1,263"
+        ],
+        [
+          "Total external debt",
+          "Private nonguaranteed",
+          "N/A",
+          "53,055"
+        ],
+        [
+          "Total external debt",
+          "Short-term",
+          "N/A",
+          "40,648"
+        ]
+      ],
+      "numbers_total": 12,
+      "numbers_in_text_layer": 12
+    },
+    {
+      "label": "Figure 3",
+      "title": "Debt ratios, 2015–25",
+      "kind": "line chart",
+      "region": [
+        0.063,
+        0.611,
+        0.936,
+        0.771
+      ],
+      "units": "percent",
+      "description": "Four panel line charts depicting key debt ratios from 2015 to 2025 with 2025 values and change from previous periods.",
+      "data": [
+        [
+          "Metric",
+          "2025 Value",
+          "Change"
+        ],
+        [
+          "External debt / exports",
+          "26%",
+          "-15.2%"
+        ],
+        [
+          "External debt / GNI",
+          "26%",
+          "-8.7%"
+        ],
+        [
+          "Debt service / exports",
+          "6%",
+          "-28.3%"
+        ],
+        [
+          "Debt service / GNI",
+          "6%",
+          "-22.8%"
+        ]
+      ],
+      "numbers_total": 8,
+      "numbers_in_text_layer": 8
+    },
+    {
+      "label": "Figure 4",
+      "title": "Average terms on new commitments from official and private creditors, 2025",
+      "kind": "infographic",
+      "region": [
+        0.063,
+        0.794,
+        0.936,
+        0.908
+      ],
+      "units": "years, percent",
+      "description": "Summary boxes showing maturity, grace period, and interest rates on new commitments from official and private creditors in 2025.",
+      "data": [
+        [
+          "Creditor Type",
+          "Maturity (years)",
+          "Grace period (years)",
+          "Interest rate (%)"
+        ],
+        [
+          "Official creditors",
+          "25",
+          "5",
+          "4.1%"
+        ],
+        [
+          "Private creditors",
+          "23",
+          "5",
+          "0.0%"
+        ]
+      ],
+      "numbers_total": 6,
+      "numbers_in_text_layer": 6
+    }
+  ],
+  "parse_ok": true
+}

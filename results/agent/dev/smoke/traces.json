@@ -1,0 +1,166 @@
+[
+  {
+    "query_id": "d01",
+    "split": "dev",
+    "question": "What was the total external debt of low- and middle-income countries (LMICs) at the end of 2025, and how much did it grow from 2024?",
+    "filter": null,
+    "status": "answered",
+    "answer": "At the end of 2025, the total external debt of low- and middle-income countries (LMICs) reached a record $9.4 trillion [B-idr2026-p027-c000]. This represented an increase of 5.5 percent from $8.9 trillion in 2024 [B-idr2026-p027-c000].",
+    "citations": [
+      "B-idr2026-p027-c000"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "retriever": "dense",
+        "query": "total external debt of low- and middle-income countries LMICs end of 2025 growth from 2024",
+        "filter": null,
+        "top_k": 5,
+        "elapsed_ms": 734.6,
+        "results": [
+          {
+            "id": "B-idr2026-p030-c001",
+            "page": 30,
+            "score": 0.84900290673954,
+            "rank": 1
+          },
+          {
+            "id": "B-idr2026-p035-c000",
+            "page": 35,
+            "score": 0.8354975777271297,
+            "rank": 2
+          },
+          {
+            "id": "B-idr2026-p027-c000",
+            "page": 27,
+            "score": 0.8337404330086192,
+            "rank": 3
+          },
+          {
+            "id": "B-idr2026-p059-c001",
+            "page": 59,
+            "score": 0.8276069267030417,
+            "rank": 4
+          },
+          {
+            "id": "B-idr2026-p046-c001",
+            "page": 46,
+            "score": 0.8274231902532851,
+            "rank": 5
+          }
+        ],
+        "context_ids": [
+          "B-idr2026-p030-c001",
+          "B-idr2026-p035-c000",
+          "B-idr2026-p027-c000",
+          "B-idr2026-p059-c001",
+          "B-idr2026-p046-c001"
+        ],
+        "context_chars": 4556
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "context": "[B-idr2026-p030-c001 | data/9781464823558.pdf | page 30]\nDebt increased across both low- and middle-income countries. In low-income countries (LICs), it rose 8.9 percent to $262.4 billion. In MICs, debt rose 5.4 percent to a record $9.2 trillion in 2025, the fastest increase since 2021. The rise was striking because China, which accounts for nearly one-quarter of LMIC debt, continued to reduce its borrowing. China’s external debt fell by 4.3 percent to $2.3 trillion (figure 1.1), which means that debt accumulated substantially faster across other MICs than the overall MIC figure suggests.\nFigure 1.1 External Debt Stocks of Low- and Middle-Income Countries, 2015–25\n\n[B-idr2026-p035-c000 | data/9781464823558.pdf | page 35]\nFigure 1.2 Creditor Composition of External Debt Stock in Low- and Middle-Income Countries, 2015–25\nAlmost three-fourths of total LMIC debt stock owed to bondholders was issued by public sector entities; that share increased 6.2 percent in 2025, to $1.8 trillion. The increase is even more pronounced when China is excluded: debt stock owed to bondholders increased 11.1 percent, to $1.8 trillion, and debt stock owed to commercial banks and other private creditors rose 8.3 percent, to $2.3 trillion (figure 1.3). The increase in private lending, which is highly procyclical, was correlated with this group of countries’ robust economic growth, as measured by their gross national income (GNI), which grew 6.0 percent in 2025. Through the most recent crises, decreases in debt stock from this creditor base have been associated with the 2008 financial crisis, the 2015 turbulence, and the COVID-19 pandemic. The robust 2025 economic growth of LMICs (excluding China) attracted lenders back to these economies, and many LMIC governments proved eager to borrow when international investors are willing to lend, even at elevated borrowing rates.\n\n[B-idr2026-p027-c000 | data/9781464823558.pdf | page 27]\n1. Analysis of External Debt Stocks and Debt Flows as of End-2025 Trends in External Debt, 2015–25\nRenewed global inflationary pressures, geopolitical tensions, and decreased fiscal space continued to put substantial pressure on the external debt positions of low- and middle-income countries (LMICs) in 2025. LMICs’ external borrowing levels reached a record $9.4 trillion at the end of the year, increasing 5.5 percent from $8.9 trillion in 2024. LMIC external debt has grown about 60 percent over the past decade, and the 2025 increase was the largest since the easing of the COVID-19 pandemic in 2021. The change in debt stock was driven by net debt inflows of $423.5 billion, a more than twofold increase from 2024, as well as by some debt forgiveness and the upward accounting effect of US dollar depreciation. During the first half of 2025, the US dollar experienced its biggest depreciation against other currencies in more than five decades, and the increase in new debt flows went largely to middle-income countries (MICs), predominantly because of continued support from multilateral creditors and a rebound in lending from private creditors.\n\n[B-idr2026-p059-c001 | data/9781464823558.pdf | page 59]\nFor LMICs excluding China, the external debt-to-GNI ratio increased from 33.5 percent in 2024 to 34.5 percent in 2025, as the rise in debt stock of 9.1 percent exceeded GNI growth of 6.0 percent in 2025. The external debt stock of the group reached $7.2 trillion in 2025, an increase of 56.4 percent compared to 2015, reflecting a decade of external borrowing that has increased the debt burden in absolute terms. LMICs excluding China improved in the overall debt service-to-GNI ratio, from 5.1 percent in 2024 to 4.7 percent in 2025, with total debt service declining from $1 trillion to $979 billion. Moreover, interest payments also declined modestly, with the interest payment-to-GNI ratio declining from 1.5 in 2024 to 1.4 percent in 2025.\n\n[B-idr2026-p046-c001 | data/9781464823558.pdf | page 46]\nThe substantial rise in new gross financing of 17.3 percent, combined with a much slower increase of 2.3 percent in debt service payments, resulted in the improvement in long-term net transfers to LMICs in 2025. This change is even more pronounced when China is excluded. Net transfers on long-term debt to LMICs excluding China reversed from an outflow of $48.5 billion to an inflow of $200.5 billion. For this group of countries, new gross financing increased at a much faster pace in 2025, at 25.2 percent to $1.1 trillion, and long-term debt service payments decreased by 2.4 percent, to $923.8 billion.",
+    "context_ids": [
+      "B-idr2026-p030-c001",
+      "B-idr2026-p035-c000",
+      "B-idr2026-p027-c000",
+      "B-idr2026-p059-c001",
+      "B-idr2026-p046-c001"
+    ],
+    "tokens": {
+      "prompt": 2364,
+      "output": 172,
+      "model_calls": 2
+    },
+    "queries": [
+      "total external debt of low- and middle-income countries LMICs end of 2025 growth from 2024"
+    ],
+    "elapsed_s": 66.2
+  },
+  {
+    "query_id": "d18",
+    "split": "dev",
+    "question": "What was Cambodia's total external debt stock at the end of 2025?",
+    "filter": null,
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "reason": "The provided context does not contain information regarding Cambodia's total external debt stock at the end of 2025.",
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "retriever": "dense",
+        "query": "Cambodia total external debt stock 2025",
+        "filter": null,
+        "top_k": 5,
+        "elapsed_ms": 246.7,
+        "results": [
+          {
+            "id": "B-idr2026-p030-c001",
+            "page": 30,
+            "score": 0.7821440100669861,
+            "rank": 1
+          },
+          {
+            "id": "B-idr2026-p038-c000",
+            "page": 38,
+            "score": 0.7720335993726786,
+            "rank": 2
+          },
+          {
+            "id": "B-idr2026-p035-c001",
+            "page": 35,
+            "score": 0.7717365026473999,
+            "rank": 3
+          },
+          {
+            "id": "B-idr2026-p027-c000",
+            "page": 27,
+            "score": 0.7717326419512857,
+            "rank": 4
+          },
+          {
+            "id": "B-idr2026-p034-c002",
+            "page": 34,
+            "score": 0.7665957947614329,
+            "rank": 5
+          }
+        ],
+        "context_ids": [
+          "B-idr2026-p030-c001",
+          "B-idr2026-p038-c000",
+          "B-idr2026-p035-c001",
+          "B-idr2026-p027-c000",
+          "B-idr2026-p034-c002"
+        ],
+        "context_chars": 4617
+      },
+      {
+        "event": "abstain",
+        "reason": "The provided context does not contain information regarding Cambodia's total external debt stock at the end of 2025."
+      }
+    ],
+    "context": "[B-idr2026-p030-c001 | data/9781464823558.pdf | page 30]\nDebt increased across both low- and middle-income countries. In low-income countries (LICs), it rose 8.9 percent to $262.4 billion. In MICs, debt rose 5.4 percent to a record $9.2 trillion in 2025, the fastest increase since 2021. The rise was striking because China, which accounts for nearly one-quarter of LMIC debt, continued to reduce its borrowing. China’s external debt fell by 4.3 percent to $2.3 trillion (figure 1.1), which means that debt accumulated substantially faster across other MICs than the overall MIC figure suggests.\nFigure 1.1 External Debt Stocks of Low- and Middle-Income Countries, 2015–25\n\n[B-idr2026-p038-c000 | data/9781464823558.pdf | page 38]\nLMICs’ debt stock owed to all other creditor groups also increased in 2025. Debt stock owed to official creditors (public institutions such as national governments and international organizations) increased 8.4 percent in 2025, to $2.0 trillion. Lending by official bilateral creditors (national governments and their agencies) also showed a comeback, increasing 4.7 percent in 2025 after a 3.4 percent retrenchment in 2024. Support from multilateral institutions such as the World Bank Group and the IMF continued to be positive in 2025, but at a decreasing pace when compared to the COVID-19 pandemic era. Except for the multilateral support to Ukraine provided under the Extraordinary Revenue Acceleration Loans for Ukraine initiative, the cumulative countercyclical lending by these institutions decelerated in 2025. (Box 1.4 describes the international support for Ukraine through this initiative.) LMICs’ debt stock owed to multilateral creditors increased 9.6 percent to $1.5 trillion in 2025. However, when the European Union’s support to Ukraine is excluded, debt stock owed to multilateral creditors increased 7.0 percent to $1.4 trillion in 2026.\n\n[B-idr2026-p035-c001 | data/9781464823558.pdf | page 35]\nFor this group of countries, the share of debt stock owed to bondholders by public sector entities stands at 82 percent, a much higher share than the PNG sector counterpart, and increased by 10.4 percent to $1.5 trillion in 2025. The opposite is true for debt stock owed to commercial banks and other private creditors, where an 83 percent share of the obligations is held by the PNG sector of the economy. This type of debt increased 7.0 percent to $1.9 trillion in 2025, and the debt stock of public sector entities owed to commercial banks and other private creditors saw a much larger increase of 15.1 percent, to $385.7 billion in 2025.\n\n[B-idr2026-p027-c000 | data/9781464823558.pdf | page 27]\n1. Analysis of External Debt Stocks and Debt Flows as of End-2025 Trends in External Debt, 2015–25\nRenewed global inflationary pressures, geopolitical tensions, and decreased fiscal space continued to put substantial pressure on the external debt positions of low- and middle-income countries (LMICs) in 2025. LMICs’ external borrowing levels reached a record $9.4 trillion at the end of the year, increasing 5.5 percent from $8.9 trillion in 2024. LMIC external debt has grown about 60 percent over the past decade, and the 2025 increase was the largest since the easing of the COVID-19 pandemic in 2021. The change in debt stock was driven by net debt inflows of $423.5 billion, a more than twofold increase from 2024, as well as by some debt forgiveness and the upward accounting effect of US dollar depreciation. During the first half of 2025, the US dollar experienced its biggest depreciation against other currencies in more than five decades, and the increase in new debt flows went largely to middle-income countries (MICs), predominantly because of continued support from multilateral creditors and a rebound in lending from private creditors.\n\n[B-idr2026-p034-c002 | data/9781464823558.pdf | page 34]\nViewed from a lending category perspective, the external debt stock of countries eligible for International Development Association (IDA) financing increased 8.1 percent in 2025, to $1.3 trillion. Of this group, LICs’ debt increased at an even faster pace of 8.9 percent in 2025, to $262.4 billion, a marked increase not seen since 2020. Although LICs account for only a 2.8 percent share of total LMIC debt stock, over 60 percent of these countries are at high risk of debt distress or already in debt distress. An increase of such magnitude for this most vulnerable group of countries exacerbates their susceptibility to financial market volatility and stresses their already limited fiscal space. (Refer to box 1.3 for income and lending classifications.)",
+    "context_ids": [
+      "B-idr2026-p030-c001",
+      "B-idr2026-p038-c000",
+      "B-idr2026-p035-c001",
+      "B-idr2026-p027-c000",
+      "B-idr2026-p034-c002"
+    ],
+    "tokens": {
+      "prompt": 2242,
+      "output": 63,
+      "model_calls": 2
+    },
+    "queries": [
+      "Cambodia total external debt stock 2025"
+    ],
+    "elapsed_s": 2.47
+  }
+]

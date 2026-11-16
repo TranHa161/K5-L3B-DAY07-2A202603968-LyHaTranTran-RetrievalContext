@@ -1,0 +1,38 @@
+[
+  {
+    "id": "d18",
+    "split": "dev",
+    "question": "What was Cambodia's total external debt stock at the end of 2025?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Corpus (PDF pages 27-133, IDR 2026 Part 1) never mentions Cambodia: case-insensitive search for 'Cambodia' over PyMuPDF page text returns 0 pages. Country-level debt stocks are only given for a few countries (e.g. Ukraine, Argentina).",
+    "absence_check": {"method": "regex over PyMuPDF text of pages 27-133", "keywords": ["Cambodia"], "pages_found": []}
+  },
+  {
+    "id": "d19",
+    "split": "dev",
+    "question": "How much FDI did Viet Nam receive in 2025?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Near-miss: page 58 lists Viet Nam among the five largest FDI recipients, which together took 52.7% of LMIC FDI excluding China, and gives a figure only for Brazil ($62.4 billion). No amount for Viet Nam appears; 'Viet Nam' occurs on page 58 only.",
+    "absence_check": {"method": "regex over PyMuPDF text of pages 27-133", "keywords": ["Viet ?Nam", "Vietnam"], "pages_found": [58]}
+  },
+  {
+    "id": "t07",
+    "split": "test",
+    "question": "How much did LMICs raise through green, social, or sustainability-linked bonds in 2025?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "The corpus discusses bond issuance in general, but 'green', 'sustainability-linked' and 'ESG' each return 0 pages; there is no breakdown of labeled or thematic bonds.",
+    "absence_check": {"method": "regex over PyMuPDF text of pages 27-133", "keywords": ["green", "sustainab\\w*-linked", "ESG"], "pages_found": []}
+  },
+  {
+    "id": "t08",
+    "split": "test",
+    "question": "What sovereign credit rating did S&P assign to Kenya in 2025?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Near-miss: page 86 discusses 2025 rating actions by Fitch and Moody's (Bolivia, Botswana, Costa Rica) but never mentions S&P (0 pages) or Kenya. Kenya appears on pages 43, 52, 64, 67, 71-73 only in the context of bonds and debt flows, not ratings.",
+    "absence_check": {"method": "regex over PyMuPDF text of pages 27-133", "keywords": ["S&P", "Kenya", "credit rating"], "pages_found": {"S&P": [], "Kenya": [43, 52, 64, 67, 71, 72, 73], "credit rating": [86]}}
+  }
+]

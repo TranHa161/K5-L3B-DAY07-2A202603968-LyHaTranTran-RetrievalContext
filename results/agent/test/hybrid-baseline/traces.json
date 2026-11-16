@@ -1,0 +1,684 @@
+[
+  {
+    "query_id": "t01",
+    "split": "test",
+    "question": "How did long-term net debt transfers to LMICs change in 2025?",
+    "filter": null,
+    "status": "answered",
+    "answer": "In 2025, long-term net debt transfers to LMICs improved, turning positive after three consecutive years of negative volumes [B-idr2026-p046-c000]. These transfers reversed from an outflow of $118.4 billion in 2024 to an inflow of $45.4 billion in 2025 [B-idr2026-p046-c000]. This improvement was driven by a 17.3 percent rise in new gross financing combined with a 2.3 percent increase in debt service payments [B-idr2026-p046-c001]. When China is excluded, the reversal was even more pronounced, moving from an outflow of $48.5 billion to an inflow of $200.5 billion [B-idr2026-p046-c001].",
+    "citations": [
+      "B-idr2026-p046-c000",
+      "B-idr2026-p046-c001"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "retriever": "hybrid",
+        "query": "long-term net debt transfers to LMICs 2025",
+        "filter": null,
+        "top_k": 5,
+        "elapsed_ms": 499.9,
+        "results": [
+          {
+            "id": "B-idr2026-p046-c001",
+            "page": 46,
+            "score": 0.03278688524590164,
+            "rank": 1
+          },
+          {
+            "id": "B-idr2026-p046-c000",
+            "page": 46,
+            "score": 0.03200204813108039,
+            "rank": 2
+          },
+          {
+            "id": "B-idr2026-p048-c000",
+            "page": 48,
+            "score": 0.03125,
+            "rank": 3
+          },
+          {
+            "id": "B-idr2026-p047-c002",
+            "page": 47,
+            "score": 0.030621785881252923,
+            "rank": 4
+          },
+          {
+            "id": "B-idr2026-p047-c001",
+            "page": 47,
+            "score": 0.030303030303030304,
+            "rank": 5
+          }
+        ],
+        "context_ids": [
+          "B-idr2026-p046-c001",
+          "B-idr2026-p046-c000",
+          "B-idr2026-p048-c000",
+          "B-idr2026-p047-c002",
+          "B-idr2026-p047-c001"
+        ],
+        "context_chars": 4260
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "context": "[B-idr2026-p046-c001 | data/9781464823558.pdf | page 46]\nThe substantial rise in new gross financing of 17.3 percent, combined with a much slower increase of 2.3 percent in debt service payments, resulted in the improvement in long-term net transfers to LMICs in 2025. This change is even more pronounced when China is excluded. Net transfers on long-term debt to LMICs excluding China reversed from an outflow of $48.5 billion to an inflow of $200.5 billion. For this group of countries, new gross financing increased at a much faster pace in 2025, at 25.2 percent to $1.1 trillion, and long-term debt service payments decreased by 2.4 percent, to $923.8 billion.\n\n[B-idr2026-p046-c000 | data/9781464823558.pdf | page 46]\nFigure 1.6 Composition of Debt Flows, Top 10 Borrowers (Excluding China) Trends in Net Transfers on External Debt, 2015–25\nLMICs’ long-term net debt transfers (disbursement minus total debt service payments) turned positive in 2025 after three consecutive years of negative volumes. Negative net transfers were recorded since 2022, during the aftermath of the COVID-19 pandemic, indicating that LMICs’ new disbursements were lower than what they paid in interest and principal payments to service their debt obligations. In 2025, net debt transfers on long-term debt turned positive, reversing from an outflow of $118.4 billion in 2024 to an inflow of $45.4 billion (figure 1.7). The improvement was due to net transfers to PPG borrowers, which increased more than sevenfold to $49.9 billion, after turning slightly positive in 2024 to $6.6 billion. Conversely, net debt transfers to PNG borrowers continued to remain negative in 2025, albeit at an improving pace. Net transfers to PNG borrowers remained negative for the fourth consecutive year but improved considerably, from an outflow of $125.0 billion in 2024 to an outflow of $4.5 billion in 2025.\n\n[B-idr2026-p048-c000 | data/9781464823558.pdf | page 48]\nFigure 1.8 Long-Term Net Transfers on Public and Publicly Guaranteed External Debt in Low- and Middle-Income Countries (Excluding China), by Creditor Type, 2015–25\nCommercial banks and other private creditors were the other source of positive net transfers to PPG borrowers during the year, at $10.1 billion, but were on a downward trend from 2024, decreasing by 45.1 percent.\n\nWhen China is excluded, LMICs’ PPG net transfers from bondholders and from commercial banks and other private creditors increased at a more pronounced pace. For LMICs excluding China, bondholders provided $70.1 billion more than they received in 2025, after recording five years of outflows from LMICs; commercial banks and other private creditors provided $24.1 billion more in 2025, after recording four years of outflows (figure 1.8).\n\n[B-idr2026-p047-c002 | data/9781464823558.pdf | page 47]\nIn 2025, net transfers from bondholders turned positive, with this creditor base recording the largest increase among other creditors, reversing from an outflow of $19.4 billion in 2024 to an inflow of $22.3 billion. New bond issuances by LMICs in 2025 outpaced the cost of obligations to this creditor base, resulting in net inflows from bondholders after three consecutive years of outflows.\n\n[B-idr2026-p047-c001 | data/9781464823558.pdf | page 47]\nThis behavior is even more evident at the creditor composition level. In 2025, multilateral institutions continued to provide positive support, a trend that has continued since 2007. Net transfers from these institutions increased 36.4 percent in 2025, rebounding from the downward trend recorded since 2022, following the COVID-19 extraordinary financing. During 2025, multilateral institutions provided $21.0 billion more in financing than they received in principal and interest payments. This increase was led by the European Union’s unprecedented support to Ukraine, with the organization providing $32.6 billion more to LMICs than it received in 2025. The World Bank Group was the second-largest provider of net transfers to LMICs during the year, delivering $3.5 billion more than it received. Net transfers to LMICs from bilateral creditors were negative for the second year in a row, though at an improving pace, with this creditor base receiving $3.4 billion more than it provided in 2025.",
+    "context_ids": [
+      "B-idr2026-p046-c001",
+      "B-idr2026-p046-c000",
+      "B-idr2026-p048-c000",
+      "B-idr2026-p047-c002",
+      "B-idr2026-p047-c001"
+    ],
+    "tokens": {
+      "prompt": 2170,
+      "output": 291,
+      "model_calls": 2
+    },
+    "queries": [
+      "long-term net debt transfers to LMICs 2025"
+    ],
+    "api_retries": [],
+    "elapsed_s": 25.86
+  },
+  {
+    "query_id": "t02",
+    "split": "test",
+    "question": "Did the Mexican government's capital contribution to PEMEX actually reduce public sector debt?",
+    "filter": null,
+    "status": "answered",
+    "answer": "No, the capital contribution did not materially reduce consolidated public sector liabilities; instead, it largely transferred debt service risk to the sovereign [B-idr2026-p072-c001].",
+    "citations": [
+      "B-idr2026-p072-c001"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "retriever": "hybrid",
+        "query": "Mexico PEMEX capital contribution public sector debt",
+        "filter": null,
+        "top_k": 5,
+        "elapsed_ms": 264.8,
+        "results": [
+          {
+            "id": "B-idr2026-p072-c001",
+            "page": 72,
+            "score": 0.03278688524590164,
+            "rank": 1
+          },
+          {
+            "id": "B-idr2026-p042-c002",
+            "page": 42,
+            "score": 0.03128054740957967,
+            "rank": 2
+          },
+          {
+            "id": "B-idr2026-p042-c000",
+            "page": 42,
+            "score": 0.030536130536130537,
+            "rank": 3
+          },
+          {
+            "id": "B-idr2026-p084-c000",
+            "page": 84,
+            "score": 0.029631255487269532,
+            "rank": 4
+          },
+          {
+            "id": "B-idr2026-p064-c001",
+            "page": 64,
+            "score": 0.02819138376017471,
+            "rank": 5
+          }
+        ],
+        "context_ids": [
+          "B-idr2026-p072-c001",
+          "B-idr2026-p042-c002",
+          "B-idr2026-p042-c000",
+          "B-idr2026-p084-c000",
+          "B-idr2026-p064-c001"
+        ],
+        "context_chars": 5192
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "context": "[B-idr2026-p072-c001 | data/9781464823558.pdf | page 72]\nIn September 2025, the government issued $8.0 billion and €5.0 billion in multitranche sovereign bonds. The US dollar issuance comprised $1.5 billion of 4.750 percent notes due in 2031, $4.0 billion of 5.375 percent notes due in 2033, and $2.5 billion of 5.625 percent notes due in 2035. The euro issuance comprised €2.50 billion of 3.500 percent notes due in 2029, €1.50 billion of 4.500 percent notes due in 2034, and €1.25 billion of 5.125 percent notes due in 2038. These transactions enabled a capital contribution of nearly $14 billion from the federal government to PEMEX, which in turn used the funds to partially repay and redeem short-term securities maturing in 2025 and to finance a $9.9 billion multiseries bond buyback targeting maturities from 2026 to 2028. The operation smoothed PEMEX’s debt-maturity profile and improved its liquidity but largely transferred debt service risk to the sovereign rather than materially reducing consolidated public sector liabilities.\n\n[B-idr2026-p042-c002 | data/9781464823558.pdf | page 42]\nIn June and September of 2025, Mexico’s public sector executed several debt management operations, including issuing new international bonds to retire existing sovereign and state-owned enterprises’ liabilities for an equal or lesser nominal value. These buyback operations totaled $17.6 billion and aimed to extend the maturity profiles of existing liabilities and to lower borrowing costs by capturing lower interest rates. Other markets also recorded major buyback operations, with Colombia at $6.6 billion and Argentina at $2.8 billion, recording the second- and third-largest LMIC operations. Both countries used debt buyback operations in 2025 to retire existing bonds before maturity, with\n\n[B-idr2026-p042-c000 | data/9781464823558.pdf | page 42]\nThe increase in private creditors’ net debt flows was driven by an increase in new disbursements accompanied by a slowdown in principal repayments over the same period. New disbursements from private creditors lending to the public sector increased 12.1 percent to $367.8 billion, whereas principal repayments decreased by 3.3 percent to $227.3 billion in 2025. Bond issuances accounted for 68.1 percent of these new disbursements, increasing 34.6 percent to $250.6 billion, to volumes not seen since 2021. Notably, when China is excluded, the $238.9 billion issuance is a record for LMICs, reflecting a robust return of investor confidence. The monetary tightening in advanced economies disproportionately affected the riskiest borrowers, and subsequent monetary easing helped improve market conditions and lower borrowing costs from their 2023 peaks. The rebound was substantial both in pace and scale. The increase in new public sector disbursements was driven by Mexico, which accounted for a 16.7 percent share of new LMIC issues, at $42.0 billion in 2025.\n\n[B-idr2026-p084-c000 | data/9781464823558.pdf | page 84]\nFigure 2.7 Low- and Middle-Income Countries with Fiscal Rules, 2000–24 Debt Sustainability and Fiscal Pressures\nExternal shocks have compounded preexisting fiscal pressures and increased debt vulnerabilities in LMICs. These countries require substantial investment to raise productivity, create jobs, and advance broader development objectives. Financing these needs depends on mobilizing domestic resources, attracting domestic and foreign private capital, and, where necessary, borrowing through public channels. In this context, part of the increase in public debt reflects efforts to finance infrastructure, human capital, and other investments that can support long-term growth. However, slower global growth, policy uncertainty, trade fragmentation, geopolitical tensions, and commodity-price volatility have affected both the availability and cost of financing. In many countries, shocks that initially generated temporary financing needs have contributed to persistently higher debt stocks, debt service burdens, and rollover requirements.\n\n[B-idr2026-p064-c001 | data/9781464823558.pdf | page 64]\nThe restoration of access to capital markets has been particularly consequential for Sub-Saharan Africa, which accounted for 64 percent of IDA-eligible countries’ total public sector issuances (figure 1.19). The public sectors of eight countries in Sub-Saharan Africa collectively raised approximately $11.8 billion by end-December 2025, a marked 36.2 percent increase over 2024. Several issuers returned after prolonged absences: Kenya, the largest issuer in the region, raised $3.5 billion in 2025. The country returned to bond markets to prepay its 2027 and 2028 maturity obligations ahead of schedule. Côte d’Ivoire raised a total of $2.5 billion in 2025. Importantly, a substantial share of proceeds from the two countries’ debt offerings funded their liability management operations, refinancing upcoming bullet maturities, and thereby easing rollover pressures. Nigeria, the third-largest issuer in the region, raised $2.3 billion in a dual-tranche international bond issue that was divided into one tranche with a 10-year maturity at 8.625 percent and a second, 20-year maturity tranche at 9.125 percent.",
+    "context_ids": [
+      "B-idr2026-p072-c001",
+      "B-idr2026-p042-c002",
+      "B-idr2026-p042-c000",
+      "B-idr2026-p084-c000",
+      "B-idr2026-p064-c001"
+    ],
+    "tokens": {
+      "prompt": 2303,
+      "output": 102,
+      "model_calls": 2
+    },
+    "queries": [
+      "Mexico PEMEX capital contribution public sector debt"
+    ],
+    "api_retries": [],
+    "elapsed_s": 2.77
+  },
+  {
+    "query_id": "t03",
+    "split": "test",
+    "question": "In the chapter on debt dynamics and policy implications (chapter 2), which food group has the highest median net import reliance?",
+    "filter": {
+      "chapter": 2
+    },
+    "status": "answered",
+    "answer": "Among net importing economies, the food group with the highest median net import reliance is oils and fats, at 63.6 percent [B-idr2026-p096-c002].",
+    "citations": [
+      "B-idr2026-p096-c002"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "retriever": "hybrid",
+        "query": "median net import reliance food group chapter 2",
+        "filter": {
+          "chapter": 2
+        },
+        "top_k": 5,
+        "elapsed_ms": 236.5,
+        "results": [
+          {
+            "id": "B-idr2026-p099-c000",
+            "page": 99,
+            "score": 0.03252247488101534,
+            "rank": 1
+          },
+          {
+            "id": "B-idr2026-p096-c002",
+            "page": 96,
+            "score": 0.032018442622950824,
+            "rank": 2
+          },
+          {
+            "id": "B-idr2026-p096-c003",
+            "page": 96,
+            "score": 0.031754032258064516,
+            "rank": 3
+          },
+          {
+            "id": "B-idr2026-p100-c000",
+            "page": 100,
+            "score": 0.03125763125763126,
+            "rank": 4
+          },
+          {
+            "id": "B-idr2026-p101-c000",
+            "page": 101,
+            "score": 0.03125763125763126,
+            "rank": 5
+          }
+        ],
+        "context_ids": [
+          "B-idr2026-p099-c000",
+          "B-idr2026-p096-c002",
+          "B-idr2026-p096-c003",
+          "B-idr2026-p100-c000",
+          "B-idr2026-p101-c000"
+        ],
+        "context_chars": 4641
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "context": "[B-idr2026-p099-c000 | data/9781464823558.pdf | page 99]\nFigure 2.14 Net Importing Economies and External Debt Burdens, by Food Group, Income Group, and Population, 2025 (continued) Diversifying Import Sources to Improve Resilience\nImport reliance, however, captures only one dimension of exposure. Another is how concentrated imports are across source economies. An economy that sources a food group from a broader range of suppliers may have more options to adjust when trade with a particular exporter is disrupted than one that depends on only a few sources. Import source diversity is measured using the Shannon Diversity Index, which captures both the number of source economies and how evenly imports are distributed across them; higher values indicate greater diversification.\n\nHigher-income economies generally source food imports from a broader and more evenly distributed set of suppliers (Bai, Kaushik et al. 2025). In the sample used for this analysis, upper-middle-income economies have higher median import source diversity than low- and lower-middle-income economies in five of the six food groups,\n\n[B-idr2026-p096-c002 | data/9781464823558.pdf | page 96]\nImport Reliance and Debt Burdens Across Food Groups\nAggregate food import shares do not show how strongly the domestic supply of individual food groups depends on international markets. Net import reliance— net imports as a share of domestic supply quantity—varies substantially across the six food groups making up the Healthy Diet Basket (Bai, Herforth et al. 2025; Herforth et al. 2025). Among net importing economies, median reliance is highest for oils and fats, at 63.6 percent, followed by starchy staples, at 36.9 percent, and legumes, nuts, and seeds, at 34.1 percent. Median reliance is lower for animal-source foods, at 28.0 percent, and for vegetables and fruits, at 17.4 percent and 13.4 percent, respectively.\n\n[B-idr2026-p096-c003 | data/9781464823558.pdf | page 96]\nTo identify economies where high reliance on food imports and elevated external debt burdens overlap, figure 2.13 applies two reference thresholds. For many economies, high import reliance coincides with elevated external debt burdens. Figure 2.14 highlights economies where external debt stocks are at least 150 percent of exports, as a reference point based on the threshold applied under the Heavily Indebted Poor Countries (HIPC) Initiative, and where net imports account for at least 30 percent of domestic supply in a given food group. The figure intends to identify the coexistence of these two sources of vulnerability, rather than to assess whether higher external debt is associated with greater reliance on food imports. This overlap is most common for oils and fats: 34 economies—about 42 percent of net importers in the group—meet both thresholds. The corresponding shares are about 28 percent for legumes, nuts, and seeds; 27 percent for starchy staples; 23 percent for animal-source foods; 16 percent for vegetables; and 15 percent for fruits.\n\n[B-idr2026-p100-c000 | data/9781464823558.pdf | page 100]\nwith the largest differences for fruits (2.12 versus 1.65) and vegetables (1.99 versus 1.64). Median diversity is similar for starchy staples (1.83 versus 1.88). Animal-source food imports are relatively diversified in both groups, with median Shannon indexes of 2.69 and 2.49, respectively. Analysis for this report reveals that diversity of import sources is also associated with external debt burdens. Higher debt relative to exports is significantly associated with lower import source diversity for starchy staples and, notably, for animal-source foods, fruits, and vegetables—nutritionally important components of a healthy diet that together account for a large share of its cost (figure 2.15). By contrast, higher debt burdens are associated with greater import source diversity for oils and fats, and for legumes, nuts, and seeds.\nFigure 2.15 Import Source Diversity and External Debt Burdens, by Food Group, Income Group, and Population, 2025\n\n[B-idr2026-p101-c000 | data/9781464823558.pdf | page 101]\nFigure 2.15 Import Source Diversity and External Debt Burdens, by Food Group, Income Group, and Population, 2025 (continued)\nImport reliance and source diversification capture complementary dimensions of food import exposure and together provide a broader indication of resilience in access to healthy diets when external shocks occur. Heterogeneity across food groups in both dimensions may reflect differences in domestic production capacity, tradability, storability, and perishability, as well as in the structure and concentration of global suppliers.",
+    "context_ids": [
+      "B-idr2026-p099-c000",
+      "B-idr2026-p096-c002",
+      "B-idr2026-p096-c003",
+      "B-idr2026-p100-c000",
+      "B-idr2026-p101-c000"
+    ],
+    "tokens": {
+      "prompt": 2176,
+      "output": 105,
+      "model_calls": 2
+    },
+    "queries": [
+      "median net import reliance food group chapter 2"
+    ],
+    "api_retries": [],
+    "elapsed_s": 2.72
+  },
+  {
+    "query_id": "t04",
+    "split": "test",
+    "question": "In the chapter on debt transparency (chapter 3), how many countries and loan records does the DRS currently cover?",
+    "filter": {
+      "chapter": 3
+    },
+    "status": "answered",
+    "answer": "The Debtor Reporting System (DRS) currently covers about 120 World Bank Group borrowing countries and more than 50,000 active loan records [B-idr2026-p121-c002].",
+    "citations": [
+      "B-idr2026-p121-c002"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "retriever": "hybrid",
+        "query": "DRS coverage countries loan records chapter 3",
+        "filter": {
+          "chapter": 3
+        },
+        "top_k": 5,
+        "elapsed_ms": 309.1,
+        "results": [
+          {
+            "id": "B-idr2026-p121-c002",
+            "page": 121,
+            "score": 0.03177805800756621,
+            "rank": 1
+          },
+          {
+            "id": "B-idr2026-p132-c000",
+            "page": 132,
+            "score": 0.031024531024531024,
+            "rank": 2
+          },
+          {
+            "id": "B-idr2026-p111-c000",
+            "page": 111,
+            "score": 0.030798389007344232,
+            "rank": 3
+          },
+          {
+            "id": "B-idr2026-p110-c000",
+            "page": 110,
+            "score": 0.027650648360030512,
+            "rank": 4
+          },
+          {
+            "id": "B-idr2026-p112-c000",
+            "page": 112,
+            "score": 0.02761904761904762,
+            "rank": 5
+          }
+        ],
+        "context_ids": [
+          "B-idr2026-p121-c002",
+          "B-idr2026-p132-c000",
+          "B-idr2026-p111-c000",
+          "B-idr2026-p110-c000",
+          "B-idr2026-p112-c000"
+        ],
+        "context_chars": 4795
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "context": "[B-idr2026-p121-c002 | data/9781464823558.pdf | page 121]\nThe modernization and expansion of the DRS serves as an important anchor for structuring the capacity-building program in debt data management. It currently covers about 120 World Bank Group borrowing countries and more than 50,000 active loan records, with approximately 2,500–3,000 new loans reported each year. Maintaining a system of this scale and ensuring the integrity of the data require sustained investment in national reporting capacity. Practical training sessions are not limited to familiarizing debt managers with the new and very different DRS reporting structure. They include equally, if not more, important training in how to implement international statistical standards to categorize and compile debt data. In this context, the overarching goal is to also transmit the skills required to determine if data are complete, internally consistent, appropriately classified, and aligned with international statistical standards. Workshops provide hands-on experience and test runs of the revised classifications and reporting requirements, and explain the links between DRS concepts and External Debt Statistics: Guide for Compilers and Users (IMF 2014).\n\n[B-idr2026-p132-c000 | data/9781464823558.pdf | page 132]\nFigure 3B.1 World Bank Group Debt Statistics Program Three-Tier Architecture\ncentral to debt transparency, particularly as sovereign financing becomes more complex. LMICs increasingly combine traditional bilateral and multilateral loans with syndicated lending, international bonds, collateralized financing, debt swaps, buybacks, and more sophisticated restructuring operations.\n\nThe DRS provides the granular data infrastructure needed to identify, measure, and track debt exposures over time. At the individual debt level, it captures detailed information on borrowers, creditors, instruments, currencies, commitments, disbursements, debt service, arrears, and restructurings, providing insight not only into the amount of debt outstanding but also into its composition, financing terms, repayment profile, and evolution. As sovereign financing instruments and practices continue to evolve, DRS reporting requirements, classifications, and methodological guidance are continuously strengthened to ensure that this growing complexity is reflected in comprehensive, consistent, and increasingly complete coverage of countries’ debt obligations and financing arrangements.\n\n[B-idr2026-p111-c000 | data/9781464823558.pdf | page 111]\nFigure 3.2 Debtor Reporting System Reporting Timetable, 2020–25\nSignificant progress has been made to improve the quality, coverage, and consistency of external debt statistics through systematic debtor-creditor reconciliation exercises. At the core of this initiative is the reconciliation of loan-by-loan information on public and publicly guaranteed external debt reported by borrowers to the DRS with corresponding data provided by bilateral creditors. This process enables cross-checking of data sets, identification of discrepancies, validation of loan terms and transactions, and filling of critical data gaps, all of which serve to enhance the accuracy of debt statistics.\n\n[B-idr2026-p110-c000 | data/9781464823558.pdf | page 110]\nFigure 3.1 Public Debt Disclosures by IDA-Eligible Countries, Accessibility and Coverage, 2020 and 2025\nImprovements in data accessibility identified by the heat map are mirrored in enhanced timeliness and accuracy of reporting to the World Bank Group DRS. This is a mandatory reporting requirement for all countries that borrow from the International Bank for Reconstruction and Development (IBRD) and IDA. Borrowers are increasingly meeting this requirement in accordance with the reporting timetable and are providing more comprehensive information on borrowing by central banks and SOEs. These advances have reduced gaps and asymmetries in global debt statistics, strengthened cross-country comparability, and solidified the DRS role as a cornerstone of global debt transparency.\n\n[B-idr2026-p112-c000 | data/9781464823558.pdf | page 112]\nThe third and most recent round of the reconciliation exercise, using end-2024 data, demonstrated substantial progress in aligning the debtor and creditor data sets for both scale and accuracy. Again, 18 creditors participated and together reported 4,875 individual loans and loan tranches, representing $63.4 billion in outstanding debt, out of which a total of 3,762 loans and loan tranches (77 percent) were matched to their counterpart in the DRS database (figure 3.3). For matched loans, creditor-reported claims of $58.0 billion differed by less than 1 percent from the comparable figure reported by debtors to the DRS, indicating that remaining gaps are relatively limited in magnitude.",
+    "context_ids": [
+      "B-idr2026-p121-c002",
+      "B-idr2026-p132-c000",
+      "B-idr2026-p111-c000",
+      "B-idr2026-p110-c000",
+      "B-idr2026-p112-c000"
+    ],
+    "tokens": {
+      "prompt": 2074,
+      "output": 112,
+      "model_calls": 2
+    },
+    "queries": [
+      "DRS coverage countries loan records chapter 3"
+    ],
+    "api_retries": [],
+    "elapsed_s": 4.3
+  },
+  {
+    "query_id": "t05",
+    "split": "test",
+    "question": "How many loans did the first debtor-creditor reconciliation exercise cover, and what share was matched?",
+    "filter": null,
+    "status": "answered",
+    "answer": "The first debtor-creditor reconciliation exercise covered 3,655 individual loans and loan tranches [B-idr2026-p111-c001]. Approximately 80 percent of these loans were successfully matched [B-idr2026-p111-c001].",
+    "citations": [
+      "B-idr2026-p111-c001"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "retriever": "hybrid",
+        "query": "debtor-creditor reconciliation exercise loans matched",
+        "filter": null,
+        "top_k": 5,
+        "elapsed_ms": 201.4,
+        "results": [
+          {
+            "id": "B-idr2026-p112-c000",
+            "page": 112,
+            "score": 0.03278688524590164,
+            "rank": 1
+          },
+          {
+            "id": "B-idr2026-p111-c001",
+            "page": 111,
+            "score": 0.03225806451612903,
+            "rank": 2
+          },
+          {
+            "id": "B-idr2026-p119-c000",
+            "page": 119,
+            "score": 0.03125763125763126,
+            "rank": 3
+          },
+          {
+            "id": "B-idr2026-p114-c002",
+            "page": 114,
+            "score": 0.030309988518943745,
+            "rank": 4
+          },
+          {
+            "id": "B-idr2026-p118-c003",
+            "page": 118,
+            "score": 0.02976190476190476,
+            "rank": 5
+          }
+        ],
+        "context_ids": [
+          "B-idr2026-p112-c000",
+          "B-idr2026-p111-c001",
+          "B-idr2026-p119-c000",
+          "B-idr2026-p114-c002",
+          "B-idr2026-p118-c003"
+        ],
+        "context_chars": 3930
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "context": "[B-idr2026-p112-c000 | data/9781464823558.pdf | page 112]\nThe third and most recent round of the reconciliation exercise, using end-2024 data, demonstrated substantial progress in aligning the debtor and creditor data sets for both scale and accuracy. Again, 18 creditors participated and together reported 4,875 individual loans and loan tranches, representing $63.4 billion in outstanding debt, out of which a total of 3,762 loans and loan tranches (77 percent) were matched to their counterpart in the DRS database (figure 3.3). For matched loans, creditor-reported claims of $58.0 billion differed by less than 1 percent from the comparable figure reported by debtors to the DRS, indicating that remaining gaps are relatively limited in magnitude.\n\n[B-idr2026-p111-c001 | data/9781464823558.pdf | page 111]\nInitiated in 2022, these exercises have become a central element of the broader debt transparency agenda, supporting more accurate debt monitoring, improved data validation, and better-informed debt analysis in IDA-eligible countries. The first reconciliation exercise, conducted using end-2021 data, covered 3,655 individual loans and loan tranches reported by 18 creditor countries, including all Group of Seven (G-7) members and 11 Paris Club creditors. Approximately 80 percent of loans were successfully matched, representing about 90 percent of total outstanding debt values, providing a first comprehensive assessment of discrepancies between debtor and creditor records. Despite a remaining overall difference of about 10 percent, the exercise provided critical insights into the nature and sources of discrepancies and established a strong foundation for future rounds.\n\n[B-idr2026-p119-c000 | data/9781464823558.pdf | page 119]\nG-7 and Paris Club creditors. As already illustrated, these reconciliation exercises have been instrumental in improving data-sharing practices, enhancing methodological alignment, and expanding the scope and coverage of the exercise. The reconciliation of data reported by debtors to the DRS with the comparable creditor records has played a critical role in identifying structural data gaps and has demonstrated how detailed loan-level data sharing and dialogue can lead to tangible results, including the resolution of large discrepancies and the closing of previously unreported debt positions. These results have also reinforced the need for continuous dialogue and data reconciliation, and adoption of standardized reporting norms to sustain concordance between debtor and creditor data.\n\n[B-idr2026-p114-c002 | data/9781464823558.pdf | page 114]\nSince the reconciliation process began, tangible progress has taken place in creditor engagement. An increasing number of creditors provided a detailed response to follow-up queries and provided data clarification, contributing to more accurate gap-filling and reconciliation outcomes, reflecting a transition toward systematic collaboration. Building on this momentum will be critical to resolving remaining discrepancies and ensuring that the reconciliation exercise continues to deliver sustained improvements in data quality, transparency, and comparability. Overall, these data-sharing and reconciliation efforts have already significantly narrowed asymmetries between borrower and creditor data, strengthened the credibility of debt statistics, and improved the analytical foundation for monitoring debt vulnerabilities. As discussed in the following sections, continued collaboration, expanded participation, and ongoing methodological enhancements are expected to further advance data quality, transparency, and global comparability of debt statistics.\n\n[B-idr2026-p118-c003 | data/9781464823558.pdf | page 118]\nInstitutionalizing Debtor-Creditor Data Sharing and Reconciliation\nThe debtor-creditor reconciliation exercise has become an annual program supported by continuous and structured engagement with participating",
+    "context_ids": [
+      "B-idr2026-p112-c000",
+      "B-idr2026-p111-c001",
+      "B-idr2026-p119-c000",
+      "B-idr2026-p114-c002",
+      "B-idr2026-p118-c003"
+    ],
+    "tokens": {
+      "prompt": 1847,
+      "output": 130,
+      "model_calls": 2
+    },
+    "queries": [
+      "debtor-creditor reconciliation exercise loans matched"
+    ],
+    "api_retries": [],
+    "elapsed_s": 3.06
+  },
+  {
+    "query_id": "t06",
+    "split": "test",
+    "question": "When is the revised Debt Sustainability Framework for low-income countries expected to become operational?",
+    "filter": null,
+    "status": "answered",
+    "answer": "The revised Debt Sustainability Framework for low-income countries is expected to become operational in the second half of 2027 [B-idr2026-p089-c001].",
+    "citations": [
+      "B-idr2026-p089-c001"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "retriever": "hybrid",
+        "query": "revised Debt Sustainability Framework for low-income countries operational date",
+        "filter": null,
+        "top_k": 5,
+        "elapsed_ms": 241.8,
+        "results": [
+          {
+            "id": "B-idr2026-p089-c001",
+            "page": 89,
+            "score": 0.03278688524590164,
+            "rank": 1
+          },
+          {
+            "id": "B-idr2026-p089-c000",
+            "page": 89,
+            "score": 0.031754032258064516,
+            "rank": 2
+          },
+          {
+            "id": "B-idr2026-p088-c000",
+            "page": 88,
+            "score": 0.03149801587301587,
+            "rank": 3
+          },
+          {
+            "id": "B-idr2026-p088-c001",
+            "page": 88,
+            "score": 0.031054405392392875,
+            "rank": 4
+          },
+          {
+            "id": "B-idr2026-p069-c001",
+            "page": 69,
+            "score": 0.02871794871794872,
+            "rank": 5
+          }
+        ],
+        "context_ids": [
+          "B-idr2026-p089-c001",
+          "B-idr2026-p089-c000",
+          "B-idr2026-p088-c000",
+          "B-idr2026-p088-c001",
+          "B-idr2026-p069-c001"
+        ],
+        "context_chars": 4928
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "context": "[B-idr2026-p089-c001 | data/9781464823558.pdf | page 89]\n– A long-term module to evaluate implications of policy and investment decisions (including climate adaptation, infrastructure, and human capital) over longer horizons\n\n• New emphasis on data quality via the new debt data confidence flag, clearer guidance on the debt perimeter, and incentives to close reporting gaps\n\n• Introduction of additional granularity to risk ratings to differentiate among countries at high risk of debt distress.\n\nThe review was launched in 2024 with public consultations and stakeholder inputs gathered through 2026. The new framework is expected to become operational in the second half of 2027, allowing time to finalize the revised operational guidance and undertake extensive capacity building for users of the framework.\n\n[B-idr2026-p089-c000 | data/9781464823558.pdf | page 89]\nBox 2.2 Strengthening the Debt Sustainability Framework for Low-Income Countries\nThe 2026 review of the Debt Sustainability Framework for Low-Income Countries by the International Monetary Fund and World Bank Group updates how the organizations assess sovereign debt risk and sustainability amid rising domestic borrowing, diversified creditor bases, and growing liquidity pressures. The revisions aim to strengthen early warning capacity and policy relevance while preserving the framework’s role in guiding borrowing and lending decisions. Key reforms include the following:\n\n• A revamped risk architecture distinguishing more clearly between external debt stress, overall public debt stress, and unsustainability\n\n• The introduction of new models for the risk of overall public debt stress and public debt unsustainability, together with an updated model for the risk of external public debt stress\n\n• New dedicated modules to support the structured application of judgment, including\n\n– A domestic debt module to assess solvency, liquidity risk, and macrofinancial linkages (including the sovereign–bank–central bank nexus); and\n\n[B-idr2026-p088-c000 | data/9781464823558.pdf | page 88]\nDebt distress risks have eased from the deterioration observed over the past decade, particularly following the COVID-19 shock, but they remain elevated. As informed by the World Bank–International Monetary Fund Debt Sustainability Framework for Low-Income Countries (LIC-DSF), the number of IDA LIC-DSF countries with unsustainable external public debt or rated as being in debt distress remains limited (at end-December 2025): out of 68 IDA LIC-DSF countries, only 11 are in debt distress or have unsustainable public debt. The share of IDA LIC-DSF countries assessed as being at high risk of external debt distress declined from a peak of 46 percent in 2021 to 35 percent in 2025. Most emerging markets remain at low or moderate risk of overall sovereign stress, although vulnerabilities remain uneven, and debt levels are generally above prepandemic levels.\n\n[B-idr2026-p088-c001 | data/9781464823558.pdf | page 88]\nDespite these improvements, IDA LIC-DSF countries have generally moved from high to moderate risk rather than returning to their preshock levels. Between 2019 and 2025, there were a total of 37 changes in external risk (figure 2.10). Of these changes, 22 were downgraded to higher risk of external debt distress, most of which took place after the COVID-19 shock. More recently, upgrades have reflected improved macro-fiscal conditions and, in a few cases, the completion of debt restructuring. The LIC-DSF framework underpinning these assessments has undergone a comprehensive review by the World Bank Group and the International Monetary Fund, with that review approved by their respective Executive Boards in September 2026. The revised framework is expected to be finalized in 2027; box 2.2 summarizes its key features.\nFigure 2.10 Change in LIC-DSF External Risk Ratings, 2020–25\n\n[B-idr2026-p069-c001 | data/9781464823558.pdf | page 69]\nEfforts to enhance the debt restructuring architecture continued in 2025 primarily through reforms to the G-20 Common Framework, facilitated by the Global Sovereign Debt Roundtable. Since its creation in 2020, the G-20 Common Framework has served as the coordinating mechanism for the provision of comprehensive debt restructuring for IDA-eligible countries. It brings together all G-20 bilateral creditors and coordinates with private creditor groups to provide a debt treatment, tailored to each borrower’s debt structure, to restore medium-term debt sustainability. A key area of progress in 2025 was the Global Sovereign Debt Roundtable endorsement of early publication by the debtor of the key debt restructuring parameters, namely (a) the net present value reduction; (b) the reduction in debt service over the IMF program period; and (c) the change in the duration of treated claims. This information provides private creditors with an up-front indicator of comparability of treatment requirements.",
+    "context_ids": [
+      "B-idr2026-p089-c001",
+      "B-idr2026-p089-c000",
+      "B-idr2026-p088-c000",
+      "B-idr2026-p088-c001",
+      "B-idr2026-p069-c001"
+    ],
+    "tokens": {
+      "prompt": 2130,
+      "output": 106,
+      "model_calls": 2
+    },
+    "queries": [
+      "revised Debt Sustainability Framework for low-income countries operational date"
+    ],
+    "api_retries": [],
+    "elapsed_s": 2.94
+  },
+  {
+    "query_id": "t07",
+    "split": "test",
+    "question": "How much did LMICs raise through green, social, or sustainability-linked bonds in 2025?",
+    "filter": null,
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "reason": "The provided text does not contain information regarding the amount raised by LMICs through green, social, or sustainability-linked bonds in 2025.",
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "retriever": "hybrid",
+        "query": "LMICs green social sustainability-linked bonds 2025",
+        "filter": null,
+        "top_k": 5,
+        "elapsed_ms": 225.6,
+        "results": [
+          {
+            "id": "B-idr2026-p053-c001",
+            "page": 53,
+            "score": 0.029418126757516764,
+            "rank": 1
+          },
+          {
+            "id": "B-idr2026-p053-c000",
+            "page": 53,
+            "score": 0.029236022193768675,
+            "rank": 2
+          },
+          {
+            "id": "B-idr2026-p071-c001",
+            "page": 71,
+            "score": 0.029206349206349208,
+            "rank": 3
+          },
+          {
+            "id": "B-idr2026-p072-c000",
+            "page": 72,
+            "score": 0.02844551282051282,
+            "rank": 4
+          },
+          {
+            "id": "B-idr2026-p049-c000",
+            "page": 49,
+            "score": 0.028438886647841874,
+            "rank": 5
+          }
+        ],
+        "context_ids": [
+          "B-idr2026-p053-c001",
+          "B-idr2026-p053-c000",
+          "B-idr2026-p071-c001",
+          "B-idr2026-p072-c000",
+          "B-idr2026-p049-c000"
+        ],
+        "context_chars": 4784
+      },
+      {
+        "event": "abstain",
+        "reason": "The provided text does not contain information regarding the amount raised by LMICs through green, social, or sustainability-linked bonds in 2025."
+      }
+    ],
+    "context": "[B-idr2026-p053-c001 | data/9781464823558.pdf | page 53]\nFor several countries, issuance volumes through mid-August 2026 already exceeded their full-year 2025 totals. Angola issued $4.75 billion through mid-August 2026, more than double the $2.01 billion issued across all of 2025. Its weighted average coupon also rose to 9.6 percent, up from 8.6 percent in 2025. Bosnia and Herzegovina raised $1.8 billion through mid-August, versus $412 million for all of 2025. India more than doubled its full-year 2025 PPG bond total of $1.0 billion by mid-August 2026, raising $2.5 billion. Indonesia and the Philippines also surpassed their respective 2025 full-year totals.\n\nBorrowing costs for the most vulnerable economies remained elevated and, in several cases, rose further. For Sub-Saharan African issuers specifically, the weighted average coupon on PPG bonds rose from 8.0 percent in 2025 to 8.8 percent through mid-August 2026, and the average maturity on new Sub-Saharan African PPG bonds shortened from 10.4 years in 2025 to 8.9 years, a simultaneous deterioration in both the cost and the tenor of market access.\n\n[B-idr2026-p053-c000 | data/9781464823558.pdf | page 53]\nBox 1.5 Early 2026 Data Show No Signs of Slowdown in LMIC Bond Market Activity\nPreliminary data on public and publicly guaranteed (PPG) bond issuances for the first seven and a half months of 2026 show no signs of a slowdown in the appetite of low- and middle-income countries (LMICs) for external capital market financing. In fact, more than 10 countries had already surpassed their full-year 2025 PPG bond totals before 2026 reached its midpoint, and the share of bond issuances with maturities of 10 years or more rose as well.\n\nThe breadth of market access expanded notably in the first months of 2026. Several countries accessed international bond markets as PPG issuers without having done so at all in 2025. For example, the Democratic Republic of Congo issued $1.25 billion across two bonds at coupons of 8.75 and 9.50 percent, among the highest sovereign coupon rates recorded in 2026 so far.\n\n[B-idr2026-p071-c001 | data/9781464823558.pdf | page 71]\nLiability Management Operations in 2025\nTenders by LMICs to buy back or exchange sovereign bonds increased markedly in 2025 as governments used new bond issuance to refinance existing obligations and actively manage their debt portfolios. Based on data reported to the Debtor Reporting System, 14 countries repurchased $34.5 billion in outstanding sovereign bonds in 2025, with the largest operations concentrated in MICs (figure 1.22). Although the scale and structure of these transactions varied, both middle-income and IDA-eligible countries sought to reduce near-term refinancing pressures, extend maturity profiles, manage currency and interest rate exposure, and, in some cases, support state-owned enterprises. The select country cases discussed in the following paragraphs—Mexico, the Dominican Republic, Kenya, and Côte d’Ivoire—illustrate the range of approaches and outcomes observed during the year.\n\nMexico. In 2025, the government of Mexico conducted a series of coordinated liability-management operations to ease near-term refinancing pressures and provide financial support to Petróleos Mexicanos (PEMEX), the state-owned petroleum company.\n\n[B-idr2026-p072-c000 | data/9781464823558.pdf | page 72]\nFigure 1.22 Bond Buyback in Low- and Middle-Income Countries, 2025\ndollar-denominated bonds maturing between 2027 and 2031 for the newly issued securities. Strong investor participation in the exchange operation realized a 15 percent reduction, equivalent to $207 million, in outstanding US dollar– denominated bonds due in 2027–31. In August 2025, the government also redeemed in full the €1.33 billion outstanding on its 1.625 percent global notes due in 2026.\n\n[B-idr2026-p049-c000 | data/9781464823558.pdf | page 49]\nrepayments of the debt buyback or prepayment operations funded through the issuance of new international bonds. When the total prepaid or buyback amount of $34.5 billion in principal repayments is removed from these payments, total debt service of LMICs decreased by a moderate 0.7 percent in 2025.\n\nFrom the composition standpoint, when subtracting the buyback and prepaid principal payment amounts from total debt service payments made to bondholders alone, the annual percentage increase persists but is reduced to a much smaller pace of 2.9 percent, to $328.6 billion, in 2025. Conversely, total debt service payments owed to all other creditors recorded a decrease in 2025, including official bilateral creditors (down 0.6 percent to $52.6 billion), official multilateral creditors (down 2.6 percent to $142.4 billion), and commercial banks and other private creditors (down 1.5 percent to $703.8 billion).",
+    "context_ids": [
+      "B-idr2026-p053-c001",
+      "B-idr2026-p053-c000",
+      "B-idr2026-p071-c001",
+      "B-idr2026-p072-c000",
+      "B-idr2026-p049-c000"
+    ],
+    "tokens": {
+      "prompt": 2312,
+      "output": 71,
+      "model_calls": 2
+    },
+    "queries": [
+      "LMICs green social sustainability-linked bonds 2025"
+    ],
+    "api_retries": [],
+    "elapsed_s": 4.04
+  },
+  {
+    "query_id": "t08",
+    "split": "test",
+    "question": "What sovereign credit rating did S&P assign to Kenya in 2025?",
+    "filter": null,
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "reason": "The provided text does not contain information regarding the specific sovereign credit rating assigned to Kenya by S&P in 2025.",
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "retriever": "hybrid",
+        "query": "Kenya S&P sovereign credit rating 2025",
+        "filter": null,
+        "top_k": 5,
+        "elapsed_ms": 224.5,
+        "results": [
+          {
+            "id": "B-idr2026-p086-c001",
+            "page": 86,
+            "score": 0.03278688524590164,
+            "rank": 1
+          },
+          {
+            "id": "B-idr2026-p073-c001",
+            "page": 73,
+            "score": 0.031754032258064516,
+            "rank": 2
+          },
+          {
+            "id": "B-idr2026-p043-c000",
+            "page": 43,
+            "score": 0.031054405392392875,
+            "rank": 3
+          },
+          {
+            "id": "B-idr2026-p071-c000",
+            "page": 71,
+            "score": 0.030536130536130537,
+            "rank": 4
+          },
+          {
+            "id": "B-idr2026-p052-c000",
+            "page": 52,
+            "score": 0.03036576949620428,
+            "rank": 5
+          }
+        ],
+        "context_ids": [
+          "B-idr2026-p086-c001",
+          "B-idr2026-p073-c001",
+          "B-idr2026-p043-c000",
+          "B-idr2026-p071-c000",
+          "B-idr2026-p052-c000"
+        ],
+        "context_chars": 4994
+      },
+      {
+        "event": "abstain",
+        "reason": "The provided text does not contain information regarding the specific sovereign credit rating assigned to Kenya by S&P in 2025."
+      }
+    ],
+    "context": "[B-idr2026-p086-c001 | data/9781464823558.pdf | page 86]\nBox 2.1 The World Bank Group’s Sovereign Investor Relations Guidance Note\nSovereign credit rating actions remained in flux throughout 2025. For instance, in the first half of 2025, Fitch recorded eight sovereign upgrades against four downgrades among emerging markets—a net positive trend—but revised its sector outlook for Asia-Pacific, Eastern Europe, and Sub-Saharan Africa to “deteriorating” from “neutral,” citing trade uncertainty and tightening fiscal space. Moody’s downgraded Bolivia and Botswana, while upgrading Costa Rica. This mixed picture illustrates that sovereign creditworthiness is increasingly differentiated and that the gap between countries that gain and lose market confidence is often shaped not only by fundamentals but also by how effectively governments engage with investors and creditors.\n\n[B-idr2026-p073-c001 | data/9781464823558.pdf | page 73]\nKenya. In March 2025, the government of Kenya issued a $1.5 billion Eurobond at 9.5 percent, due in 2036. A part of the proceeds was used to repurchase approximately $579.7 million of the outstanding $900 million, 7 percent Eurobond due in 2027.\n\nIn October 2025, the government of Kenya raised a further $1.5 billion through a dual-tranche Eurobond issuance, comprising two equal $750 million tranches: a 7.875 percent note due in 2033 and an 8.80 percent note due in 2038. This measure marked Kenya’s second major liability-management operation in less than two years and aimed to extend maturities and reduce refinancing costs. The proceeds were used to repurchase approximately $628.4 million of the outstanding $1.0 billion, 7.250 percent notes due in 2028. The 2025 buyback operation extended debt maturities and eased near-term refinancing pressures but largely functioned as a refinancing maneuver rather than reducing the overall debt stock.\n\n[B-idr2026-p043-c000 | data/9781464823558.pdf | page 43]\nthe goal of lengthening the maturity profiles of their portfolios and reducing the cost of servicing these obligations. In 2025, Kenya issued new bonds of $3.5 billion that were used to execute two debt buyback operations, the largest from an IDA-eligible country, at $1.2 billion. The proceeds were used to smooth the maturity profile of existing liabilities by refinancing near-term liabilities with longer-dated debt, including the $900 million Eurobond maturing in 2027 and the $1 billion Eurobond maturing in 2028. (Refer to the “Debt Reorganization, 2025” section for a more detailed discussion on the liability management operations implemented in 2025.)\n\n[B-idr2026-p071-c000 | data/9781464823558.pdf | page 71]\nwith France was signed in February 2026. Regarding the restructuring with bondholders, an initial agreement was rejected by bilateral creditors on the grounds that it fell short of comparability-of-treatment requirements. A revised proposal was subsequently endorsed by bilateral creditors in August 2026, and an agreement with bondholders is expected to be signed and implemented by the end of 2026.\n\nOther than the countries discussed in the preceding paragraphs, debt restructuring in 2025 was limited. The most significant operation was the bilateral agreement between China and Kenya to reschedule the terms of $3.5 billion in loans extended for construction of the Mombasa-Naivasha Railway. The agreement increased the grace period and extended the maturity by five years. It also swapped the currency in which the loans are repayable from US dollars to Chinese yuan with a concomitant conversion of the interest rate from the Federal Reserve Secure Overnight Financing Rate to China’s yuan-denominated Loan Prime Rate. In Pakistan, the Chinese government extended the maturities on agreements under which approximately $2 billion is due in 2025.\n\n[B-idr2026-p052-c000 | data/9781464823558.pdf | page 52]\nFigure 1.11 Average Interest Rates on New External Debt Commitments for IBRD and IDA-Eligible Countries, by Bondholders, 2015–25\nRecent issuances illustrate these affordability pressures. Uzbekistan’s 2028 local currency note carried a yield of 15.5 percent, partly reflecting inflation risk, whereas its dollar-denominated note was priced at 7.38 percent. The Lao People’s Democratic Republic’s 2030 bonds were priced at 11.25 percent, the Republic of Congo’s dual-tranche notes at 13.88 percent, and Kenya’s October 2025 dual-tranche issuance at yields of 8.2 and 9.2 percent. Despite the restoration of market access, the nominal dollar costs of such borrowing substantially exceed the expected growth rates of many issuing economies, implying continued pressure on interest-to-revenue ratios. The durability of the current window also remains uncertain. Demand has been supported by the global search for yield and easing US rates, factors that can reverse quickly. In addition, spreads remain sensitive to country-specific credit events. Box 1.5 illustrates how these trends persisted during the first half of 2026.",
+    "context_ids": [
+      "B-idr2026-p086-c001",
+      "B-idr2026-p073-c001",
+      "B-idr2026-p043-c000",
+      "B-idr2026-p071-c000",
+      "B-idr2026-p052-c000"
+    ],
+    "tokens": {
+      "prompt": 2261,
+      "output": 66,
+      "model_calls": 2
+    },
+    "queries": [
+      "Kenya S&P sovereign credit rating 2025"
+    ],
+    "api_retries": [
+      {
+        "code": 429,
+        "attempt": 1
+      },
+      {
+        "code": 429,
+        "attempt": 1
+      }
+    ],
+    "elapsed_s": 44.85
+  }
+]

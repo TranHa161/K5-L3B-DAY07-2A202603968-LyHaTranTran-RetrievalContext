@@ -1,0 +1,123 @@
+{
+  "page": 35,
+  "model": "gemini-3.5-flash",
+  "seconds": 11.2,
+  "tokens_in": 2133,
+  "tokens_out": 2471,
+  "visuals": [
+    {
+      "label": "Figure 1.2",
+      "title": "Creditor Composition of External Debt Stock in Low- and Middle-Income Countries, 2015–25",
+      "kind": "bar chart",
+      "region": [
+        0.17,
+        0.13,
+        0.83,
+        0.45
+      ],
+      "units": "US$ (trillion)",
+      "description": "Stacked bar chart showing external debt stock by creditor category for Low- and Middle-Income Countries from 2015 to 2025. Total debt increases from around US$ 5.9 trillion in 2015 to over US$ 9.0 trillion in 2025, with bondholders, short-term debt, and banks/other private creditors forming the largest components.",
+      "data": [
+        [
+          "Year",
+          "Multilateral creditors (incl. IMF)",
+          "Bilateral creditors",
+          "Bondholders",
+          "Banks and other private creditors",
+          "Short-term"
+        ],
+        [
+          "2015",
+          "~0.8",
+          "~0.5",
+          "~1.3",
+          "~1.8",
+          "~1.5"
+        ],
+        [
+          "2016",
+          "~0.9",
+          "~0.5",
+          "~1.2",
+          "~2.0",
+          "~1.5"
+        ],
+        [
+          "2017",
+          "~1.0",
+          "~0.5",
+          "~1.4",
+          "~2.3",
+          "~1.8"
+        ],
+        [
+          "2018",
+          "~1.0",
+          "~0.5",
+          "~1.6",
+          "~2.4",
+          "~1.9"
+        ],
+        [
+          "2019",
+          "~1.1",
+          "~0.5",
+          "~1.7",
+          "~2.5",
+          "~1.8"
+        ],
+        [
+          "2020",
+          "~1.2",
+          "~0.5",
+          "~1.9",
+          "~2.4",
+          "~2.4"
+        ],
+        [
+          "2021",
+          "~1.3",
+          "~0.5",
+          "~2.2",
+          "~2.6",
+          "~2.2"
+        ],
+        [
+          "2022",
+          "~1.3",
+          "~0.5",
+          "~2.2",
+          "~2.6",
+          "~2.1"
+        ],
+        [
+          "2023",
+          "~1.4",
+          "~0.5",
+          "~2.1",
+          "~2.6",
+          "~2.2"
+        ],
+        [
+          "2024",
+          "~1.4",
+          "~0.4",
+          "~2.3",
+          "~2.8",
+          "~2.0"
+        ],
+        [
+          "2025",
+          "~1.5",
+          "~0.4",
+          "~2.4",
+          "~2.8",
+          "~2.1"
+        ]
+      ],
+      "numbers_total": 35,
+      "numbers_in_text_layer": 17
+    }
+  ],
+  "parse_ok": true
+}

@@ -1,0 +1,546 @@
+[
+  {
+    "query_id": "t01",
+    "question": "How did long-term net debt transfers to LMICs change in 2025?",
+    "filter": null,
+    "elapsed_ms": 2.3332999990088865,
+    "results": [
+      {
+        "id": "B-idr2026-p046-c001",
+        "page": 46,
+        "score": 21.1977256325187,
+        "rank": 1,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p046-c000",
+        "page": 46,
+        "score": 17.873592404637243,
+        "rank": 2,
+        "hit": true
+      },
+      {
+        "id": "B-idr2026-p047-c000",
+        "page": 47,
+        "score": 16.083979171765012,
+        "rank": 3,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p048-c000",
+        "page": 48,
+        "score": 15.43167103917172,
+        "rank": 4,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p040-c001",
+        "page": 40,
+        "score": 13.993235812242752,
+        "rank": 5,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p063-c001",
+        "page": 63,
+        "score": 12.972505080816127,
+        "rank": 6,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p047-c001",
+        "page": 47,
+        "score": 11.6408567437526,
+        "rank": 7,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p045-c002",
+        "page": 45,
+        "score": 11.405625813983413,
+        "rank": 8,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p068-c000",
+        "page": 68,
+        "score": 10.746027249784994,
+        "rank": 9,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p047-c002",
+        "page": 47,
+        "score": 10.582651263106069,
+        "rank": 10,
+        "hit": false
+      }
+    ],
+    "first_hit_rank": 2,
+    "hit1": false,
+    "hit3": true,
+    "context_ids": [
+      "B-idr2026-p046-c001",
+      "B-idr2026-p046-c000",
+      "B-idr2026-p047-c000",
+      "B-idr2026-p048-c000",
+      "B-idr2026-p040-c001"
+    ],
+    "context_chars": 4271,
+    "context_hit": true
+  },
+  {
+    "query_id": "t02",
+    "question": "Did the Mexican government's capital contribution to PEMEX actually reduce public sector debt?",
+    "filter": null,
+    "elapsed_ms": 1.2090999953215942,
+    "results": [
+      {
+        "id": "B-idr2026-p072-c001",
+        "page": 72,
+        "score": 18.63063234713909,
+        "rank": 1,
+        "hit": true
+      },
+      {
+        "id": "B-idr2026-p064-c002",
+        "page": 64,
+        "score": 10.23150779965238,
+        "rank": 2,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p117-c003",
+        "page": 117,
+        "score": 9.400832216448263,
+        "rank": 3,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p034-c001",
+        "page": 34,
+        "score": 9.35764773704961,
+        "rank": 4,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p091-c001",
+        "page": 91,
+        "score": 9.089493243800668,
+        "rank": 5,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p122-c000",
+        "page": 122,
+        "score": 8.728876223257663,
+        "rank": 6,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p065-c001",
+        "page": 65,
+        "score": 8.448507303463874,
+        "rank": 7,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p082-c000",
+        "page": 82,
+        "score": 8.390927839339147,
+        "rank": 8,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p040-c000",
+        "page": 40,
+        "score": 8.3230724386556,
+        "rank": 9,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p071-c001",
+        "page": 71,
+        "score": 8.211317859763893,
+        "rank": 10,
+        "hit": false
+      }
+    ],
+    "first_hit_rank": 1,
+    "hit1": true,
+    "hit3": true,
+    "context_ids": [
+      "B-idr2026-p072-c001",
+      "B-idr2026-p064-c002",
+      "B-idr2026-p117-c003",
+      "B-idr2026-p034-c001",
+      "B-idr2026-p091-c001"
+    ],
+    "context_chars": 3628,
+    "context_hit": true
+  },
+  {
+    "query_id": "t03",
+    "question": "In the chapter on debt dynamics and policy implications (chapter 2), which food group has the highest median net import reliance?",
+    "filter": {
+      "chapter": 2
+    },
+    "elapsed_ms": 0.4461000062292442,
+    "results": [
+      {
+        "id": "B-idr2026-p096-c002",
+        "page": 96,
+        "score": 28.22681135691866,
+        "rank": 1,
+        "hit": true
+      },
+      {
+        "id": "B-idr2026-p099-c000",
+        "page": 99,
+        "score": 19.436630203676312,
+        "rank": 2,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p101-c000",
+        "page": 101,
+        "score": 16.14437580863816,
+        "rank": 3,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p096-c003",
+        "page": 96,
+        "score": 15.987610715935059,
+        "rank": 4,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p100-c000",
+        "page": 100,
+        "score": 15.859928372907214,
+        "rank": 5,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p095-c003",
+        "page": 95,
+        "score": 13.823213685477752,
+        "rank": 6,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p075-c000",
+        "page": 75,
+        "score": 13.300387725143734,
+        "rank": 7,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p103-c001",
+        "page": 103,
+        "score": 13.056078193559596,
+        "rank": 8,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p095-c002",
+        "page": 95,
+        "score": 11.889193926259725,
+        "rank": 9,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p075-c001",
+        "page": 75,
+        "score": 10.753936592371318,
+        "rank": 10,
+        "hit": false
+      }
+    ],
+    "first_hit_rank": 1,
+    "hit1": true,
+    "hit3": true,
+    "context_ids": [
+      "B-idr2026-p096-c002",
+      "B-idr2026-p099-c000",
+      "B-idr2026-p101-c000",
+      "B-idr2026-p096-c003",
+      "B-idr2026-p100-c000"
+    ],
+    "context_chars": 4641,
+    "context_hit": true
+  },
+  {
+    "query_id": "t04",
+    "question": "In the chapter on debt transparency (chapter 3), how many countries and loan records does the DRS currently cover?",
+    "filter": {
+      "chapter": 3
+    },
+    "elapsed_ms": 0.7806999929016456,
+    "results": [
+      {
+        "id": "B-idr2026-p107-c000",
+        "page": 107,
+        "score": 16.952423117198666,
+        "rank": 1,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p120-c002",
+        "page": 120,
+        "score": 13.040670308096617,
+        "rank": 2,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p120-c001",
+        "page": 120,
+        "score": 11.928033754148288,
+        "rank": 3,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p121-c002",
+        "page": 121,
+        "score": 11.571035205079829,
+        "rank": 4,
+        "hit": true
+      },
+      {
+        "id": "B-idr2026-p128-c000",
+        "page": 128,
+        "score": 9.792925686865539,
+        "rank": 5,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p117-c002",
+        "page": 117,
+        "score": 9.646517724738114,
+        "rank": 6,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p132-c001",
+        "page": 132,
+        "score": 9.52821590446335,
+        "rank": 7,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p114-c001",
+        "page": 114,
+        "score": 9.429687654253744,
+        "rank": 8,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p128-c001",
+        "page": 128,
+        "score": 9.382983040452144,
+        "rank": 9,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p118-c002",
+        "page": 118,
+        "score": 8.946612876010548,
+        "rank": 10,
+        "hit": false
+      }
+    ],
+    "first_hit_rank": 4,
+    "hit1": false,
+    "hit3": false,
+    "context_ids": [
+      "B-idr2026-p107-c000",
+      "B-idr2026-p120-c002",
+      "B-idr2026-p120-c001",
+      "B-idr2026-p121-c002",
+      "B-idr2026-p128-c000"
+    ],
+    "context_chars": 5145,
+    "context_hit": true
+  },
+  {
+    "query_id": "t05",
+    "question": "How many loans did the first debtor-creditor reconciliation exercise cover, and what share was matched?",
+    "filter": null,
+    "elapsed_ms": 1.0769999935291708,
+    "results": [
+      {
+        "id": "B-idr2026-p111-c001",
+        "page": 111,
+        "score": 22.308143783237792,
+        "rank": 1,
+        "hit": true
+      },
+      {
+        "id": "B-idr2026-p112-c000",
+        "page": 112,
+        "score": 21.466279186239323,
+        "rank": 2,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p118-c003",
+        "page": 118,
+        "score": 16.956783450861142,
+        "rank": 3,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p120-c001",
+        "page": 120,
+        "score": 13.915602560478815,
+        "rank": 4,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p119-c001",
+        "page": 119,
+        "score": 13.683769911434924,
+        "rank": 5,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p112-c001",
+        "page": 112,
+        "score": 12.804320358602826,
+        "rank": 6,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p119-c000",
+        "page": 119,
+        "score": 12.42115351225026,
+        "rank": 7,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p114-c002",
+        "page": 114,
+        "score": 9.739924923630284,
+        "rank": 8,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p128-c001",
+        "page": 128,
+        "score": 9.299769111358277,
+        "rank": 9,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p111-c000",
+        "page": 111,
+        "score": 8.59674413855389,
+        "rank": 10,
+        "hit": false
+      }
+    ],
+    "first_hit_rank": 1,
+    "hit1": true,
+    "hit3": true,
+    "context_ids": [
+      "B-idr2026-p111-c001",
+      "B-idr2026-p112-c000",
+      "B-idr2026-p118-c003",
+      "B-idr2026-p120-c001",
+      "B-idr2026-p119-c001"
+    ],
+    "context_chars": 4188,
+    "context_hit": true
+  },
+  {
+    "query_id": "t06",
+    "question": "When is the revised Debt Sustainability Framework for low-income countries expected to become operational?",
+    "filter": null,
+    "elapsed_ms": 1.178899998194538,
+    "results": [
+      {
+        "id": "B-idr2026-p089-c001",
+        "page": 89,
+        "score": 21.15117350525433,
+        "rank": 1,
+        "hit": true
+      },
+      {
+        "id": "B-idr2026-p089-c000",
+        "page": 89,
+        "score": 14.132973727408212,
+        "rank": 2,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p088-c001",
+        "page": 88,
+        "score": 11.698154487385336,
+        "rank": 3,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p036-c000",
+        "page": 36,
+        "score": 11.487209617350706,
+        "rank": 4,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p088-c000",
+        "page": 88,
+        "score": 10.989789154532662,
+        "rank": 5,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p115-c001",
+        "page": 115,
+        "score": 10.470203672612106,
+        "rank": 6,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p082-c001",
+        "page": 82,
+        "score": 8.903860175413968,
+        "rank": 7,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p078-c001",
+        "page": 78,
+        "score": 8.481706443929172,
+        "rank": 8,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p030-c001",
+        "page": 30,
+        "score": 8.102583391755143,
+        "rank": 9,
+        "hit": false
+      },
+      {
+        "id": "B-idr2026-p037-c000",
+        "page": 37,
+        "score": 7.742757300574601,
+        "rank": 10,
+        "hit": false
+      }
+    ],
+    "first_hit_rank": 1,
+    "hit1": true,
+    "hit3": true,
+    "context_ids": [
+      "B-idr2026-p089-c001",
+      "B-idr2026-p089-c000",
+      "B-idr2026-p088-c001",
+      "B-idr2026-p036-c000",
+      "B-idr2026-p088-c000"
+    ],
+    "context_chars": 4936,
+    "context_hit": true
+  }
+]

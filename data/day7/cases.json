@@ -1,0 +1,484 @@
+[
+  {
+    "id": "d01",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "What was the total external debt of low- and middle-income countries (LMICs) at the end of 2025, and how much did it grow from 2024?",
+    "expected_answer": "A record $9.4 trillion, up 5.5 percent from $8.9 trillion in 2024.",
+    "gold": [
+      {
+        "source_id": "idr2026",
+        "page": 27,
+        "evidence": "LMICs’ external borrowing levels reached a record $9.4 trillion at the end of the year, increasing 5.5 percent from $8.9 trillion in 2024."
+      }
+    ],
+    "filter": null,
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "d02",
+    "split": "dev",
+    "type": "dien_dat_lai",
+    "question": "Apart from the depreciation of the US dollar, what drove the increase in LMICs' debt stock in 2025?",
+    "expected_answer": "Net debt inflows of $423.5 billion (more than twice the 2024 level), along with some debt forgiveness.",
+    "gold": [
+      {
+        "source_id": "idr2026",
+        "page": 27,
+        "evidence": "The change in debt stock was driven by net debt inflows of $423.5 billion, a more than twofold increase from 2024, as well as by some debt forgiveness and the upward accounting effect of US dollar depreciation."
+      }
+    ],
+    "filter": null,
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "d03",
+    "split": "dev",
+    "type": "dinh_nghia",
+    "question": "What components make up a country's total external debt?",
+    "expected_answer": "Public and publicly guaranteed (PPG) debt, private nonguaranteed (PNG) debt, and short-term debt.",
+    "gold": [
+      {
+        "source_id": "idr2026",
+        "page": 29,
+        "evidence": "The total external debt of a country is the sum of public and publicly guaranteed debt, private nonguaranteed debt, and short-term debt."
+      }
+    ],
+    "filter": null,
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "d04",
+    "split": "dev",
+    "type": "dieu_kien_ngoai_le",
+    "question": "How is short-term debt defined, and is it required to be reported to the Debtor Reporting System (DRS)?",
+    "expected_answer": "Debt with an original maturity of one year or less; it is not covered by DRS reporting requirements, although most DRS reporters voluntarily report outstanding short-term debt stocks annually.",
+    "gold": [
+      {
+        "source_id": "idr2026",
+        "page": 29,
+        "evidence": "Short-term debt is defined as debt with an original maturity of one year or less and is not covered under DRS reporting requirements. However, most DRS reporters provide an annual report on outstanding short-term debt stocks on a voluntary basis."
+      }
+    ],
+    "filter": null,
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "d05",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "How much did Ukraine's external debt stock increase in 2025?",
+    "expected_answer": "By 29.2 percent, to $250.3 billion.",
+    "gold": [
+      {
+        "source_id": "idr2026",
+        "page": 31,
+        "evidence": "led by a 29.2 percent increase in Ukraine’s debt stock, to $250.3 billion"
+      }
+    ],
+    "filter": null,
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "d06",
+    "split": "dev",
+    "type": "dinh_nghia",
+    "question": "What is a total return swap (TRS)?",
+    "expected_answer": "A derivative contract in which one party transfers the total economic return of a reference asset (income and changes in market value) to another party in exchange for a predetermined stream of payments, typically a benchmark rate plus a spread.",
+    "gold": [
+      {
+        "source_id": "idr2026",
+        "page": 31,
+        "evidence": "A TRS is a financial derivative contract in which one party transfers the total economic return of a reference asset, including income and changes in market value, to another party in exchange for a predetermined stream of payments, typically linked to a benchmark interest rate plus a spread."
+      }
+    ],
+    "filter": null,
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "d07",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "What share of long-term net debt inflows to LMICs came from private creditors in 2025?",
+    "expected_answer": "75.2 percent; their lending volume rose 180.5 percent to $251.1 billion.",
+    "gold": [
+      {
+        "source_id": "idr2026",
+        "page": 40,
+        "evidence": "these creditors accounted for 75.2 percent of the total long-term component and increased their lending volume by 180.5 percent to $251.1 billion."
+      }
+    ],
+    "filter": null,
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "d08",
+    "split": "dev",
+    "type": "dien_dat_lai",
+    "question": "How were 2025 net debt inflows from private creditors split between bonds and commercial bank lending?",
+    "expected_answer": "Nearly evenly: $130.4 billion from bond issuance and $120.7 billion from commercial banks.",
+    "gold": [
+      {
+        "source_id": "idr2026",
+        "page": 40,
+        "evidence": "net debt inflows from private creditors were nearly evenly divided between bond issuance and lending by commercial banks, at $130.4 billion and $120.7 billion, respectively."
+      }
+    ],
+    "filter": null,
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "d09",
+    "split": "dev",
+    "type": "so_sanh",
+    "question": "What were the average interest rates on new commitments from official and private creditors in 2025?",
+    "expected_answer": "Official creditors 3.0 percent (down 0.6 percentage point); private creditors 5.7 percent (down 0.2 percentage point).",
+    "gold": [
+      {
+        "source_id": "idr2026",
+        "page": 50,
+        "evidence": "In 2025, average interest rates on new commitments from official creditors decreased 0.6 percentage point to 3.0 percent, and those charged by private creditors decreased more modestly, by 0.2 percentage point to 5.7 percent."
+      }
+    ],
+    "filter": null,
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "d10",
+    "split": "dev",
+    "type": "so_sanh",
+    "question": "How large were FDI and personal remittances to LMICs excluding China in 2025?",
+    "expected_answer": "FDI was $333.5 billion; personal remittances were $687.1 billion, more than double the 2011 level.",
+    "gold": [
+      {
+        "source_id": "idr2026",
+        "page": 55,
+        "evidence": "FDI was $333.5 billion in 2025, whereas personal remittances grew to $687.1 billion, more than double its 2011 level"
+      }
+    ],
+    "filter": null,
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "d11",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "What was Sub-Saharan Africa's external debt-to-GNI ratio in 2025?",
+    "expected_answer": "48.0 percent, well above 34.4 percent in 2015.",
+    "gold": [
+      {
+        "source_id": "idr2026",
+        "page": 60,
+        "evidence": "Sub-Saharan Africa continued to carry one of the heaviest debt burdens relative to income, with the debt-to-GNI ratio at 48.0 percent, well above the 34.4 percent recorded in 2015"
+      }
+    ],
+    "filter": null,
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "d12",
+    "split": "dev",
+    "type": "metadata_filter",
+    "question": "In the chapter analyzing external debt data (chapter 1), what was the external debt stock of IDA-eligible countries in 2025?",
+    "expected_answer": "A record $1.3 trillion, growing 8.1 percent, faster than other LMICs.",
+    "gold": [
+      {
+        "source_id": "idr2026",
+        "page": 62,
+        "evidence": "External debt stock of IDA-eligible countries reached a record $1.3 trillion in 2025, accumulating at a rate of 8.1 percent, faster than that of the other LMICs."
+      }
+    ],
+    "filter": {
+      "chapter": 1
+    },
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "d13",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "When Lao PDR returned to international markets in 2025, how much did it issue and at what interest rate?",
+    "expected_answer": "$300 million in 11.25 percent sovereign notes on the Singapore Exchange.",
+    "gold": [
+      {
+        "source_id": "idr2026",
+        "page": 66,
+        "evidence": "as the country returned to international markets in 2025 with issuance of $300 million in 11.25 percent sovereign notes on the Singapore Exchange."
+      }
+    ],
+    "filter": null,
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "d14",
+    "split": "dev",
+    "type": "metadata_filter",
+    "question": "In the chapter on debt dynamics and policy implications (chapter 2), what were gross financing needs (GFNs) of IDA countries in 2025 as a share of GDP?",
+    "expected_answer": "About 8.7 percent of GDP in 2025, up from about 8.2 percent in 2024.",
+    "gold": [
+      {
+        "source_id": "idr2026",
+        "page": 86,
+        "evidence": "at approximately 8.2 percent of GDP in 2024, before rising to 8.7 percent in 2025."
+      }
+    ],
+    "filter": {
+      "chapter": 2
+    },
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "d15",
+    "split": "dev",
+    "type": "metadata_filter",
+    "question": "In the chapter on debt transparency (chapter 3), how many IDA-eligible countries published fully accessible public debt data in 2025?",
+    "expected_answer": "54 countries (72 percent), a 25-percentage-point gain from 2020 (36 countries, 47 percent).",
+    "gold": [
+      {
+        "source_id": "idr2026",
+        "page": 109,
+        "evidence": "The 2025 heat map found that 54 countries, or 72 percent, had fully accessible public debt data, a 25-percentage-point gain from 2020"
+      }
+    ],
+    "filter": {
+      "chapter": 3
+    },
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "d16",
+    "split": "dev",
+    "type": "dien_dat_lai",
+    "question": "What share of total public debt does domestic public debt now account for in many LMICs?",
+    "expected_answer": "About 40-60 percent of total public debt, and more in some countries.",
+    "gold": [
+      {
+        "source_id": "idr2026",
+        "page": 117,
+        "evidence": "In many of these countries, domestic public debt now accounts for 40–60 percent of total public debt, and in some of them it exceeds those shares."
+      }
+    ],
+    "filter": null,
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "d17",
+    "split": "dev",
+    "type": "dieu_kien_ngoai_le",
+    "question": "Why can the external debt a creditor records for a country be higher than the figure in IDS?",
+    "expected_answer": "Because the IDS figure excludes loans to nonguaranteed private sector borrowers, which are not separately identifiable in the aggregate data reported to the DRS.",
+    "gold": [
+      {
+        "source_id": "idr2026",
+        "page": 125,
+        "evidence": "This discrepancy occurs because the IDS figure excludes loans to nonguaranteed private sector borrowers, not separately identifiable in the aggregate data reported to the DRS."
+      }
+    ],
+    "filter": null,
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "t01",
+    "split": "test",
+    "type": "truc_tiep",
+    "question": "How did long-term net debt transfers to LMICs change in 2025?",
+    "expected_answer": "They turned positive, from an outflow of $118.4 billion in 2024 to an inflow of $45.4 billion in 2025.",
+    "gold": [
+      {
+        "source_id": "idr2026",
+        "page": 46,
+        "evidence": "In 2025, net debt transfers on long-term debt turned positive, reversing from an outflow of $118.4 billion in 2024 to an inflow of $45.4 billion"
+      }
+    ],
+    "filter": null,
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "t02",
+    "split": "test",
+    "type": "dieu_kien_ngoai_le",
+    "question": "Did the Mexican government's capital contribution to PEMEX actually reduce public sector debt?",
+    "expected_answer": "Not materially: it smoothed PEMEX's maturity profile and improved liquidity, but largely transferred debt service risk to the sovereign rather than reducing consolidated public sector liabilities.",
+    "gold": [
+      {
+        "source_id": "idr2026",
+        "page": 72,
+        "evidence": "The operation smoothed PEMEX’s debt-maturity profile and improved its liquidity but largely transferred debt service risk to the sovereign rather than materially reducing consolidated public sector liabilities."
+      }
+    ],
+    "filter": null,
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "t03",
+    "split": "test",
+    "type": "metadata_filter",
+    "question": "In the chapter on debt dynamics and policy implications (chapter 2), which food group has the highest median net import reliance?",
+    "expected_answer": "Oils and fats, at 63.6 percent, followed by starchy staples at 36.9 percent.",
+    "gold": [
+      {
+        "source_id": "idr2026",
+        "page": 96,
+        "evidence": "Among net importing economies, median reliance is highest for oils and fats, at 63.6 percent, followed by starchy staples, at 36.9 percent"
+      }
+    ],
+    "filter": {
+      "chapter": 2
+    },
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "t04",
+    "split": "test",
+    "type": "metadata_filter",
+    "question": "In the chapter on debt transparency (chapter 3), how many countries and loan records does the DRS currently cover?",
+    "expected_answer": "About 120 World Bank Group borrowing countries and more than 50,000 active loan records, with about 2,500-3,000 new loans reported each year.",
+    "gold": [
+      {
+        "source_id": "idr2026",
+        "page": 121,
+        "evidence": "It currently covers about 120 World Bank Group borrowing countries and more than 50,000 active loan records, with approximately 2,500–3,000 new loans reported each year."
+      }
+    ],
+    "filter": {
+      "chapter": 3
+    },
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "t05",
+    "split": "test",
+    "type": "truc_tiep",
+    "question": "How many loans did the first debtor-creditor reconciliation exercise cover, and what share was matched?",
+    "expected_answer": "3,655 loans and tranches from 18 creditor countries; about 80 percent of loans were matched, representing about 90 percent of outstanding debt value.",
+    "gold": [
+      {
+        "source_id": "idr2026",
+        "page": 111,
+        "evidence": "covered 3,655 individual loans and loan tranches reported by 18 creditor countries, including all Group of Seven (G-7) members and 11 Paris Club creditors. Approximately 80 percent of loans were successfully matched, representing about 90 percent of total outstanding debt values"
+      }
+    ],
+    "filter": null,
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "t06",
+    "split": "test",
+    "type": "dien_dat_lai",
+    "question": "When is the revised Debt Sustainability Framework for low-income countries expected to become operational?",
+    "expected_answer": "In the second half of 2027.",
+    "gold": [
+      {
+        "source_id": "idr2026",
+        "page": 89,
+        "evidence": "The new framework is expected to become operational in the second half of 2027"
+      }
+    ],
+    "filter": null,
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "d18",
+    "split": "dev",
+    "question": "What was Cambodia's total external debt stock at the end of 2025?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Corpus (PDF pages 27-133, IDR 2026 Part 1) never mentions Cambodia: case-insensitive search for 'Cambodia' over PyMuPDF page text returns 0 pages. Country-level debt stocks are only given for a few countries (e.g. Ukraine, Argentina).",
+    "absence_check": {
+      "method": "regex over PyMuPDF text of pages 27-133",
+      "keywords": [
+        "Cambodia"
+      ],
+      "pages_found": []
+    }
+  },
+  {
+    "id": "d19",
+    "split": "dev",
+    "question": "How much FDI did Viet Nam receive in 2025?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Near-miss: page 58 lists Viet Nam among the five largest FDI recipients, which together took 52.7% of LMIC FDI excluding China, and gives a figure only for Brazil ($62.4 billion). No amount for Viet Nam appears; 'Viet Nam' occurs on page 58 only.",
+    "absence_check": {
+      "method": "regex over PyMuPDF text of pages 27-133",
+      "keywords": [
+        "Viet ?Nam",
+        "Vietnam"
+      ],
+      "pages_found": [
+        58
+      ]
+    }
+  },
+  {
+    "id": "t07",
+    "split": "test",
+    "question": "How much did LMICs raise through green, social, or sustainability-linked bonds in 2025?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "The corpus discusses bond issuance in general, but 'green', 'sustainability-linked' and 'ESG' each return 0 pages; there is no breakdown of labeled or thematic bonds.",
+    "absence_check": {
+      "method": "regex over PyMuPDF text of pages 27-133",
+      "keywords": [
+        "green",
+        "sustainab\\w*-linked",
+        "ESG"
+      ],
+      "pages_found": []
+    }
+  },
+  {
+    "id": "t08",
+    "split": "test",
+    "question": "What sovereign credit rating did S&P assign to Kenya in 2025?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Near-miss: page 86 discusses 2025 rating actions by Fitch and Moody's (Bolivia, Botswana, Costa Rica) but never mentions S&P (0 pages) or Kenya. Kenya appears on pages 43, 52, 64, 67, 71-73 only in the context of bonds and debt flows, not ratings.",
+    "absence_check": {
+      "method": "regex over PyMuPDF text of pages 27-133",
+      "keywords": [
+        "S&P",
+        "Kenya",
+        "credit rating"
+      ],
+      "pages_found": {
+        "S&P": [],
+        "Kenya": [
+          43,
+          52,
+          64,
+          67,
+          71,
+          72,
+          73
+        ],
+        "credit rating": [
+          86
+        ]
+      }
+    }
+  }
+]

@@ -1,0 +1,111 @@
+{
+  "page": 48,
+  "model": "gemini-3.5-flash",
+  "seconds": 10.9,
+  "tokens_in": 2049,
+  "tokens_out": 2341,
+  "visuals": [
+    {
+      "label": "Figure 1.8",
+      "title": "Long-Term Net Transfers on Public and Publicly Guaranteed External Debt in Low- and Middle-Income Countries (Excluding China), by Creditor Type, 2015–25",
+      "kind": "line chart",
+      "region": [
+        0.174,
+        0.136,
+        0.803,
+        0.512
+      ],
+      "units": "US$ (billion)",
+      "description": "Line chart showing long-term net transfers on PPG external debt in LMICs excluding China from 2015 to 2025 by four creditor types: PPG multilateral + IMF, PPG bilateral, PPG bonds, and PPG commercial banks + other private creditors. In 2025, net transfers from bondholders rebounded sharply to ~$70.1 billion, while PPG commercial banks + other private creditors rose to ~$24.1 billion.",
+      "data": [
+        [
+          "Year",
+          "PPG, multilateral + IMF",
+          "PPG, bilateral",
+          "PPG, bonds",
+          "PPG, commercial banks + other private creditors"
+        ],
+        [
+          "2015",
+          "~35",
+          "~10",
+          "~20",
+          "~12"
+        ],
+        [
+          "2016",
+          "~32",
+          "~13",
+          "~48",
+          "~0"
+        ],
+        [
+          "2017",
+          "~27",
+          "~15",
+          "~90",
+          "~-10"
+        ],
+        [
+          "2018",
+          "~48",
+          "~12",
+          "~39",
+          "~10"
+        ],
+        [
+          "2019",
+          "~40",
+          "~-4",
+          "~30",
+          "~-15"
+        ],
+        [
+          "2020",
+          "~91",
+          "~10",
+          "~-5",
+          "~8"
+        ],
+        [
+          "2021",
+          "~38",
+          "~7",
+          "~-15",
+          "~-2"
+        ],
+        [
+          "2022",
+          "~61",
+          "~10",
+          "~-68",
+          "~-3"
+        ],
+        [
+          "2023",
+          "~31",
+          "~11",
+          "~-10",
+          "~-15"
+        ],
+        [
+          "2024",
+          "~23",
+          "~-10",
+          "~-7",
+          "~-6"
+        ],
+        [
+          "2025",
+          "~26",
+          "~-7",
+          "~70.1",
+          "~24.1"
+        ]
+      ],
+      "numbers_total": 42,
+      "numbers_in_text_layer": 16
+    }
+  ],
+  "parse_ok": true
+}
